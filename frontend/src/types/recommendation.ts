@@ -138,12 +138,17 @@ export interface SchemeOut {
 
 export interface RuleResultOut {
   rule_id: string;
-  field_path: string;
+  field_path?: string;
   human_readable_condition?: string;
   condition?: string;
-  result: 'pass' | 'fail' | 'unknown' | string;
+  result?: 'pass' | 'fail' | 'unknown' | string;
   mandatory?: boolean | null;
+  description?: string;
+  passed?: boolean;
+  detail?: string | null;
 }
+
+export type RuleResult = RuleResultOut;
 
 export interface SchemeEligibilityResult {
   scheme_id: string;
@@ -158,6 +163,7 @@ export interface SchemeEligibilityResult {
     excerpt: string;
     page_or_section?: string | null;
   }>;
+  disclaimer?: string | null;
 }
 
 export interface CourseExplanation {
@@ -299,32 +305,7 @@ export interface PathwayScoreOut {
   explanation: string;
 }
 
-export interface SchemeOut {
-  id: string;
-  name_en: string;
-  name_hi?: string | null;
-  name_kn?: string | null;
-  issuing_authority: string;
-  scheme_type?: string | null;
-  benefit_summary?: string | null;
-  official_url?: string | null;
-  status?: string | null;
-}
 
-export interface RuleResult {
-  rule_id: string;
-  description: string;
-  passed: boolean;
-  detail?: string | null;
-}
-
-export interface SchemeEligibilityResult {
-  scheme_id: string;
-  scheme_name: string;
-  verdict: EligibilityVerdict | string;
-  reasons: RuleResult[];
-  disclaimer?: string | null;
-}
 
 export interface SkillBridgePathway {
   transition_id: string;

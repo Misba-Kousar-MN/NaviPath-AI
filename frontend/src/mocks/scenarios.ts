@@ -1,4 +1,10 @@
 import { RecommendationResponse, WorkerProfileIn } from '../types/recommendation';
+import {
+  deliverySkillBridge,
+  domesticWorkerSkillBridge,
+  constructionSkillBridge,
+  autoRickshawSkillBridge,
+} from './scenario_skill_bridges';
 
 export interface DemoScenario {
   id: string;
@@ -329,7 +335,8 @@ export const DEMO_SCENARIOS: DemoScenario[] = [
         }
       ],
       explanation_status: 'available',
-      evidence_status: 'retrieved'
+      evidence_status: 'retrieved',
+      skill_bridge: deliverySkillBridge,
     }
   },
   {
@@ -567,7 +574,8 @@ export const DEMO_SCENARIOS: DemoScenario[] = [
         }
       ],
       explanation_status: 'available',
-      evidence_status: 'retrieved'
+      evidence_status: 'retrieved',
+      skill_bridge: domesticWorkerSkillBridge,
     }
   },
   {
@@ -811,7 +819,8 @@ export const DEMO_SCENARIOS: DemoScenario[] = [
         }
       ],
       explanation_status: 'available',
-      evidence_status: 'retrieved'
+      evidence_status: 'retrieved',
+      skill_bridge: constructionSkillBridge,
     }
   },
   {
@@ -1040,7 +1049,8 @@ export const DEMO_SCENARIOS: DemoScenario[] = [
         }
       ],
       explanation_status: 'available',
-      evidence_status: 'retrieved'
+      evidence_status: 'retrieved',
+      skill_bridge: autoRickshawSkillBridge,
     }
   }
 ];

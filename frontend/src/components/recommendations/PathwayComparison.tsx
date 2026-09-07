@@ -107,14 +107,12 @@ export const PathwayComparison: React.FC<PathwayComparisonProps> = ({
             <div className="py-1">{pathwayA.courses.length}</div>
             <div className="py-1">{pathwayA.nearby_centres.length}</div>
             <div className="py-1 font-bold">
-              {pathwayA.wage_lift.target_benchmark?.monthly_median_inr
-                ? `₹${pathwayA.wage_lift.target_benchmark.monthly_median_inr.toLocaleString('en-IN')}`
+              {(pathwayA.wage_lift.target_benchmark?.monthly_median_inr ?? pathwayA.wage_lift.target?.monthly_wage_inr)
+                ? `₹${(pathwayA.wage_lift.target_benchmark?.monthly_median_inr ?? pathwayA.wage_lift.target?.monthly_wage_inr ?? 0).toLocaleString('en-IN')}`
                 : 'Pending'}
             </div>
             <div className="py-1 font-extrabold text-emerald-800">
-              {pathwayA.wage_lift.absolute_lift_inr !== null && pathwayA.wage_lift.absolute_lift_inr !== undefined
-                ? `+₹${pathwayA.wage_lift.absolute_lift_inr.toLocaleString('en-IN')}`
-                : '—'}
+              {(() => { const lift = pathwayA.wage_lift.absolute_difference_inr ?? pathwayA.wage_lift.absolute_lift_inr; return lift != null ? `+₹${lift.toLocaleString('en-IN')}` : '—'; })()}
             </div>
             <div className="py-1 capitalize text-[11px] text-brand-text-muted">
               {pathwayA.confidence || 'Heuristic'}
@@ -151,14 +149,12 @@ export const PathwayComparison: React.FC<PathwayComparisonProps> = ({
             <div className="py-1">{pathwayB.courses.length}</div>
             <div className="py-1">{pathwayB.nearby_centres.length}</div>
             <div className="py-1 font-bold">
-              {pathwayB.wage_lift.target_benchmark?.monthly_median_inr
-                ? `₹${pathwayB.wage_lift.target_benchmark.monthly_median_inr.toLocaleString('en-IN')}`
+              {(pathwayB.wage_lift.target_benchmark?.monthly_median_inr ?? pathwayB.wage_lift.target?.monthly_wage_inr)
+                ? `₹${(pathwayB.wage_lift.target_benchmark?.monthly_median_inr ?? pathwayB.wage_lift.target?.monthly_wage_inr ?? 0).toLocaleString('en-IN')}`
                 : 'Pending'}
             </div>
             <div className="py-1 font-extrabold text-emerald-800">
-              {pathwayB.wage_lift.absolute_lift_inr !== null && pathwayB.wage_lift.absolute_lift_inr !== undefined
-                ? `+₹${pathwayB.wage_lift.absolute_lift_inr.toLocaleString('en-IN')}`
-                : '—'}
+              {(() => { const lift = pathwayB.wage_lift.absolute_difference_inr ?? pathwayB.wage_lift.absolute_lift_inr; return lift != null ? `+₹${lift.toLocaleString('en-IN')}` : '—'; })()}
             </div>
             <div className="py-1 capitalize text-[11px] text-brand-text-muted">
               {pathwayB.confidence || 'Heuristic'}

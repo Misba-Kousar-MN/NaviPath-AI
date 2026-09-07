@@ -117,6 +117,16 @@ export const ResultsPage: React.FC<ResultsPageProps> = ({
       {/* Section 1: Visual Pathway Timeline */}
       <PathwayTimeline recommendation={recommendation} />
 
+      {/* Section 1A: Full Skill Uplift Journey — primary pathway */}
+      {bridgePathways.length > 0 && (
+        <section>
+          <SkillUpliftJourney
+            pathway={bridgePathways[0]}
+            defaultExpanded={true}
+          />
+        </section>
+      )}
+
       {/* Section 1B: Skill-Bridge & Wage-Lift Pathways (Innovation 3) */}
       {bridgePathways.length > 0 && (
         <section>

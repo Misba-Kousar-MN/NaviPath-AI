@@ -160,4 +160,4 @@ export const WageLiftCard: React.FC<WageLiftCardProps> = ({
       </div>
     </div>
   );
-
+};

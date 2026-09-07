@@ -1,0 +1,188 @@
+{
+  "name": "AI Skill Navigator - Voiceflow to FastAPI Orchestrator",
+  "description": "Make.com Scenario Blueprint for Phase 6.2. Orchestrates verified worker profile from Voiceflow to the FastAPI /api/recommendations endpoint and returns grounded results.",
+  "version": 1,
+  "flow": [
+    {
+      "id": 1,
+      "module": "gateway:CustomWebHook",
+      "version": 1,
+      "parameters": {
+        "hook": null,
+        "maxResults": 1
+      },
+      "filter": null,
+      "mapper": {},
+      "metadata": {
+        "designer": {
+          "x": 0,
+          "y": 0,
+          "name": "Voiceflow Worker Profile Webhook"
+        },
+        "restore": {},
+        "parameters": [
+          {
+            "name": "hook",
+            "type": "hook:custom",
+            "label": "Webhook",
+            "required": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "module": "tools:SetVariables",
+      "version": 1,
+      "parameters": {
+        "scope": "roundtrip"
+      },
+      "filter": {
+        "name": "Validate Required Profile Fields",
+        "conditions": [
+          [
+            {
+              "a": "{{1.occupation}}",
+              "o": "text:isNotEmpty"
+            },
+            {
+              "a": "{{1.district}}",
+              "o": "text:isNotEmpty"
+            }
+          ]
+        ]
+      },
+      "mapper": {
+        "variables": [
+          {"name": "clean_occupation", "value": "{{trim(1.occupation)}}"},
+          {"name": "clean_district", "value": "{{trim(1.district)}}"},
+          {"name": "clean_goal", "value": "{{trim(1.career_goal_text)}}"},
+          {"name": "clean_language", "value": "{{if(empty(1.language); \"English\"; 1.language)}}"},
+          {"name": "clean_pincode", "value": "{{if(empty(1.pincode); null; trim(1.pincode))}}"},
+          {"name": "clean_age", "value": "{{if(empty(1.age); null; toInt(1.age))}}"},
+          {"name": "clean_gender", "value": "{{if(empty(1.gender); null; 1.gender)}}"},
+          {"name": "session_id", "value": "{{1.session_id}}"}
+        ]
+      },
+      "metadata": {
+        "designer": {
+          "x": 300,
+          "y": 0,
+          "name": "Normalize Profile & Safe Nulls"
+        }
+      }
+    },
+    {
+      "id": 3,
+      "module": "http:ActionSendRequest",
+      "version": 3,
+      "parameters": {
+        "handleErrors": true
+      },
+      "mapper": {
+        "url": "{{BACKEND_BASE_URL}}/api/recommendations",
+        "method": "POST",
+        "headers": [
+          {
+            "name": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "name": "Accept",
+            "value": "application/json"
+          },
+          {
+            "name": "X-Session-ID",
+            "value": "{{2.session_id}}"
+          }
+        ],
+        "serializeUrl": false,
+        "shareCookies": false,
+        "parseResponse": true,
+        "followRedirect": true,
+        "useCustomTimeout": true,
+        "timeout": 30,
+        "bodyType": "raw",
+        "contentType": "json",
+        "data": "{\n  \"occupation\": \"{{2.clean_occupation}}\",\n  \"district\": \"{{2.clean_district}}\",\n  \"career_goal_text\": \"{{2.clean_goal}}\",\n  \"language\": \"{{2.clean_language}}\",\n  \"pincode\": {{if(empty(2.clean_pincode); null; toText(2.clean_pincode))}},\n  \"age\": {{if(empty(2.clean_age); null; toInt(2.clean_age))}},\n  \"gender\": {{if(empty(2.clean_gender); null; toText(2.clean_gender))}},\n  \"latitude\": null,\n  \"longitude\": null,\n  \"session_id\": \"{{2.session_id}}\",\n  \"extra_attributes\": {}\n}"
+      },
+      "metadata": {
+        "designer": {
+          "x": 600,
+          "y": 0,
+          "name": "POST FastAPI Recommendations"
+        }
+      }
+    },
+    {
+      "id": 4,
+      "module": "gateway:WebhookRespond",
+      "version": 1,
+      "parameters": {},
+      "filter": {
+        "name": "Check HTTP Success Status",
+        "conditions": [
+          [
+            {
+              "a": "{{3.statusCode}}",
+              "o": "number:equal",
+              "b": 200
+            }
+          ]
+        ]
+      },
+      "mapper": {
+        "status": 200,
+        "headers": [
+          {
+            "name": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": "{\n  \"status\": \"success\",\n  \"explanation\": {\n    \"summary\": {{3.data.explanation.summary}},\n    \"skill_gap_explanation\": {{3.data.explanation.skill_gap_explanation}},\n    \"pathway_explanation\": {{3.data.explanation.pathway_explanation}},\n    \"next_steps\": {{3.data.explanation.next_steps}}\n  },\n  \"courses\": {{3.data.courses}},\n  \"nearby_centres\": {{3.data.nearby_centres}},\n  \"schemes\": {{3.data.schemes}},\n  \"eligibility\": {{3.data.eligibility}},\n  \"warnings\": {{3.data.warnings}},\n  \"explanation_status\": \"{{3.data.explanation_status}}\",\n  \"evidence_status\": \"{{3.data.evidence_status}}\",\n  \"evidence_count\": {{3.data.evidence_count}}\n}"
+      },
+      "metadata": {
+        "designer": {
+          "x": 900,
+          "y": -100,
+          "name": "Success Response to Voiceflow"
+        }
+      }
+    },
+    {
+      "id": 5,
+      "module": "gateway:WebhookRespond",
+      "version": 1,
+      "parameters": {},
+      "filter": {
+        "name": "Error Fallback Route",
+        "conditions": [
+          [
+            {
+              "a": "{{3.statusCode}}",
+              "o": "number:notEqual",
+              "b": 200
+            }
+          ]
+        ]
+      },
+      "mapper": {
+        "status": 500,
+        "headers": [
+          {
+            "name": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": "{\n  \"status\": \"error\",\n  \"message\": \"I’m sorry, I couldn’t retrieve your recommendations right now. Please try again.\",\n  \"explanation_status\": \"unavailable\",\n  \"evidence_status\": \"unavailable\"\n}"
+      },
+      "metadata": {
+        "designer": {
+          "x": 900,
+          "y": 100,
+          "name": "Safe Error Response to Voiceflow"
+        }
+      }
+    }
+  ]
+}

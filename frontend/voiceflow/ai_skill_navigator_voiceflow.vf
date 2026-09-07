@@ -1,0 +1,219 @@
+{
+  "version": "1.0",
+  "project": {
+    "name": "AI Skill Navigator - Karnataka",
+    "description": "Voiceflow Conversational Architecture for Informal Worker Skill Navigation (Phase 6.1)",
+    "platform": "voiceflow",
+    "locales": ["en-US", "kn-IN", "hi-IN"]
+  },
+  "variables": [
+    {"name": "language", "defaultValue": "English", "description": "Worker chosen language: English, Kannada, or Hindi"},
+    {"name": "occupation", "defaultValue": "", "description": "Current trade or daily work"},
+    {"name": "career_goal_text", "defaultValue": "", "description": "Desired career or skill goal"},
+    {"name": "district", "defaultValue": "", "description": "Karnataka district name"},
+    {"name": "pincode", "defaultValue": null, "description": "Optional 6-digit pincode"},
+    {"name": "age", "defaultValue": null, "description": "Optional numeric age (14-80)"},
+    {"name": "gender", "defaultValue": null, "description": "Optional gender: Male, Female, Other, null"},
+    {"name": "latitude", "defaultValue": null, "description": "Strictly null unless genuine GPS coordinates captured"},
+    {"name": "longitude", "defaultValue": null, "description": "Strictly null unless genuine GPS coordinates captured"},
+    {"name": "session_id", "defaultValue": null, "description": "Request session correlation ID for Make.com / FastAPI"},
+    {"name": "extra_attributes", "defaultValue": {}, "description": "Extensible metadata dictionary"},
+    {"name": "profile_complete", "defaultValue": false, "description": "True when required fields are populated"},
+    {"name": "profile_confirmed", "defaultValue": false, "description": "True when worker explicitly confirms summary"},
+    {"name": "backend_ready", "defaultValue": false, "description": "True when ready for Make.com API dispatch"},
+    {"name": "make_webhook_url", "defaultValue": null, "description": "Phase 6.2 Make.com custom webhook URL"}
+  ],
+  "diagrams": {
+    "root": {
+      "id": "root",
+      "name": "Main Conversation Flow",
+      "nodes": {
+        "node_start": {
+          "id": "node_start",
+          "type": "start",
+          "name": "START",
+          "nextId": "node_welcome"
+        },
+        "node_welcome": {
+          "id": "node_welcome",
+          "type": "speak",
+          "name": "WELCOME",
+          "dialog": {
+            "en": "Namaskara! 👋 I’m your Skill Navigator. I can help you find suitable skill pathways, training courses, nearby training centres, and relevant government schemes.\n\nI’ll ask you a few questions about your current work, your goal, and your location. Then I’ll look for suitable options.",
+            "kn": "ನಮಸ್ಕಾರ! 👋 ನಾನು ನಿಮ್ಮ ಸ್ಕಿಲ್ ನ್ಯಾವಿಗೇಟರ್. ಸೂಕ್ತವಾದ ಕೌಶಲ್ಯ ಮಾರ್ಗಗಳು, ತರಬೇತಿ ಕೋರ್ಸ್‌ಗಳು, ಹತ್ತಿರದ ತರಬೇತಿ ಕೇಂದ್ರಗಳು ಮತ್ತು ಸರ್ಕಾರಿ ಯೋಜನೆಗಳನ್ನು ಹುಡುಕಲು ನಾನು ನಿಮಗೆ ಸಹಾಯ ಮಾಡುತ್ತೇನೆ.\n\nನಿಮ್ಮ ಪ್ರಸ್ತುತ ಕೆಲಸ, ನಿಮ್ಮ ಗುರಿ ಮತ್ತು ನಿಮ್ಮ ಸ್ಥಳದ ಬಗ್ಗೆ ನಾನು ಕೆಲವು ಪ್ರಶ್ನೆಗಳನ್ನು ಕೇಳುತ್ತೇನೆ.",
+            "hi": "नमस्कार! 👋 मैं आपका स्किल नेविगेटर हूँ। मैं आपको उपयुक्त कौशल मार्ग, प्रशिक्षण पाठ्यक्रम, नजदीकी प्रशिक्षण केंद्र और प्रासंगिक सरकारी योजनाएं खोजने में मदद कर सकता हूँ।\n\nमैं आपके वर्तमान कार्य, आपके लक्ष्य और आपके स्थान के बारे में कुछ प्रश्न पूछूँगा।"
+          },
+          "nextId": "node_language_select"
+        },
+        "node_language_select": {
+          "id": "node_language_select",
+          "type": "choice",
+          "name": "LANGUAGE_SELECTION",
+          "prompt": "What language would you prefer for our conversation? / ನಮ್ಮ ಸಂಭಾಷಣೆಗೆ ನೀವು ಯಾವ ಭಾಷೆಯನ್ನು ಆದ್ಯತೆ ನೀಡುತ್ತೀರಿ? / हमारी बातचीत के लिए आप कौन सी भाषा पसंद करेंगे?",
+          "variable": "language",
+          "options": [
+            {"label": "English", "value": "English", "nextId": "node_occupation"},
+            {"label": "ಕನ್ನಡ (Kannada)", "value": "Kannada", "nextId": "node_occupation"},
+            {"label": "हिन्दी (Hindi)", "value": "Hindi", "nextId": "node_occupation"}
+          ]
+        },
+        "node_occupation": {
+          "id": "node_occupation",
+          "type": "capture",
+          "name": "CURRENT_OCCUPATION",
+          "prompt": "What work are you currently doing? (For example: Delivery rider, Domestic worker, Construction labourer, Auto driver, Street vendor)",
+          "clarification": "I want to make sure I understood you correctly. What type of work do you currently do?",
+          "variable": "occupation",
+          "validation": {"minLength": 2, "required": true},
+          "nextId": "node_career_goal"
+        },
+        "node_career_goal": {
+          "id": "node_career_goal",
+          "type": "capture",
+          "name": "CAREER_GOAL",
+          "prompt": "What skill or career would you like to move into? (For example: 'I want to become an electrician', 'I want to learn tailoring', 'I want to repair electric vehicles')",
+          "variable": "career_goal_text",
+          "validation": {"minLength": 2, "required": true},
+          "nextId": "node_district"
+        },
+        "node_district": {
+          "id": "node_district",
+          "type": "capture",
+          "name": "DISTRICT",
+          "prompt": "Which district in Karnataka are you currently in? (For example: Bengaluru Urban, Mysuru, Belagavi, Kalaburagi)",
+          "clarification": "Could you please specify your district name in Karnataka?",
+          "variable": "district",
+          "validation": {"minLength": 2, "required": true},
+          "nextId": "node_pincode"
+        },
+        "node_pincode": {
+          "id": "node_pincode",
+          "type": "capture",
+          "name": "OPTIONAL_PINCODE",
+          "prompt": "If you're comfortable sharing it, what is your 6-digit pincode? (Or type 'Skip')",
+          "variable": "pincode",
+          "validation": {"regex": "^[1-9][0-9]{5}$", "optional": true},
+          "nextId": "node_age"
+        },
+        "node_age": {
+          "id": "node_age",
+          "type": "capture",
+          "name": "AGE",
+          "prompt": "How old are you? (This helps check eligibility for specific youth and welfare schemes. Type your age as a number, or 'Skip')",
+          "clarification": "Please enter your age as a number between 14 and 80, or type 'Skip'.",
+          "variable": "age",
+          "validation": {"type": "integer", "min": 14, "max": 80, "optional": true},
+          "nextId": "node_gender"
+        },
+        "node_gender": {
+          "id": "node_gender",
+          "type": "choice",
+          "name": "GENDER",
+          "prompt": "What is your gender? (Certain government welfare schemes offer special support for women or other groups. This is optional.)",
+          "variable": "gender",
+          "options": [
+            {"label": "Male", "value": "Male", "nextId": "node_set_profile_complete"},
+            {"label": "Female", "value": "Female", "nextId": "node_set_profile_complete"},
+            {"label": "Other", "value": "Other", "nextId": "node_set_profile_complete"},
+            {"label": "Prefer not to say", "value": null, "nextId": "node_set_profile_complete"}
+          ]
+        },
+        "node_set_profile_complete": {
+          "id": "node_set_profile_complete",
+          "type": "set",
+          "name": "SET_PROFILE_COMPLETE",
+          "assignments": [
+            {"variable": "profile_complete", "value": true}
+          ],
+          "nextId": "node_profile_review"
+        },
+        "node_profile_review": {
+          "id": "node_profile_review",
+          "type": "choice",
+          "name": "PROFILE_REVIEW",
+          "prompt": "Let me confirm what you told me:\n• Current work: {occupation}\n• Career goal: {career_goal_text}\n• District: {district}\n• Pincode: {pincode}\n• Age: {age}\n• Gender: {gender}\n\nIs this information correct?",
+          "options": [
+            {"label": "Yes, continue", "value": "confirm", "nextId": "node_set_profile_confirmed"},
+            {"label": "No, change something", "value": "change", "nextId": "node_correction_menu"}
+          ]
+        },
+        "node_correction_menu": {
+          "id": "node_correction_menu",
+          "type": "choice",
+          "name": "CORRECTION_FLOW",
+          "prompt": "What would you like to change?",
+          "options": [
+            {"label": "Current work", "value": "change_occupation", "nextId": "node_occupation"},
+            {"label": "Career goal", "value": "change_goal", "nextId": "node_career_goal"},
+            {"label": "District", "value": "change_district", "nextId": "node_district"},
+            {"label": "Pincode", "value": "change_pincode", "nextId": "node_pincode"},
+            {"label": "Age", "value": "change_age", "nextId": "node_age"},
+            {"label": "Gender", "value": "change_gender", "nextId": "node_gender"}
+          ]
+        },
+        "node_set_profile_confirmed": {
+          "id": "node_set_profile_confirmed",
+          "type": "set",
+          "name": "SET_PROFILE_CONFIRMED",
+          "assignments": [
+            {"variable": "profile_confirmed", "value": true},
+            {"variable": "backend_ready", "value": true}
+          ],
+          "nextId": "node_ready_for_recommendation_api"
+        },
+        "node_ready_for_recommendation_api": {
+          "id": "node_ready_for_recommendation_api",
+          "type": "api_webhook",
+          "name": "READY_FOR_RECOMMENDATION_API",
+          "description": "Integration boundary for Phase 6.2 Make.com webhook. Variables are now prepared and locked for Make.com dispatch.",
+          "payload": {
+            "occupation": "{occupation}",
+            "career_goal_text": "{career_goal_text}",
+            "district": "{district}",
+            "pincode": "{pincode}",
+            "age": "{age}",
+            "gender": "{gender}",
+            "language": "{language}",
+            "latitude": null,
+            "longitude": null,
+            "session_id": "{session_id}",
+            "extra_attributes": {}
+          },
+          "webhookUrlVariable": "make_webhook_url",
+          "nextId": "node_recommendation_loading",
+          "successId": "node_recommendation_result",
+          "failId": "node_recommendation_error"
+        },
+        "node_recommendation_loading": {
+          "id": "node_recommendation_loading",
+          "type": "speak",
+          "name": "RECOMMENDATION_LOADING",
+          "dialog": {
+            "en": "Please wait while I check the available skill pathways, courses, training centres, and relevant schemes...",
+            "kn": "ಲಭ್ಯವಿರುವ ಕೌಶಲ್ಯ ಮಾರ್ಗಗಳು, ಕೋರ್ಸ್‌ಗಳು, ತರಬೇತಿ ಕೇಂದ್ರಗಳು ಮತ್ತು ಸಂಬಂಧಿತ ಯೋಜನೆಗಳನ್ನು ಪರಿಶೀಲಿಸುತ್ತಿದ್ದೇನೆ, ದಯವಿಟ್ಟು ನಿರೀಕ್ಷಿಸಿ...",
+            "hi": "कृपया प्रतीक्षा करें जब मैं उपलब्ध कौशल मार्ग, पाठ्यक्रम, प्रशिक्षण केंद्र और प्रासंगिक योजनाओं की जांच कर रहा हूँ..."
+          },
+          "nextId": "node_recommendation_result"
+        },
+        "node_recommendation_result": {
+          "id": "node_recommendation_result",
+          "type": "component_placeholder",
+          "name": "RECOMMENDATION_RESULT",
+          "description": "Placeholder for Phase 6.2 to render validated courses, training centres, schemes, and LLM explanation.",
+          "nextId": null
+        },
+        "node_recommendation_error": {
+          "id": "node_recommendation_error",
+          "type": "speak",
+          "name": "RECOMMENDATION_ERROR",
+          "dialog": {
+            "en": "I’m sorry, I couldn’t retrieve your recommendations right now. Please try again.",
+            "kn": "ಕ್ಷಮಿಸಿ, ಈ ಸಮಯದಲ್ಲಿ ನಿಮ್ಮ ಶಿಫಾರಸುಗಳನ್ನು ಪಡೆಯಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ. ದಯವಿಟ್ಟು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.",
+            "hi": "क्षमा करें, मैं अभी आपकी सिफारिशें प्राप्त नहीं कर सका। कृपया पुन: प्रयास करें।"
+          },
+          "nextId": "node_profile_review"
+        }
+      }
+    }
+  }
+}

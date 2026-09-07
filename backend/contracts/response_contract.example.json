@@ -1,0 +1,103 @@
+{
+  "_comment": "ILLUSTRATIVE EXAMPLE ONLY. All scheme/centre/source values below are placeholders and are NOT real government data. Every bracketed <<...>> value must be replaced only after official-source verification, per docs/ARCHITECTURE.md Section E.",
+  "contract_version": "1.0",
+
+  "profile": {
+    "session_id": "example-session-001",
+    "occupation_text": "delivery boy on bike",
+    "occupation_id": "<<resolved-occupation-uuid>>",
+    "district": "Bengaluru Urban",
+    "education_level": "10th pass",
+    "social_security_status": "none",
+    "preferred_language": "kn",
+    "career_goal_text": "want to become electrician"
+  },
+
+  "recommendations": [
+    {
+      "target_skill": { "id": "<<skill-uuid>>", "name_en": "<<Target Skill Name>>" },
+      "bridge_skills": [ { "id": "<<skill-uuid>>", "name_en": "<<Bridge Skill Name>>" } ],
+      "rationale": "<<data-driven rationale text from skill_transitions.rationale>>",
+      "confidence": "expert-curated"
+    }
+  ],
+
+  "skill_gaps": [
+    {
+      "skill": { "id": "<<skill-uuid>>", "name_en": "<<Skill Name>>" },
+      "has_it": false,
+      "how_to_close": "<<course_id reference>>"
+    }
+  ],
+
+  "training_centres": [
+    {
+      "centre": {
+        "id": "<<centre-uuid>>",
+        "name": "REQUIRES OFFICIAL SOURCE VERIFICATION",
+        "address": "REQUIRES OFFICIAL SOURCE VERIFICATION",
+        "recognition_status": "govt-recognized"
+      },
+      "course": { "id": "<<course-uuid>>", "title": "<<Course Title>>" },
+      "distance_km": "approximate",
+      "source": { "source_id": "<<source-uuid>>", "official_url": "REQUIRES OFFICIAL SOURCE VERIFICATION" },
+      "last_verified": null
+    }
+  ],
+
+  "financial_support": [
+    {
+      "scheme": { "id": "<<scheme-uuid>>", "name_en": "REQUIRES OFFICIAL SOURCE VERIFICATION" },
+      "benefit_summary": "REQUIRES OFFICIAL SOURCE VERIFICATION",
+      "source": { "source_id": "<<source-uuid>>", "official_url": "REQUIRES OFFICIAL SOURCE VERIFICATION" }
+    }
+  ],
+
+  "eligibility": [
+    {
+      "scheme_id": "<<scheme-uuid>>",
+      "verdict": "uncertain",
+      "reasons": [
+        { "condition": "<<human_readable_condition>>", "result": "unknown" }
+      ],
+      "evidence": [
+        { "source_id": "<<source-uuid>>", "excerpt": "REQUIRES OFFICIAL SOURCE VERIFICATION" }
+      ]
+    }
+  ],
+
+  "documents": [
+    { "document": { "id": "<<document-uuid>>", "name": "<<Document Name>>" }, "mandatory": true, "for_scheme_id": "<<scheme-uuid>>" }
+  ],
+
+  "next_steps": [
+    {
+      "step_number": 1,
+      "action": "<<concrete next action>>",
+      "language_localized_text": {
+        "kn": "<<Kannada text>>",
+        "hi": "<<Hindi text>>",
+        "en": "<<English text>>"
+      }
+    }
+  ],
+
+  "evidence": [
+    {
+      "source_id": "<<source-uuid>>",
+      "authority": "REQUIRES OFFICIAL SOURCE VERIFICATION",
+      "official_url": null,
+      "excerpt": "REQUIRES OFFICIAL SOURCE VERIFICATION",
+      "verification_status": "pending-review"
+    }
+  ],
+
+  "confidence": {
+    "overall": "low",
+    "notes": "Example payload — no verified data has been loaded yet."
+  },
+
+  "warnings": [
+    "This is a placeholder response contract example. No real government data is present."
+  ]
+}

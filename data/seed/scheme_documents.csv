@@ -1,0 +1,6 @@
+id,scheme_id,document_id,mandatory,source_id
+sd-001,sch-002,doc-001,true,src-002
+sd-002,sch-002,doc-002,true,src-002
+sd-003,sch-001,doc-001,true,src-001
+sd-004,sch-001,doc-003,true,src-001
+sd-005,sch-004,doc-004,true,src-006

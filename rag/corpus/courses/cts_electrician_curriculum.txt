@@ -1,0 +1,26 @@
+# Craftsmen Training Scheme (CTS) — Electrician Trade Syllabus & Qualification
+
+Official Source: Electronics Sector Skills Council of India (ESSCI) / DGT, MSDE
+Authority: ESSCI / DGT
+Course ID: crs-002
+Skill ID: skl-003
+Source ID: src-008
+
+## 1. Trade Summary and Qualification Level
+The Electrician trade under the Craftsmen Training Scheme (CTS) is a nationally recognized vocational course categorized under the Electrical & Electronics sector.
+- NSQF Level: Level 4
+- Duration: 2 Years (1200 hours per year; 2400 hours total encompassing trade theory, trade practical, workshop calculation & science, engineering drawing, and employability skills).
+- Entry Qualification: Passed 10th class examination with Science and Mathematics or its equivalent from a recognized board.
+- Minimum Age: 14 years (no upper age limit for CTS admissions).
+
+## 2. Professional Competencies and Learning Outcomes
+A certified CTS Electrician acquires foundational and advanced technical competencies:
+- Safety Practices: Adherence to Indian Electricity (IE) rules, electrical safety procedures, personal protective equipment (PPE), fire safety, and electric shock first aid.
+- Wiring Systems: Planning, executing, and testing domestic, commercial, and industrial electrical wiring in compliance with Bureau of Indian Standards (BIS) specifications.
+- Power Equipment: Installation, operation, routine maintenance, and fault diagnosis of Single Phase and Three Phase AC motors, DC machines, alternators, transformers, and switchgear.
+- Measuring Instruments: Practical handling and calibration of multimeters, clamp meters, earth megohmmeters (Megger), oscilloscopes, and energy meters.
+- Control Panels: Assembly, wiring, and testing of electrical control panels, starters (DOL, Star-Delta), relays, contactors, and circuit breakers (MCB, MCCB, ELCB/RCCB).
+- Renewable Energy Integration: Basic configuration, testing, and maintenance of solar photovoltaic (PV) home lighting systems and uninterrupted power supply (UPS) systems.
+
+## 3. Career Progression and Certification
+Graduates are awarded the National Trade Certificate (NTC) issued by NCVT/DGT upon passing the All India Trade Test (AITT). The qualification qualifies individuals for technician roles in state electricity supply companies (ESCOMs), manufacturing plants, railway maintenance depots, construction sites, and independent electrical contracting businesses.

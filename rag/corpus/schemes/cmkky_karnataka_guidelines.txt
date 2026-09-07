@@ -1,0 +1,21 @@
+# Chief Minister's Kaushalya Karnataka Yojane (CMKKY) Scheme Guidelines
+
+Official Source: Skill Development, Entrepreneurship and Livelihood Department (SDEL), Government of Karnataka
+Authority: Karnataka Skill Development Corporation (KSDC)
+Portal URL: https://kaushalya.karnataka.gov.in/7/chief-minister-kaushalya-karnataka-yojane/en
+Source ID: src-004
+
+## 1. Scheme Background and Objectives
+Chief Minister's Kaushalya Karnataka Yojane (CMKKY) is the flagship vocational skilling initiative implemented by the Government of Karnataka through the Department of Skill Development, Entrepreneurship and Livelihood. The primary objective is to enhance the employability and livelihood opportunities of youth across the state through demand-driven market-aligned technical training.
+
+## 2. Scheme Features and Standards
+- Short-Term Vocational Training: Training courses offered under CMKKY are aligned to the National Skills Qualification Framework (NSQF) standards.
+- Placement Commitment: Training providers empanelled under the scheme are obligated to ensure wage employment or self-employment placement for at least 70% of certified trainees.
+- Industry Partnerships: Training curricula and job roles are formulated in consultation with industry sector skill councils and local employer associations in Karnataka.
+- Standardized Certification: Trainees who successfully complete assessments are awarded government-recognized skill certifications.
+
+## 3. Beneficiary Eligibility and Registration
+- Target Group: Youth and informal job seekers residing in Karnataka seeking entry-level technical skills or wage employment in organized industries.
+- Portal Registration: Aspiring candidates must register online on the Kaushalkar portal (www.kaushalkar.karnataka.gov.in) to select their preferred district, sector, and training centre.
+- Documentation: Aadhaar identity proof and educational qualification certificates relevant to the chosen NSQF course level.
+- Note on Age & Educational Limits: Course-specific eligibility criteria (such as minimum age and schooling requirement) depend upon the individual Qualification Pack (QP) prescribed by the respective Sector Skill Council.

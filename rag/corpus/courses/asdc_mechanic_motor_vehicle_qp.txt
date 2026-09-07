@@ -1,0 +1,24 @@
+# Qualification Pack — Mechanic Motor Vehicle (ASDC Standards)
+
+Official Source: Automotive Skills Development Council (ASDC) / DGT CTS
+Authority: ASDC / NCVET / DGT
+Course ID: crs-008
+Skill ID: skl-010
+Source ID: src-026
+
+## 1. Trade Profile and Qualification Overview
+The Mechanic Motor Vehicle trade qualifies technicians to perform complete maintenance, diagnostics, servicing, and overhauling of internal combustion engines, commercial vehicles, passenger cars, and motorized two/three-wheelers.
+- NSQF Level: Level 4
+- Duration: 2 Years under CTS (or 400-500 hours modular QP for Automotive Service Technician).
+- Entry Qualification: Passed 10th Class examination with Science and Mathematics.
+- Minimum Age: 14 years (CTS) / 18 years (QP employment).
+
+## 2. Key Diagnostic & Servicing Competencies
+- Engine Systems: Disassembly, inspection, measurement, and reassembly of petrol and diesel engine components (cylinder block, piston rings, crankshaft, camshaft, valves, timing gears/belts).
+- Fuel and Exhaust Systems: Servicing Common Rail Direct Injection (CRDI) diesel systems, electronic fuel injection (EFI) petrol systems, turbochargers, intercoolers, catalytic converters, and diesel particulate filters (DPF).
+- Transmission and Drivetrain: Inspection and repair of manual and automatic gearboxes, clutch assemblies, propeller shafts, universal joints, differential units, and drive axles.
+- Braking, Steering, and Suspension: Overhauling hydraulic, vacuum-assisted, and air brake systems; Anti-lock Braking System (ABS) diagnostics; wheel alignment and balancing; power steering racks; McPherson strut suspension.
+- Auto Electrical and OBD Diagnostics: Scanning on-board vehicle electronic control units (ECUs) using OBD-II diagnostic scanners, reading fault codes (DTCs), troubleshooting starter motors, alternators, battery management, lighting, and wiring harnesses.
+
+## 3. Workshop Safety and Career Progression
+Certified technicians find direct employment in authorized automobile dealership service centres, state road transport corporation workshops (KSRTC, BMTC), logistics fleet maintenance yards, and independent automotive repair garages.

@@ -1,0 +1,19 @@
+# DGT Central Institutes Directory — Karnataka Reference
+
+Official Source: Directorate General of Training (DGT), Ministry of Skill Development and Entrepreneurship
+Authority: DGT / MSDE
+Source ID: src-023
+Portal URL: https://dgt.gov.in/en/central-institutes-lists
+
+## 1. National Skill Training Institutes (NSTI) in Karnataka
+The Directorate General of Training directly operates apex National Skill Training Institutes in Karnataka to deliver advanced Crafts Instructor Training Scheme (CITS) and specialized Craftsmen Training Scheme (CTS) courses:
+
+### 1.1 National Skill Training Institute (NSTI) Bengaluru
+- Official Address: Outer Ring Road, Near Peenya Metro Station, Yeswanthpur Suburb, Bengaluru, Karnataka 560022. (Also referenced at Tumkur Road, Bengaluru).
+- Primary Disciplines: Advanced welding technologies, computer numerical control (CNC) machining, tool and die making, electrical installation and maintenance, IoT and smart manufacturing.
+- Program Levels: Crafts Instructor Training Scheme (CITS) for training future ITI instructors; advanced CTS programs for high-skill vocational trades.
+
+### 1.2 National Skill Training Institute for Women (NSTI-W) Bengaluru
+- Official Address: Hosur Road, Near Dairy Circle, Lakkasandra / Hombegowda Nagar, Bengaluru, Karnataka 560029.
+- Focus Areas: Women-focused vocational skilling in architectural draftsmanship, computer aided design (CAD), digital applications, fashion technology, and modern IoT-driven electronics.
+- Infrastructure: Specialized laboratory facilities, women's hostel, incubation facilities, and technical placement tie-ups.

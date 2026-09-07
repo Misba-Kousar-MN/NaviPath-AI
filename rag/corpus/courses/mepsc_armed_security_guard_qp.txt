@@ -1,0 +1,29 @@
+# Qualification File — Armed Security Guard (NCVET Code 2022/OAFM/MEPSC/05426)
+
+Official Source: Management & Entrepreneurship and Professional Skills Council (MEPSC) / NCVET
+Authority: NCVET / MSDE
+Course ID: crs-004
+Skill ID: skl-004
+Source ID: src-010
+
+## 1. Job Role Description and Qualification Parameters
+An Armed Security Guard is responsible for providing armed protection to designated personnel, high-value assets, cash-in-transit (CIT) vans, bank premises, and sensitive commercial establishments under the Private Security Agencies (Regulation) Act (PSARA), 2005.
+- NCVET File Code: 2022/OAFM/MEPSC/05426
+- NCO Code: NCO-2015/5414.0151
+- NSQF Level: Level 4
+- Minimum Entry Age: 21 Years
+- Minimum Educational & Experience Qualifications:
+  - Class 10th pass from a recognized board, AND
+  - Minimum 2 years of prior experience in the Armed Forces, Central Armed Police Forces (CAPF), State Police, or recognized paramilitary agencies, OR 3 years of verified private security guard experience with a valid arms license.
+- Total Training Duration: 450 Hours (174 Hours Theory + 276 Hours Practical/Range Training; offline classroom and firing range mode).
+
+## 2. Core Modules and Operational Competencies
+The qualification covers stringent legal, physical, and weapon safety competencies:
+- Firearms Handling and Maintenance: Safe loading, unloading, clearing, dry firing, cleaning, and maintenance of 12-bore DBBL/SBBL shotguns and permissible handguns; adherence to the Arms Act 1959.
+- Range Drill and Target Engagement: Target acquisition, safe drawing, breath control, trigger pull, live ammunition firing drill, and misfire drill under certified range supervisors.
+- Access Control and Perimeter Defense: Screening visitors, inspecting vehicles with under-chassis mirrors, operating handheld metal detectors (HHMD) and door frame metal detectors (DFMD), maintaining visitor logs.
+- Emergency Response and Crisis Management: Responding to armed robbery attempts, crowd panic, fire alarms, medical emergencies, hostage scenarios, and coordinating with local law enforcement stations.
+- Legal Protocols and Use of Force: Strict adherence to proportional use of force, self-defense law, post-incident evidence preservation, and reporting protocols under PSARA rules.
+
+## 3. Empanelment and Employment Opportunities
+Certified candidates are eligible for immediate empanelment with PSARA-licensed Private Security Agencies (PSAs), specialized Cash Logistics Companies, banking institutions, and critical infrastructure installations across Karnataka.

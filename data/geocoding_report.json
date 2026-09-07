@@ -1,0 +1,4522 @@
+[
+  {
+    "centre_id": "tc-001",
+    "centre_name": "Government Tool Room and Training Centre, Rajajinagar",
+    "original_address": "REQUIRES OFFICIAL SOURCE VERIFICATION",
+    "district": "Bengaluru Urban",
+    "taluk": null,
+    "latitude": null,
+    "longitude": null,
+    "status": "FAILED",
+    "confidence": "NONE",
+    "provider": null,
+    "geocoding_query": null,
+    "provider_result": null,
+    "validation_reason": "Placeholder / unverified address ('REQUIRES OFFICIAL SOURCE VERIFICATION')",
+    "unresolved_category": "PLACEHOLDER",
+    "attempted_passes": [],
+    "geocoded_at": null
+  },
+  {
+    "centre_id": "tc-002",
+    "centre_name": "Government Industrial Training Institute, Gundlupete",
+    "original_address": "REQUIRES OFFICIAL SOURCE VERIFICATION",
+    "district": "Chamarajanagar",
+    "taluk": "Gundlupete",
+    "latitude": null,
+    "longitude": null,
+    "status": "FAILED",
+    "confidence": "NONE",
+    "provider": null,
+    "geocoding_query": null,
+    "provider_result": null,
+    "validation_reason": "Placeholder / unverified address ('REQUIRES OFFICIAL SOURCE VERIFICATION')",
+    "unresolved_category": "PLACEHOLDER",
+    "attempted_passes": [],
+    "geocoded_at": null
+  },
+  {
+    "centre_id": "tc-003",
+    "centre_name": "ITI Directorate of Employment & Training (DET) — Mysuru Division Office",
+    "original_address": "REQUIRES OFFICIAL SOURCE VERIFICATION",
+    "district": "Mysuru",
+    "taluk": null,
+    "latitude": null,
+    "longitude": null,
+    "status": "FAILED",
+    "confidence": "NONE",
+    "provider": null,
+    "geocoding_query": null,
+    "provider_result": null,
+    "validation_reason": "Placeholder / unverified address ('REQUIRES OFFICIAL SOURCE VERIFICATION')",
+    "unresolved_category": "PLACEHOLDER",
+    "attempted_passes": [],
+    "geocoded_at": null
+  },
+  {
+    "centre_id": "tc-004",
+    "centre_name": "National Skill Training Institute (NSTI) Bengaluru",
+    "original_address": "Outer Ring Road, Yeswanthpur, Bengaluru - 560022",
+    "district": "Bengaluru Urban",
+    "taluk": null,
+    "latitude": 13.032496,
+    "longitude": 77.540702,
+    "status": "SUCCESS",
+    "confidence": "HIGH",
+    "provider": "osm-nominatim",
+    "geocoding_query": "Outer Ring Road, Bengaluru, Karnataka, India",
+    "provider_result": "Outer Ring Road, Goragunte Palya, Peenya, Bengaluru West City Corporation, Bengaluru, Bangalore North, Bengaluru Urban, Karnataka, 560022, India",
+    "validation_reason": "High confidence match (Score 105.0): Country=India (+25); State=Karnataka (+25); District matched (+20); PIN match 560022 (+15); Strong token overlap ['outer', 'ring', 'bengaluru'] (+15); Plausible POI (highway/trunk) (+5)",
+    "unresolved_category": null,
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Outer Ring Road, Bengaluru, Karnataka, India",
+        "candidates_returned": 5
+      }
+    ],
+    "geocoded_at": "2026-09-06T06:19:35.458737+00:00"
+  },
+  {
+    "centre_id": "tc-005",
+    "centre_name": "National Skill Training Institute for Women (NSTI-W) Bengaluru",
+    "original_address": "Lakkasandra, Hombegowda Nagar, Bengaluru, Karnataka 560029",
+    "district": "Bengaluru Urban",
+    "taluk": null,
+    "latitude": 12.942941,
+    "longitude": 77.597391,
+    "status": "SUCCESS",
+    "confidence": "HIGH",
+    "provider": "osm-nominatim",
+    "geocoding_query": "Lakkasandra, Bengaluru, Karnataka, India",
+    "provider_result": "Lakkasandra, Doctor M H Marigowda Road, Lakkasandra, Bengaluru South City Corporation, Bengaluru, Bangalore North, Bengaluru Urban, Karnataka, 560029, India",
+    "validation_reason": "High confidence match (Score 98.0): Country=India (+25); State=Karnataka (+25); District matched (+20); PIN match 560029 (+15); Token overlap ['lakkasandra', 'bengaluru'] (+8); Plausible POI (highway/bus_stop) (+5)",
+    "unresolved_category": null,
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Lakkasandra, Bengaluru, Karnataka, India",
+        "candidates_returned": 5
+      }
+    ],
+    "geocoded_at": "2026-09-06T06:19:35.459501+00:00"
+  },
+  {
+    "centre_id": "tc-006",
+    "centre_name": "Raman Industrial Training Centre Kamakshi Palya",
+    "original_address": "134 Kamalighi Palaya",
+    "district": "Bengaluru Urban",
+    "taluk": null,
+    "latitude": null,
+    "longitude": null,
+    "status": "FAILED",
+    "confidence": "LOW",
+    "provider": null,
+    "geocoding_query": "Kamalighi Palaya, Bengaluru, Karnataka, India",
+    "provider_result": null,
+    "validation_reason": "No matching results across all query passes",
+    "unresolved_category": "FAILED_NO_RESULT",
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Kamalighi Palaya, Bengaluru, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_5_NAME_LOCALITY_DIST",
+        "query": "Raman Kamakshi Palya, Kamalighi Palaya, Bengaluru, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_6_NAME_DIST",
+        "query": "Raman Kamakshi Palya, Bengaluru, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_7_CLEAN_ADDR_STATE",
+        "query": "Kamalighi Palaya, Karnataka, India",
+        "candidates_returned": 0
+      }
+    ],
+    "geocoded_at": null
+  },
+  {
+    "centre_id": "tc-007",
+    "centre_name": "St Joseph Industrial Training Centre",
+    "original_address": "Ourlady Fatima Church H.M.T Post",
+    "district": "Bengaluru Urban",
+    "taluk": null,
+    "latitude": 12.970336,
+    "longitude": 77.595084,
+    "status": "SUCCESS",
+    "confidence": "HIGH",
+    "provider": "osm-nominatim",
+    "geocoding_query": "St Joseph, Bengaluru, Karnataka, India",
+    "provider_result": "St. Joseph's Indian High School, 1st Cross Road, D'Souza Layout, Shanthala Nagar, Ashokanagar, Bengaluru Central City Corporation, Bengaluru, Bangalore North, Bengaluru Urban, Karnataka, 560001, India",
+    "validation_reason": "High confidence match (Score 83.0): Country=India (+25); State=Karnataka (+25); District matched (+20); Token overlap ['joseph'] (+8); Plausible POI (amenity/school) (+5)",
+    "unresolved_category": null,
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Ourlady Fatima Church H.M.T Post, Bengaluru, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_5_NAME_LOCALITY_DIST",
+        "query": "St Joseph, Ourlady Fatima Church H.M.T Post, Bengaluru, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_6_NAME_DIST",
+        "query": "St Joseph, Bengaluru, Karnataka, India",
+        "candidates_returned": 5
+      }
+    ],
+    "geocoded_at": "2026-09-06T06:19:35.460338+00:00"
+  },
+  {
+    "centre_id": "tc-008",
+    "centre_name": "Muslim Orphanage Industrial Training Centre",
+    "original_address": "43 Dickenson Road",
+    "district": "Bengaluru Urban",
+    "taluk": null,
+    "latitude": 12.97448,
+    "longitude": 77.614087,
+    "status": "SUCCESS",
+    "confidence": "HIGH",
+    "provider": "osm-nominatim",
+    "geocoding_query": "Dickenson Road, Bengaluru, Karnataka, India",
+    "provider_result": "Dickenson Road, Craig Park Layout, Ashok Nagar, Ashokanagar, Bengaluru Central City Corporation, Bengaluru, Bangalore North, Bengaluru Urban, Karnataka, 560001, India",
+    "validation_reason": "High confidence match (Score 83.0): Country=India (+25); State=Karnataka (+25); District matched (+20); Token overlap ['dickenson'] (+8); Plausible POI (highway/primary) (+5)",
+    "unresolved_category": null,
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Dickenson Road, Bengaluru, Karnataka, India",
+        "candidates_returned": 5
+      }
+    ],
+    "geocoded_at": "2026-09-06T06:19:35.460626+00:00"
+  },
+  {
+    "centre_id": "tc-009",
+    "centre_name": "Globe I.T.C., Obalappa Garden, Bangalore",
+    "original_address": "Obalappa Garden, Bangalore",
+    "district": "Bengaluru Urban",
+    "taluk": null,
+    "latitude": null,
+    "longitude": null,
+    "status": "FAILED",
+    "confidence": "LOW",
+    "provider": null,
+    "geocoding_query": "Obalappa Garden, Bengaluru, Karnataka, India",
+    "provider_result": null,
+    "validation_reason": "No matching results across all query passes",
+    "unresolved_category": "FAILED_NO_RESULT",
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Obalappa Garden, Bengaluru, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_1B_LOCALITIES_DIST",
+        "query": "Obalappa Garden, Bangalore, Bengaluru, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_5_NAME_LOCALITY_DIST",
+        "query": "Globe Obalappa Garden Bangalore, Obalappa Garden, Bengaluru, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_6_NAME_DIST",
+        "query": "Globe Obalappa Garden Bangalore, Bengaluru, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_7_CLEAN_ADDR_STATE",
+        "query": "Obalappa Garden, Bangalore, Karnataka, India",
+        "candidates_returned": 0
+      }
+    ],
+    "geocoded_at": null
+  },
+  {
+    "centre_id": "tc-010",
+    "centre_name": "Sri Ayyappan I.T.C",
+    "original_address": "MM Road Cross, JayaMahal, Nandidurg Road",
+    "district": "Bengaluru Urban",
+    "taluk": null,
+    "latitude": 12.974353,
+    "longitude": 77.638576,
+    "status": "SUCCESS",
+    "confidence": "HIGH",
+    "provider": "osm-nominatim",
+    "geocoding_query": "MM Road Cross, Bengaluru, Karnataka, India",
+    "provider_result": "MM Clinic, 3rd Cross Road, Motappanapalya, Indiranagar, Jogpalya, Bengaluru Central City Corporation, Bengaluru, Bangalore North, Bengaluru Urban, Karnataka, 560038, India",
+    "validation_reason": "High confidence match (Score 75.0): Country=India (+25); State=Karnataka (+25); District matched (+20); Plausible POI (amenity/clinic) (+5)",
+    "unresolved_category": null,
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "MM Road Cross, Bengaluru, Karnataka, India",
+        "candidates_returned": 1
+      }
+    ],
+    "geocoded_at": "2026-09-06T06:19:35.460980+00:00"
+  },
+  {
+    "centre_id": "tc-011",
+    "centre_name": "Bhuvan Industrial Training Centre Venkatala",
+    "original_address": "Venkatala Yalahnka",
+    "district": "Bengaluru Urban",
+    "taluk": null,
+    "latitude": null,
+    "longitude": null,
+    "status": "FAILED",
+    "confidence": "LOW",
+    "provider": null,
+    "geocoding_query": "Venkatala Yalahnka, Bengaluru, Karnataka, India",
+    "provider_result": null,
+    "validation_reason": "No matching results across all query passes",
+    "unresolved_category": "FAILED_NO_RESULT",
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Venkatala Yalahnka, Bengaluru, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_5_NAME_LOCALITY_DIST",
+        "query": "Bhuvan Venkatala, Venkatala Yalahnka, Bengaluru, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_6_NAME_DIST",
+        "query": "Bhuvan Venkatala, Bengaluru, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_7_CLEAN_ADDR_STATE",
+        "query": "Venkatala Yalahnka, Karnataka, India",
+        "candidates_returned": 0
+      }
+    ],
+    "geocoded_at": null
+  },
+  {
+    "centre_id": "tc-012",
+    "centre_name": "M V M Industrial Training Centre",
+    "original_address": "15,16,17 Gangadhra Chetty Road Ulsoor lake",
+    "district": "Bengaluru Urban",
+    "taluk": null,
+    "latitude": 12.99447,
+    "longitude": 77.593655,
+    "status": "SUCCESS",
+    "confidence": "HIGH",
+    "provider": "osm-nominatim",
+    "geocoding_query": "M V M, Bengaluru, Karnataka, India",
+    "provider_result": "State Bank of India, M V Jayaram Road, Jayamahal, Vasanth Nagar, Bengaluru Central City Corporation, Bengaluru, Bangalore North, Bengaluru Urban, Karnataka, 560006, India",
+    "validation_reason": "High confidence match (Score 75.0): Country=India (+25); State=Karnataka (+25); District matched (+20); Plausible POI (amenity/bank) (+5)",
+    "unresolved_category": null,
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Gangadhra Chetty Road Ulsoor lake, Bengaluru, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_5_NAME_LOCALITY_DIST",
+        "query": "M V M, Gangadhra Chetty Road Ulsoor lake, Bengaluru, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_6_NAME_DIST",
+        "query": "M V M, Bengaluru, Karnataka, India",
+        "candidates_returned": 1
+      }
+    ],
+    "geocoded_at": "2026-09-06T06:19:35.461310+00:00"
+  },
+  {
+    "centre_id": "tc-013",
+    "centre_name": "M.C.E.B.T.I. Industrial Training Centre",
+    "original_address": "No.87, 10th main road 3rd phase 3rd Block, Manjunath Nagar Rajajinagar-10",
+    "district": "Bengaluru Urban",
+    "taluk": null,
+    "latitude": null,
+    "longitude": null,
+    "status": "FAILED",
+    "confidence": "LOW",
+    "provider": null,
+    "geocoding_query": "M C E B T I, Bengaluru, Karnataka, India",
+    "provider_result": "Bengaluru, Bangalore North, Bengaluru Urban, Karnataka, India",
+    "validation_reason": "City-level centroid rejected; physical facility unverified in OSM",
+    "unresolved_category": "FAILED_VALIDATION",
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "th main road 3rd phase 3rd Block, Bengaluru, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_1B_LOCALITIES_DIST",
+        "query": "th main road 3rd phase 3rd Block, Manjunath Nagar Rajajinagar, Bengaluru, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_5_NAME_LOCALITY_DIST",
+        "query": "M C E B T I, th main road 3rd phase 3rd Block, Bengaluru, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_6_NAME_DIST",
+        "query": "M C E B T I, Bengaluru, Karnataka, India",
+        "candidates_returned": 1
+      },
+      {
+        "pass": "PASS_7_CLEAN_ADDR_STATE",
+        "query": "th main road 3rd phase 3rd Block, Manjunath Nagar Rajajinagar, Karnataka, India",
+        "candidates_returned": 0
+      }
+    ],
+    "geocoded_at": null
+  },
+  {
+    "centre_id": "tc-014",
+    "centre_name": "The Association of Physically Handicapped Trg. Cen.",
+    "original_address": "Lingarajpuram Hennur Road",
+    "district": "Bengaluru Urban",
+    "taluk": null,
+    "latitude": 13.008744,
+    "longitude": 77.622151,
+    "status": "SUCCESS",
+    "confidence": "HIGH",
+    "provider": "osm-nominatim",
+    "geocoding_query": "Lingarajpuram Hennur Road, Bengaluru, Karnataka, India",
+    "provider_result": "Vinay Nursing Home, Lingarajpuram, Lingarajapuram Flyover, New Bagalur Layout, Richards Town, Lingarajpura, Bengaluru North City Corporation, Bengaluru, Bangalore North, Bengaluru Urban, Karnataka, 560084, India",
+    "validation_reason": "High confidence match (Score 83.0): Country=India (+25); State=Karnataka (+25); District matched (+20); Token overlap ['lingarajpuram'] (+8); Plausible POI (amenity/clinic) (+5)",
+    "unresolved_category": null,
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Lingarajpuram Hennur Road, Bengaluru, Karnataka, India",
+        "candidates_returned": 1
+      }
+    ],
+    "geocoded_at": "2026-09-06T06:19:35.461806+00:00"
+  },
+  {
+    "centre_id": "tc-015",
+    "centre_name": "NTTF Industrial Training Centre",
+    "original_address": "# 40/40A, Electronic City, Hosur Road",
+    "district": "Bengaluru Urban",
+    "taluk": null,
+    "latitude": 12.856798,
+    "longitude": 77.663238,
+    "status": "SUCCESS",
+    "confidence": "HIGH",
+    "provider": "osm-nominatim",
+    "geocoding_query": "Electronic City, Bengaluru, Karnataka, India",
+    "provider_result": "Electronic City, Hosur Road, Chikkathoguru, Bengaluru South City Corporation, Electronic City, Bangalore South, Bengaluru Urban, Karnataka, 560100, India",
+    "validation_reason": "High confidence match (Score 85.0): Country=India (+25); State=Karnataka (+25); District matched (+20); Strong token overlap ['electronic', 'city', 'hosur'] (+15)",
+    "unresolved_category": null,
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Electronic City, Bengaluru, Karnataka, India",
+        "candidates_returned": 4
+      }
+    ],
+    "geocoded_at": "2026-09-06T06:19:35.462126+00:00"
+  },
+  {
+    "centre_id": "tc-016",
+    "centre_name": "Ghousia Industrial Training Institute",
+    "original_address": "Hosur Road Dharma Ram College",
+    "district": "Bengaluru Urban",
+    "taluk": null,
+    "latitude": 12.943002,
+    "longitude": 77.594438,
+    "status": "SUCCESS",
+    "confidence": "HIGH",
+    "provider": "osm-nominatim",
+    "geocoding_query": "Ghousia, Bengaluru, Karnataka, India",
+    "provider_result": "Ghousia, 1st Main Road, Someshwaranagar, Kanakanapalya, Bengaluru Central City Corporation, Bengaluru, Bangalore North, Bengaluru Urban, Karnataka, 560069, India",
+    "validation_reason": "High confidence match (Score 83.0): Country=India (+25); State=Karnataka (+25); District matched (+20); Token overlap ['ghousia'] (+8); Plausible POI (amenity/pharmacy) (+5)",
+    "unresolved_category": null,
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Hosur Road Dharma Ram College, Bengaluru, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_5_NAME_LOCALITY_DIST",
+        "query": "Ghousia, Hosur Road Dharma Ram College, Bengaluru, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_6_NAME_DIST",
+        "query": "Ghousia, Bengaluru, Karnataka, India",
+        "candidates_returned": 1
+      }
+    ],
+    "geocoded_at": "2026-09-06T06:19:35.462310+00:00"
+  },
+  {
+    "centre_id": "tc-017",
+    "centre_name": "Maulana Azad National Urdu University-ITC",
+    "original_address": "CA. Site No(P) 2, Jnanabharthi Layout 3rd Block Vaegarihalli R.V.C Post Bangalore-560059",
+    "district": "Bengaluru Urban",
+    "taluk": null,
+    "latitude": 12.923778,
+    "longitude": 77.495786,
+    "status": "SUCCESS",
+    "confidence": "HIGH",
+    "provider": "osm-nominatim",
+    "geocoding_query": "560059, Bengaluru, Karnataka, India",
+    "provider_result": "560059, Mylasandra, Bengaluru West City Corporation, Bengaluru, Bangalore South, Bengaluru Urban, Karnataka, India",
+    "validation_reason": "High confidence match (Score 93.0): Country=India (+25); State=Karnataka (+25); District matched (+20); PIN match 560059 (+15); Token overlap ['bangalore'] (+8)",
+    "unresolved_category": null,
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Jnanabharthi Layout 3rd R.V.C Post Bangalore, Bengaluru, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_4_PIN",
+        "query": "560059, Bengaluru, Karnataka, India",
+        "candidates_returned": 1
+      }
+    ],
+    "geocoded_at": "2026-09-06T06:19:35.462591+00:00"
+  },
+  {
+    "centre_id": "tc-018",
+    "centre_name": "The Technical Training Centre for the Deaf",
+    "original_address": "No:28/2, Haines Road, Near New Bamboo Bazaar",
+    "district": "Bengaluru Urban",
+    "taluk": null,
+    "latitude": 12.998861,
+    "longitude": 77.610273,
+    "status": "SUCCESS",
+    "confidence": "HIGH",
+    "provider": "osm-nominatim",
+    "geocoding_query": "Haines Road, Bengaluru, Karnataka, India",
+    "provider_result": "Haines Road, Pottery Town, S.K Garden, Bengaluru North City Corporation, Bengaluru, Bangalore North, Bengaluru Urban, Karnataka, 560005, India",
+    "validation_reason": "High confidence match (Score 83.0): Country=India (+25); State=Karnataka (+25); District matched (+20); Token overlap ['haines'] (+8); Plausible POI (highway/primary) (+5)",
+    "unresolved_category": null,
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Haines Road, Bengaluru, Karnataka, India",
+        "candidates_returned": 5
+      }
+    ],
+    "geocoded_at": "2026-09-06T06:19:35.462912+00:00"
+  },
+  {
+    "centre_id": "tc-019",
+    "centre_name": "St. Patrick's ITC",
+    "original_address": "15-K, Brigade Road Bangalore",
+    "district": "Bengaluru Urban",
+    "taluk": null,
+    "latitude": 12.973473,
+    "longitude": 77.607319,
+    "status": "SUCCESS",
+    "confidence": "HIGH",
+    "provider": "osm-nominatim",
+    "geocoding_query": "Brigade Road Bangalore, Bengaluru, Karnataka, India",
+    "provider_result": "India Chai, Brigade Road, Ashok Nagar, Ashokanagar, Bengaluru Central City Corporation, Bengaluru, Bangalore North, Bengaluru Urban, Karnataka, 560001, India",
+    "validation_reason": "High confidence match (Score 83.0): Country=India (+25); State=Karnataka (+25); District matched (+20); Token overlap ['bangalore', 'brigade'] (+8); Plausible POI (amenity/cafe) (+5)",
+    "unresolved_category": null,
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Brigade Road Bangalore, Bengaluru, Karnataka, India",
+        "candidates_returned": 4
+      }
+    ],
+    "geocoded_at": "2026-09-06T06:19:35.463180+00:00"
+  },
+  {
+    "centre_id": "tc-020",
+    "centre_name": "Ashok Private ITI",
+    "original_address": "No. 8, K.B.C. Complex, Jalahalli Cross, T. Dasarahalli",
+    "district": "Bengaluru Urban",
+    "taluk": null,
+    "latitude": 13.039888,
+    "longitude": 77.51836,
+    "status": "SUCCESS",
+    "confidence": "HIGH",
+    "provider": "osm-nominatim",
+    "geocoding_query": "Jalahalli Cross, Bengaluru, Karnataka, India",
+    "provider_result": "Jalahalli Cross, Tumkur Road, Chokkasandra, Bengaluru West City Corporation, Bengaluru, Bangalore North, Bengaluru Urban, Karnataka, 560058, India",
+    "validation_reason": "High confidence match (Score 83.0): Country=India (+25); State=Karnataka (+25); District matched (+20); Token overlap ['jalahalli'] (+8); Plausible POI (highway/traffic_signals) (+5)",
+    "unresolved_category": null,
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Jalahalli Cross, Bengaluru, Karnataka, India",
+        "candidates_returned": 5
+      }
+    ],
+    "geocoded_at": "2026-09-06T06:19:35.463505+00:00"
+  },
+  {
+    "centre_id": "tc-021",
+    "centre_name": "Pragathi Industrial Training Centre",
+    "original_address": "Fort Street Vijaypura",
+    "district": "Bengaluru Rural",
+    "taluk": null,
+    "latitude": null,
+    "longitude": null,
+    "status": "FAILED",
+    "confidence": "LOW",
+    "provider": null,
+    "geocoding_query": "Fort Street Vijaypura, Bengaluru Rural, Karnataka, India",
+    "provider_result": null,
+    "validation_reason": "No matching results across all query passes",
+    "unresolved_category": "FAILED_NO_RESULT",
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Fort Street Vijaypura, Bengaluru Rural, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_5_NAME_LOCALITY_DIST",
+        "query": "Pragathi, Fort Street Vijaypura, Bengaluru Rural, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_6_NAME_DIST",
+        "query": "Pragathi, Bengaluru Rural, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_7_CLEAN_ADDR_STATE",
+        "query": "Fort Street Vijaypura, Karnataka, India",
+        "candidates_returned": 0
+      }
+    ],
+    "geocoded_at": null
+  },
+  {
+    "centre_id": "tc-022",
+    "centre_name": "J C S Industrial Training Institute Nelamangala",
+    "original_address": "Nelamangala",
+    "district": "Bengaluru Rural",
+    "taluk": null,
+    "latitude": 13.095302,
+    "longitude": 77.396359,
+    "status": "SUCCESS",
+    "confidence": "HIGH",
+    "provider": "osm-nominatim",
+    "geocoding_query": "Nelamangala, Bengaluru Rural, Karnataka, India",
+    "provider_result": "Nelamangala, Nelamangala taluk, Bengaluru North, Karnataka, 562123, India",
+    "validation_reason": "High confidence match (Score 83.0): Country=India (+25); State=Karnataka (+25); District matched (+20); Token overlap ['nelamangala'] (+8); Plausible POI (/town) (+5)",
+    "unresolved_category": null,
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Nelamangala, Bengaluru Rural, Karnataka, India",
+        "candidates_returned": 2
+      }
+    ],
+    "geocoded_at": "2026-09-06T06:19:35.464127+00:00"
+  },
+  {
+    "centre_id": "tc-023",
+    "centre_name": "Sri Banashankari ITC",
+    "original_address": "# 37, Parvartha Pura Road, Devanhalli, Bangalore",
+    "district": "Bengaluru Rural",
+    "taluk": null,
+    "latitude": null,
+    "longitude": null,
+    "status": "FAILED",
+    "confidence": "LOW",
+    "provider": null,
+    "geocoding_query": "Parvartha Pura Road, Bengaluru Rural, Karnataka, India",
+    "provider_result": null,
+    "validation_reason": "No matching results across all query passes",
+    "unresolved_category": "FAILED_NO_RESULT",
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Parvartha Pura Road, Bengaluru Rural, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_1B_LOCALITIES_DIST",
+        "query": "Parvartha Pura Road, Devanhalli, Bengaluru Rural, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_3_CLEAN_ADDR_DIST",
+        "query": "Parvartha Pura Road, Devanhalli, Bangalore, Bengaluru Rural, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_5_NAME_LOCALITY_DIST",
+        "query": "Sri Banashankari, Parvartha Pura Road, Bengaluru Rural, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_6_NAME_DIST",
+        "query": "Sri Banashankari, Bengaluru Rural, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_7_CLEAN_ADDR_STATE",
+        "query": "Parvartha Pura Road, Devanhalli, Bangalore, Karnataka, India",
+        "candidates_returned": 0
+      }
+    ],
+    "geocoded_at": null
+  },
+  {
+    "centre_id": "tc-024",
+    "centre_name": "J S S Industrial Training Institute Nanjangud",
+    "original_address": "Plot No. CA-10, KIADB Thandya Industrial Area, Thandya-571302, Nanjangud",
+    "district": "Mysuru",
+    "taluk": null,
+    "latitude": 12.180052,
+    "longitude": 76.741856,
+    "status": "SUCCESS",
+    "confidence": "HIGH",
+    "provider": "osm-nominatim",
+    "geocoding_query": "571302, Mysuru, Karnataka, India",
+    "provider_result": "571302, Nanjanagudu taluk, Mysuru District, Karnataka, India",
+    "validation_reason": "High confidence match (Score 90.0): Country=India (+25); State=Karnataka (+25); District matched (+20); PIN match 571302 (+15); Plausible POI (place/postcode) (+5)",
+    "unresolved_category": null,
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Plot No. CA, Mysuru, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_1B_LOCALITIES_DIST",
+        "query": "Plot No. CA, KIADB Thandya Industrial Area, Mysuru, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_3_CLEAN_ADDR_DIST",
+        "query": "Plot No. CA, KIADB Thandya Industrial Area, Thandya, Nanjangud, Mysuru, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_4_PIN",
+        "query": "571302, Mysuru, Karnataka, India",
+        "candidates_returned": 1
+      }
+    ],
+    "geocoded_at": "2026-09-06T06:19:35.464908+00:00"
+  },
+  {
+    "centre_id": "tc-025",
+    "centre_name": "Sri Nanjundeshwara Industrail Training Centre, Kadakola",
+    "original_address": "Kadakola, Nanjangud Taluk",
+    "district": "Mysuru",
+    "taluk": null,
+    "latitude": 12.192722,
+    "longitude": 76.664523,
+    "status": "SUCCESS",
+    "confidence": "HIGH",
+    "provider": "osm-nominatim",
+    "geocoding_query": "Kadakola, Mysuru, Karnataka, India",
+    "provider_result": "Kadakola, Mysuru taluk, Mysuru District, Karnataka, 571311, India",
+    "validation_reason": "High confidence match (Score 83.0): Country=India (+25); State=Karnataka (+25); District matched (+20); Token overlap ['kadakola'] (+8); Plausible POI (place/village) (+5)",
+    "unresolved_category": null,
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Kadakola, Mysuru, Karnataka, India",
+        "candidates_returned": 2
+      }
+    ],
+    "geocoded_at": "2026-09-06T06:19:35.465420+00:00"
+  },
+  {
+    "centre_id": "tc-026",
+    "centre_name": "Sri Nanjunda Shivayageshwara ITI",
+    "original_address": "Gavadagere Hunsur Tq.",
+    "district": "Mysuru",
+    "taluk": null,
+    "latitude": null,
+    "longitude": null,
+    "status": "FAILED",
+    "confidence": "LOW",
+    "provider": null,
+    "geocoding_query": "Gavadagere Hunsur, Mysuru, Karnataka, India",
+    "provider_result": null,
+    "validation_reason": "No matching results across all query passes",
+    "unresolved_category": "FAILED_NO_RESULT",
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Gavadagere Hunsur, Mysuru, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_5_NAME_LOCALITY_DIST",
+        "query": "Sri Nanjunda Shivayageshwara, Gavadagere Hunsur, Mysuru, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_6_NAME_DIST",
+        "query": "Sri Nanjunda Shivayageshwara, Mysuru, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_7_CLEAN_ADDR_STATE",
+        "query": "Gavadagere Hunsur, Karnataka, India",
+        "candidates_returned": 0
+      }
+    ],
+    "geocoded_at": null
+  },
+  {
+    "centre_id": "tc-027",
+    "centre_name": "Jnanabyaveshwara Industrail Training Centre",
+    "original_address": "Saligrama K.R Nagar",
+    "district": "Mysuru",
+    "taluk": null,
+    "latitude": null,
+    "longitude": null,
+    "status": "FAILED",
+    "confidence": "LOW",
+    "provider": null,
+    "geocoding_query": "Saligrama K.R Nagar, Mysuru, Karnataka, India",
+    "provider_result": null,
+    "validation_reason": "No matching results across all query passes",
+    "unresolved_category": "FAILED_NO_RESULT",
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Saligrama K.R Nagar, Mysuru, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_5_NAME_LOCALITY_DIST",
+        "query": "Jnanabyaveshwara Industrail, Saligrama K.R Nagar, Mysuru, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_6_NAME_DIST",
+        "query": "Jnanabyaveshwara Industrail, Mysuru, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_7_CLEAN_ADDR_STATE",
+        "query": "Saligrama K.R Nagar, Karnataka, India",
+        "candidates_returned": 0
+      }
+    ],
+    "geocoded_at": null
+  },
+  {
+    "centre_id": "tc-028",
+    "centre_name": "B M M Pvt ITI, Bannur",
+    "original_address": "opp CESC, Bannur, Taluku T. Narsipura",
+    "district": "Mysuru",
+    "taluk": null,
+    "latitude": 12.322419,
+    "longitude": 76.629682,
+    "status": "SUCCESS",
+    "confidence": "HIGH",
+    "provider": "osm-nominatim",
+    "geocoding_query": "CESC, Mysuru, Karnataka, India",
+    "provider_result": "CESC Office, Adipampa Road, Gokulam, Mysuru, Mysuru taluk, Mysuru District, Karnataka, 570001, India",
+    "validation_reason": "High confidence match (Score 83.0): Country=India (+25); State=Karnataka (+25); District matched (+20); Token overlap ['cesc'] (+8); Plausible POI (office/government) (+5)",
+    "unresolved_category": null,
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "CESC, Mysuru, Karnataka, India",
+        "candidates_returned": 1
+      }
+    ],
+    "geocoded_at": "2026-09-06T06:19:35.465998+00:00"
+  },
+  {
+    "centre_id": "tc-029",
+    "centre_name": "Jagruthi ITC",
+    "original_address": "7th Block, B.M. Road, Periyapatna",
+    "district": "Mysuru",
+    "taluk": null,
+    "latitude": null,
+    "longitude": null,
+    "status": "FAILED",
+    "confidence": "LOW",
+    "provider": null,
+    "geocoding_query": "th Block, Mysuru, Karnataka, India",
+    "provider_result": null,
+    "validation_reason": "No matching results across all query passes",
+    "unresolved_category": "FAILED_NO_RESULT",
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "th Block, Mysuru, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_1B_LOCALITIES_DIST",
+        "query": "th Block, B.M. Road, Mysuru, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_3_CLEAN_ADDR_DIST",
+        "query": "th Block, B.M. Road, Periyapatna, Mysuru, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_5_NAME_LOCALITY_DIST",
+        "query": "Jagruthi, th Block, Mysuru, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_6_NAME_DIST",
+        "query": "Jagruthi, Mysuru, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_7_CLEAN_ADDR_STATE",
+        "query": "th Block, B.M. Road, Periyapatna, Karnataka, India",
+        "candidates_returned": 0
+      }
+    ],
+    "geocoded_at": null
+  },
+  {
+    "centre_id": "tc-030",
+    "centre_name": "Smt Puttathayamma Mariyappa ITC, K.R Nagar",
+    "original_address": "Sri Rama Block K.R Nagar",
+    "district": "Mysuru",
+    "taluk": null,
+    "latitude": null,
+    "longitude": null,
+    "status": "FAILED",
+    "confidence": "LOW",
+    "provider": "osm-nominatim",
+    "geocoding_query": "Sri Rama .R Nagar, Karnataka, India",
+    "provider_result": "Sri Rama Mandira, Sri Ram Mandir Road, Sampangi Rama Nagara, Sampangirama Nagar, Bengaluru Central City Corporation, Bengaluru, Bangalore North, Bengaluru Urban, Karnataka, 560027, India",
+    "validation_reason": "Insufficient match quality (Score 33.0 < 55)",
+    "unresolved_category": "FAILED_VALIDATION",
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Sri Rama .R Nagar, Mysuru, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_5_NAME_LOCALITY_DIST",
+        "query": "Smt Puttathayamma Mariyappa K R Nagar, Sri Rama .R Nagar, Mysuru, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_6_NAME_DIST",
+        "query": "Smt Puttathayamma Mariyappa K R Nagar, Mysuru, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_7_CLEAN_ADDR_STATE",
+        "query": "Sri Rama .R Nagar, Karnataka, India",
+        "candidates_returned": 2
+      }
+    ],
+    "geocoded_at": null
+  },
+  {
+    "centre_id": "tc-031",
+    "centre_name": "Glo Tec ITC",
+    "original_address": "ID-3, Hootagalli Industrial Area",
+    "district": "Mysuru",
+    "taluk": null,
+    "latitude": 12.335646,
+    "longitude": 76.5945,
+    "status": "SUCCESS",
+    "confidence": "HIGH",
+    "provider": "osm-nominatim",
+    "geocoding_query": "Hootagalli Industrial Area, Mysuru, Karnataka, India",
+    "provider_result": "Reliance Smart Superstore, Surey No.37/12, &, Archid Ply, Hootagalli Industrial Area, Hootagalli, Hunasur Road, Hebbalu, Mysuru, Mysuru taluk, Mysuru District, Karnataka, 571130, India",
+    "validation_reason": "High confidence match (Score 78.0): Country=India (+25); State=Karnataka (+25); District matched (+20); Token overlap ['area', 'hootagalli'] (+8)",
+    "unresolved_category": null,
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Hootagalli Industrial Area, Mysuru, Karnataka, India",
+        "candidates_returned": 1
+      }
+    ],
+    "geocoded_at": "2026-09-06T06:19:35.466619+00:00"
+  },
+  {
+    "centre_id": "tc-032",
+    "centre_name": "Sri Sathya Sai ITC Hunsur",
+    "original_address": "Hunsur",
+    "district": "Mysuru",
+    "taluk": null,
+    "latitude": null,
+    "longitude": null,
+    "status": "AMBIGUOUS",
+    "confidence": "AMBIGUOUS",
+    "provider": "osm-nominatim",
+    "geocoding_query": "Hunsur, Mysuru, Karnataka, India",
+    "provider_result": "Hunsur, Hunasuru taluk, Mysuru District, Karnataka, 571105, India",
+    "validation_reason": "Multiple distant candidates (>25km) in PASS_1_LOCALITY_DIST",
+    "unresolved_category": "AMBIGUOUS",
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Hunsur, Mysuru, Karnataka, India",
+        "candidates_returned": 3
+      }
+    ],
+    "geocoded_at": null
+  },
+  {
+    "centre_id": "tc-033",
+    "centre_name": "Sri Pravardhana ITI, K.R Nagar",
+    "original_address": "Mysore Road, K R Nagar",
+    "district": "Mysuru",
+    "taluk": null,
+    "latitude": null,
+    "longitude": null,
+    "status": "AMBIGUOUS",
+    "confidence": "AMBIGUOUS",
+    "provider": "osm-nominatim",
+    "geocoding_query": "Mysore Road, Mysuru, Karnataka, India",
+    "provider_result": "Chandra Mouli Layer Complex kanthraj road Mysore, New Kantharaje Urs Road, Ramakrishna Nagara, Mysuru, Mysuru taluk, Mysuru District, Karnataka, 570001, India",
+    "validation_reason": "Multiple distant candidates (>25km) in PASS_1_LOCALITY_DIST",
+    "unresolved_category": "AMBIGUOUS",
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Mysore Road, Mysuru, Karnataka, India",
+        "candidates_returned": 5
+      }
+    ],
+    "geocoded_at": null
+  },
+  {
+    "centre_id": "tc-034",
+    "centre_name": "The National Institute of Industrial Education I.T.C",
+    "original_address": "No. 65 Industrial area, Visweswarayya Nagar",
+    "district": "Mysuru",
+    "taluk": null,
+    "latitude": 12.360233,
+    "longitude": 76.633949,
+    "status": "SUCCESS",
+    "confidence": "HIGH",
+    "provider": "osm-nominatim",
+    "geocoding_query": "Industrial area, Mysuru, Karnataka, India",
+    "provider_result": "Metagalli Industrial Area, Mysuru, Mysuru taluk, Mysuru District, Karnataka, 570001, India",
+    "validation_reason": "High confidence match (Score 83.0): Country=India (+25); State=Karnataka (+25); District matched (+20); Token overlap ['area'] (+8); Plausible POI (place/suburb) (+5)",
+    "unresolved_category": null,
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Industrial area, Mysuru, Karnataka, India",
+        "candidates_returned": 3
+      }
+    ],
+    "geocoded_at": "2026-09-06T06:19:35.467353+00:00"
+  },
+  {
+    "centre_id": "tc-035",
+    "centre_name": "MESCO Industrial Training Institute",
+    "original_address": "37/1, Link Road N R Mohalla",
+    "district": "Mysuru",
+    "taluk": null,
+    "latitude": 12.303239,
+    "longitude": 76.645627,
+    "status": "SUCCESS",
+    "confidence": "HIGH",
+    "provider": "osm-nominatim",
+    "geocoding_query": "MESCO, Mysuru, Karnataka, India",
+    "provider_result": "Mesco Higher Primary School, Diwan's Road, Chamarajapuram, Mysuru, Mysuru taluk, Mysuru District, Karnataka, 570007, India",
+    "validation_reason": "High confidence match (Score 83.0): Country=India (+25); State=Karnataka (+25); District matched (+20); Token overlap ['mesco'] (+8); Plausible POI (amenity/school) (+5)",
+    "unresolved_category": null,
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Link Road N R Mohalla, Mysuru, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_5_NAME_LOCALITY_DIST",
+        "query": "MESCO, Link Road N R Mohalla, Mysuru, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_6_NAME_DIST",
+        "query": "MESCO, Mysuru, Karnataka, India",
+        "candidates_returned": 1
+      }
+    ],
+    "geocoded_at": "2026-09-06T06:19:35.467537+00:00"
+  },
+  {
+    "centre_id": "tc-036",
+    "centre_name": "St. Philomena's Industrial Training Centre",
+    "original_address": "B N Road",
+    "district": "Mysuru",
+    "taluk": null,
+    "latitude": 12.294095,
+    "longitude": 76.627588,
+    "status": "SUCCESS",
+    "confidence": "HIGH",
+    "provider": "osm-nominatim",
+    "geocoding_query": "B N Road, Mysuru, Karnataka, India",
+    "provider_result": "Aniketana Road North 9th Cross, Kuvempunagara, Mysuru, Mysuru taluk, Mysuru District, Karnataka, 570001, India",
+    "validation_reason": "High confidence match (Score 75.0): Country=India (+25); State=Karnataka (+25); District matched (+20); Plausible POI (/residential) (+5)",
+    "unresolved_category": null,
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "B N Road, Mysuru, Karnataka, India",
+        "candidates_returned": 3
+      }
+    ],
+    "geocoded_at": "2026-09-06T06:19:35.467728+00:00"
+  },
+  {
+    "centre_id": "tc-037",
+    "centre_name": "M E S Industrial Training Centre",
+    "original_address": "Eidgah Ground, Umar Khayam Road, Tilak Nagar, Mysore 570001",
+    "district": "Mysuru",
+    "taluk": null,
+    "latitude": 12.31414,
+    "longitude": 76.644151,
+    "status": "SUCCESS",
+    "confidence": "HIGH",
+    "provider": "osm-nominatim",
+    "geocoding_query": "570001, Mysuru, Karnataka, India",
+    "provider_result": "570001, Mysuru taluk, Mysuru District, Karnataka, India",
+    "validation_reason": "High confidence match (Score 90.0): Country=India (+25); State=Karnataka (+25); District matched (+20); PIN match 570001 (+15); Plausible POI (place/postcode) (+5)",
+    "unresolved_category": null,
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Eidgah Ground, Mysuru, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_1B_LOCALITIES_DIST",
+        "query": "Eidgah Ground, Umar Khayam Road, Mysuru, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_3_CLEAN_ADDR_DIST",
+        "query": "Eidgah Ground, Umar Khayam Road, Tilak Nagar, Mysore, Mysuru, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_4_PIN",
+        "query": "570001, Mysuru, Karnataka, India",
+        "candidates_returned": 1
+      }
+    ],
+    "geocoded_at": "2026-09-06T06:19:35.467972+00:00"
+  },
+  {
+    "centre_id": "tc-038",
+    "centre_name": "Sri Guru Channamallikarjuna Private ITI",
+    "original_address": "Opp. Taluk Office, T.Narasipura",
+    "district": "Mysuru",
+    "taluk": null,
+    "latitude": 12.307218,
+    "longitude": 76.664289,
+    "status": "SUCCESS",
+    "confidence": "HIGH",
+    "provider": "osm-nominatim",
+    "geocoding_query": "Office, Mysuru, Karnataka, India",
+    "provider_result": "Police Commissioner's Office, Mirza Road, Nazarbad, Mysuru, Mysuru taluk, Mysuru District, Karnataka, 570001, India",
+    "validation_reason": "High confidence match (Score 83.0): Country=India (+25); State=Karnataka (+25); District matched (+20); Token overlap ['office'] (+8); Plausible POI (building/yes) (+5)",
+    "unresolved_category": null,
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Office, Mysuru, Karnataka, India",
+        "candidates_returned": 5
+      }
+    ],
+    "geocoded_at": "2026-09-06T06:19:35.468437+00:00"
+  },
+  {
+    "centre_id": "tc-039",
+    "centre_name": "Sri Mahanteshwara Vidhya Varthaka Sangha Industrial Training Centre",
+    "original_address": "Afzalpur",
+    "district": "Kalaburagi",
+    "taluk": null,
+    "latitude": 17.200576,
+    "longitude": 76.360578,
+    "status": "SUCCESS",
+    "confidence": "HIGH",
+    "provider": "osm-nominatim",
+    "geocoding_query": "Afzalpur, Kalaburagi, Karnataka, India",
+    "provider_result": "Afzalpur, Afzalpura taluku, Kalaburagi, Karnataka, 585301, India",
+    "validation_reason": "High confidence match (Score 83.0): Country=India (+25); State=Karnataka (+25); District matched (+20); Token overlap ['afzalpur'] (+8); Plausible POI (/town) (+5)",
+    "unresolved_category": null,
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Afzalpur, Kalaburagi, Karnataka, India",
+        "candidates_returned": 1
+      }
+    ],
+    "geocoded_at": "2026-09-06T06:19:35.468810+00:00"
+  },
+  {
+    "centre_id": "tc-040",
+    "centre_name": "H.K.E.S Industrail Training Institute Nimbarga",
+    "original_address": "Nimbarga",
+    "district": "Kalaburagi",
+    "taluk": null,
+    "latitude": 17.386079,
+    "longitude": 76.585342,
+    "status": "SUCCESS",
+    "confidence": "HIGH",
+    "provider": "osm-nominatim",
+    "geocoding_query": "Nimbarga, Kalaburagi, Karnataka, India",
+    "provider_result": "Nimbarga, Alanda taluku, Kalaburagi, Karnataka, India",
+    "validation_reason": "High confidence match (Score 83.0): Country=India (+25); State=Karnataka (+25); District matched (+20); Token overlap ['nimbarga'] (+8); Plausible POI (/village) (+5)",
+    "unresolved_category": null,
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Nimbarga, Kalaburagi, Karnataka, India",
+        "candidates_returned": 1
+      }
+    ],
+    "geocoded_at": "2026-09-06T06:19:35.469065+00:00"
+  },
+  {
+    "centre_id": "tc-041",
+    "centre_name": "Hyderabad Karnataka Education Society's Industrial Training Institute, Kamalapur",
+    "original_address": "Near DIET, Humanabad Road, Post: Kamalapura",
+    "district": "Kalaburagi",
+    "taluk": null,
+    "latitude": null,
+    "longitude": null,
+    "status": "FAILED",
+    "confidence": "LOW",
+    "provider": null,
+    "geocoding_query": "DIET, Kalaburagi, Karnataka, India",
+    "provider_result": null,
+    "validation_reason": "No matching results across all query passes",
+    "unresolved_category": "FAILED_NO_RESULT",
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "DIET, Kalaburagi, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_1B_LOCALITIES_DIST",
+        "query": "DIET, Humanabad Road, Kalaburagi, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_3_CLEAN_ADDR_DIST",
+        "query": "DIET, Humanabad Road, Post: Kamalapura, Kalaburagi, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_5_NAME_LOCALITY_DIST",
+        "query": "Hyderabad Karnataka Education 's Kamalapur, DIET, Kalaburagi, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_6_NAME_DIST",
+        "query": "Hyderabad Karnataka Education 's Kamalapur, Kalaburagi, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_7_CLEAN_ADDR_STATE",
+        "query": "DIET, Humanabad Road, Post: Kamalapura, Karnataka, India",
+        "candidates_returned": 0
+      }
+    ],
+    "geocoded_at": null
+  },
+  {
+    "centre_id": "tc-042",
+    "centre_name": "Kayaka Industrail Training Centre",
+    "original_address": "S.R.G Complex Razavi Road Alanda",
+    "district": "Kalaburagi",
+    "taluk": null,
+    "latitude": null,
+    "longitude": null,
+    "status": "FAILED",
+    "confidence": "LOW",
+    "provider": null,
+    "geocoding_query": "S.R.G Complex Razavi Road Alanda, Kalaburagi, Karnataka, India",
+    "provider_result": null,
+    "validation_reason": "No matching results across all query passes",
+    "unresolved_category": "FAILED_NO_RESULT",
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "S.R.G Complex Razavi Road Alanda, Kalaburagi, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_5_NAME_LOCALITY_DIST",
+        "query": "Kayaka Industrail, S.R.G Complex Razavi Road Alanda, Kalaburagi, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_6_NAME_DIST",
+        "query": "Kayaka Industrail, Kalaburagi, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_7_CLEAN_ADDR_STATE",
+        "query": "S.R.G Complex Razavi Road Alanda, Karnataka, India",
+        "candidates_returned": 0
+      }
+    ],
+    "geocoded_at": null
+  },
+  {
+    "centre_id": "tc-043",
+    "centre_name": "Kudala Sangama Educational Societys Industrial Training Institute, Shahabad",
+    "original_address": "Near Star Function Hall, Hongunta Road, Shahabad, Tq: Chittapur",
+    "district": "Kalaburagi",
+    "taluk": null,
+    "latitude": null,
+    "longitude": null,
+    "status": "FAILED",
+    "confidence": "LOW",
+    "provider": null,
+    "geocoding_query": "Star Function Hall, Kalaburagi, Karnataka, India",
+    "provider_result": null,
+    "validation_reason": "No matching results across all query passes",
+    "unresolved_category": "FAILED_NO_RESULT",
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Star Function Hall, Kalaburagi, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_1B_LOCALITIES_DIST",
+        "query": "Star Function Hall, Hongunta Road, Kalaburagi, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_3_CLEAN_ADDR_DIST",
+        "query": "Star Function Hall, Hongunta Road, Shahabad, Chittapur, Kalaburagi, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_5_NAME_LOCALITY_DIST",
+        "query": "Kudala Sangama Educational Societys Shahabad, Star Function Hall, Kalaburagi, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_6_NAME_DIST",
+        "query": "Kudala Sangama Educational Societys Shahabad, Kalaburagi, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_7_CLEAN_ADDR_STATE",
+        "query": "Star Function Hall, Hongunta Road, Shahabad, Chittapur, Karnataka, India",
+        "candidates_returned": 0
+      }
+    ],
+    "geocoded_at": null
+  },
+  {
+    "centre_id": "tc-044",
+    "centre_name": "Kagina Private Industrial Training Institute Adityanagar",
+    "original_address": "Malkhed Road Adityanagar",
+    "district": "Kalaburagi",
+    "taluk": null,
+    "latitude": null,
+    "longitude": null,
+    "status": "FAILED",
+    "confidence": "LOW",
+    "provider": null,
+    "geocoding_query": "Malkhed Road Adityanagar, Kalaburagi, Karnataka, India",
+    "provider_result": null,
+    "validation_reason": "No matching results across all query passes",
+    "unresolved_category": "FAILED_NO_RESULT",
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Malkhed Road Adityanagar, Kalaburagi, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_5_NAME_LOCALITY_DIST",
+        "query": "Kagina Private Adityanagar, Malkhed Road Adityanagar, Kalaburagi, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_6_NAME_DIST",
+        "query": "Kagina Private Adityanagar, Kalaburagi, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_7_CLEAN_ADDR_STATE",
+        "query": "Malkhed Road Adityanagar, Karnataka, India",
+        "candidates_returned": 0
+      }
+    ],
+    "geocoded_at": null
+  },
+  {
+    "centre_id": "tc-045",
+    "centre_name": "Jnana Jyothi Industrial Training Centre, Sedam",
+    "original_address": "Sedam",
+    "district": "Kalaburagi",
+    "taluk": null,
+    "latitude": 17.177268,
+    "longitude": 77.282355,
+    "status": "SUCCESS",
+    "confidence": "HIGH",
+    "provider": "osm-nominatim",
+    "geocoding_query": "Sedam, Kalaburagi, Karnataka, India",
+    "provider_result": "Sedam, Sedam taluku, Kalaburagi, Karnataka, 585222, India",
+    "validation_reason": "High confidence match (Score 83.0): Country=India (+25); State=Karnataka (+25); District matched (+20); Token overlap ['sedam'] (+8); Plausible POI (/town) (+5)",
+    "unresolved_category": null,
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Sedam, Kalaburagi, Karnataka, India",
+        "candidates_returned": 2
+      }
+    ],
+    "geocoded_at": "2026-09-06T06:19:35.470312+00:00"
+  },
+  {
+    "centre_id": "tc-046",
+    "centre_name": "Sri Noorandeshwar ITC Jewargi",
+    "original_address": "At Post: Naribol Road Jewargi",
+    "district": "Kalaburagi",
+    "taluk": null,
+    "latitude": null,
+    "longitude": null,
+    "status": "FAILED",
+    "confidence": "LOW",
+    "provider": null,
+    "geocoding_query": "Naribol Road Jewargi, Kalaburagi, Karnataka, India",
+    "provider_result": null,
+    "validation_reason": "No matching results across all query passes",
+    "unresolved_category": "FAILED_NO_RESULT",
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Naribol Road Jewargi, Kalaburagi, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_5_NAME_LOCALITY_DIST",
+        "query": "Sri Noorandeshwar Jewargi, Naribol Road Jewargi, Kalaburagi, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_6_NAME_DIST",
+        "query": "Sri Noorandeshwar Jewargi, Kalaburagi, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_7_CLEAN_ADDR_STATE",
+        "query": "Naribol Road Jewargi, Karnataka, India",
+        "candidates_returned": 0
+      }
+    ],
+    "geocoded_at": null
+  },
+  {
+    "centre_id": "tc-047",
+    "centre_name": "Adarsh Educational Trust PROF.P.S.CHOUDARY I..T.I Kalaburagi",
+    "original_address": "Swamy Vivekanand Nagar Near Santosh Colony Aland Road Kalaburagi",
+    "district": "Kalaburagi",
+    "taluk": null,
+    "latitude": null,
+    "longitude": null,
+    "status": "FAILED",
+    "confidence": "LOW",
+    "provider": null,
+    "geocoding_query": "Swamy Vivekanand Nagar Santosh Colony Aland Road Kalaburagi, Kalaburagi, Karnataka, India",
+    "provider_result": null,
+    "validation_reason": "No matching results across all query passes",
+    "unresolved_category": "FAILED_NO_RESULT",
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Swamy Vivekanand Nagar Santosh Colony Aland Road Kalaburagi, Kalaburagi, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_5_NAME_LOCALITY_DIST",
+        "query": "Adarsh PROF P S CHOUDARY I T I Kalaburagi, Swamy Vivekanand Nagar Santosh Colony Aland Road Kalaburagi, Kalaburagi, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_6_NAME_DIST",
+        "query": "Adarsh PROF P S CHOUDARY I T I Kalaburagi, Kalaburagi, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_7_CLEAN_ADDR_STATE",
+        "query": "Swamy Vivekanand Nagar Santosh Colony Aland Road Kalaburagi, Karnataka, India",
+        "candidates_returned": 0
+      }
+    ],
+    "geocoded_at": null
+  },
+  {
+    "centre_id": "tc-048",
+    "centre_name": "Shree Basaveshwar Industrial Training Centre",
+    "original_address": "At Post: Farhatabad Tq: Kalaburagi",
+    "district": "Kalaburagi",
+    "taluk": null,
+    "latitude": 17.182993,
+    "longitude": 76.791694,
+    "status": "SUCCESS",
+    "confidence": "HIGH",
+    "provider": "osm-nominatim",
+    "geocoding_query": "Farhatabad : Kalaburagi, Kalaburagi, Karnataka, India",
+    "provider_result": "Government Hospital, Farhatabad, Bidar - Lakshmisagara Highway, Kotnuru, Kalaburagi, Karnataka, 585308, India",
+    "validation_reason": "High confidence match (Score 83.0): Country=India (+25); State=Karnataka (+25); District matched (+20); Token overlap ['kalaburagi', 'farhatabad'] (+8); Plausible POI (amenity/hospital) (+5)",
+    "unresolved_category": null,
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Farhatabad : Kalaburagi, Kalaburagi, Karnataka, India",
+        "candidates_returned": 2
+      }
+    ],
+    "geocoded_at": "2026-09-06T06:19:35.470920+00:00"
+  },
+  {
+    "centre_id": "tc-049",
+    "centre_name": "Sharana Basaveshwara Industrial Training Centre Chittapur Tq",
+    "original_address": "Chittapur Tq",
+    "district": "Kalaburagi",
+    "taluk": null,
+    "latitude": 17.100576,
+    "longitude": 77.047589,
+    "status": "SUCCESS",
+    "confidence": "HIGH",
+    "provider": "osm-nominatim",
+    "geocoding_query": "Chittapur, Kalaburagi, Karnataka, India",
+    "provider_result": "Wadi - Chittapur Road, Chittapura, Chitapura taluku, Kalaburagi, Karnataka, 585211, India",
+    "validation_reason": "High confidence match (Score 83.0): Country=India (+25); State=Karnataka (+25); District matched (+20); Token overlap ['chittapur'] (+8); Plausible POI (highway/secondary) (+5)",
+    "unresolved_category": null,
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Chittapur, Kalaburagi, Karnataka, India",
+        "candidates_returned": 1
+      }
+    ],
+    "geocoded_at": "2026-09-06T06:19:35.471074+00:00"
+  },
+  {
+    "centre_id": "tc-050",
+    "centre_name": "Sri Gurudatta Industrial Training Centre",
+    "original_address": "Ganagapur Road, Choudapur, Afzalpur Tq.",
+    "district": "Kalaburagi",
+    "taluk": null,
+    "latitude": 17.340746,
+    "longitude": 76.589503,
+    "status": "SUCCESS",
+    "confidence": "HIGH",
+    "provider": "osm-nominatim",
+    "geocoding_query": "Ganagapur Road, Kalaburagi, Karnataka, India",
+    "provider_result": "Ganagapur Road, SH155, Gudura, Afzalpura taluku, Kalaburagi, Karnataka, India",
+    "validation_reason": "High confidence match (Score 78.0): Country=India (+25); State=Karnataka (+25); District matched (+20); Token overlap ['ganagapur'] (+8)",
+    "unresolved_category": null,
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Ganagapur Road, Kalaburagi, Karnataka, India",
+        "candidates_returned": 2
+      }
+    ],
+    "geocoded_at": "2026-09-06T06:19:35.471298+00:00"
+  },
+  {
+    "centre_id": "tc-051",
+    "centre_name": "Gurukal ITI",
+    "original_address": "82, Sy No-31 Part of Village Nizampur Near Kamal Narag",
+    "district": "Kalaburagi",
+    "taluk": null,
+    "latitude": null,
+    "longitude": null,
+    "status": "FAILED",
+    "confidence": "LOW",
+    "provider": null,
+    "geocoding_query": "Sy Part of Village Nizampur Kamal Narag, Kalaburagi, Karnataka, India",
+    "provider_result": null,
+    "validation_reason": "No matching results across all query passes",
+    "unresolved_category": "FAILED_NO_RESULT",
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Sy Part of Village Nizampur Kamal Narag, Kalaburagi, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_5_NAME_LOCALITY_DIST",
+        "query": "Gurukal, Sy Part of Village Nizampur Kamal Narag, Kalaburagi, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_6_NAME_DIST",
+        "query": "Gurukal, Kalaburagi, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_7_CLEAN_ADDR_STATE",
+        "query": "Sy Part of Village Nizampur Kamal Narag, Karnataka, India",
+        "candidates_returned": 0
+      }
+    ],
+    "geocoded_at": null
+  },
+  {
+    "centre_id": "tc-052",
+    "centre_name": "National Industrial Training Institute, Kalaburagi",
+    "original_address": "Hafthagumbad, Darga Road, Kalaburagi",
+    "district": "Kalaburagi",
+    "taluk": null,
+    "latitude": 17.278791,
+    "longitude": 76.870511,
+    "status": "SUCCESS",
+    "confidence": "HIGH",
+    "provider": "osm-nominatim",
+    "geocoding_query": "National Kalaburagi, Kalaburagi, Karnataka, India",
+    "provider_result": "NATIONAL PUBLIC SCHOOL, Gulbarga - Devasuguru Highway, Rajapura, Nanduru, Kalaburagi taluku, Kalaburagi, Karnataka, 585106, India",
+    "validation_reason": "High confidence match (Score 83.0): Country=India (+25); State=Karnataka (+25); District matched (+20); Token overlap ['national', 'kalaburagi'] (+8); Plausible POI (amenity/school) (+5)",
+    "unresolved_category": null,
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Hafthagumbad, Kalaburagi, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_1B_LOCALITIES_DIST",
+        "query": "Hafthagumbad, Darga Road, Kalaburagi, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_3_CLEAN_ADDR_DIST",
+        "query": "Hafthagumbad, Darga Road, Kalaburagi, Kalaburagi, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_5_NAME_LOCALITY_DIST",
+        "query": "National Kalaburagi, Hafthagumbad, Kalaburagi, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_6_NAME_DIST",
+        "query": "National Kalaburagi, Kalaburagi, Karnataka, India",
+        "candidates_returned": 2
+      }
+    ],
+    "geocoded_at": "2026-09-06T06:19:35.471699+00:00"
+  },
+  {
+    "centre_id": "tc-053",
+    "centre_name": "Hyderabad Karnataka Education Society's Industrial Training Institute, Kalaburagi",
+    "original_address": "PDA Engineering College Premises, Kalaburagi",
+    "district": "Kalaburagi",
+    "taluk": null,
+    "latitude": null,
+    "longitude": null,
+    "status": "FAILED",
+    "confidence": "LOW",
+    "provider": null,
+    "geocoding_query": "PDA Engineering College Premises, Kalaburagi, Karnataka, India",
+    "provider_result": null,
+    "validation_reason": "No matching results across all query passes",
+    "unresolved_category": "FAILED_NO_RESULT",
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "PDA Engineering College Premises, Kalaburagi, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_1B_LOCALITIES_DIST",
+        "query": "PDA Engineering College Premises, Kalaburagi, Kalaburagi, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_5_NAME_LOCALITY_DIST",
+        "query": "Hyderabad Karnataka Education 's Kalaburagi, PDA Engineering College Premises, Kalaburagi, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_6_NAME_DIST",
+        "query": "Hyderabad Karnataka Education 's Kalaburagi, Kalaburagi, Karnataka, India",
+        "candidates_returned": 0
+      }
+    ],
+    "geocoded_at": null
+  },
+  {
+    "centre_id": "tc-054",
+    "centre_name": "Ashrapree Industrail Training Institute Krishnapur, Hubli",
+    "original_address": "27/2A Krishnapur Jawahar Nagar Gudihal Road Old-Hubli, Hubli-580024",
+    "district": "Dharwad (Hubballi-Dharwad)",
+    "taluk": null,
+    "latitude": 15.335146,
+    "longitude": 75.128392,
+    "status": "SUCCESS",
+    "confidence": "HIGH",
+    "provider": "osm-nominatim",
+    "geocoding_query": "580024, Dharwad, Karnataka, India",
+    "provider_result": "580024, Hubballi Urban Taluku, Dharwad, Karnataka, India",
+    "validation_reason": "High confidence match (Score 90.0): Country=India (+25); State=Karnataka (+25); District matched (+20); PIN match 580024 (+15); Plausible POI (place/postcode) (+5)",
+    "unresolved_category": null,
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "A Krishnapur Jawahar Nagar Gudihal Road Old-Hubli, Dharwad, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_1B_LOCALITIES_DIST",
+        "query": "A Krishnapur Jawahar Nagar Gudihal Road Old-Hubli, Hubli, Dharwad, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_4_PIN",
+        "query": "580024, Dharwad, Karnataka, India",
+        "candidates_returned": 1
+      }
+    ],
+    "geocoded_at": "2026-09-06T06:19:35.472142+00:00"
+  },
+  {
+    "centre_id": "tc-055",
+    "centre_name": "SSK Hitavardhaka Sangh Y.T Miskin PVT. ITI. Hubli",
+    "original_address": "4th Cross, Mayur Nagar, Anand Nagar, Old Hubli, Hubli",
+    "district": "Dharwad (Hubballi-Dharwad)",
+    "taluk": null,
+    "latitude": 15.392901,
+    "longitude": 75.078684,
+    "status": "SUCCESS",
+    "confidence": "HIGH",
+    "provider": "osm-nominatim",
+    "geocoding_query": "th Cross, Dharwad, Karnataka, India",
+    "provider_result": "11th Cross Road, Navanagar, Amaragol, Hubballi Urban Taluku, Dharwad, Karnataka, 580025, India",
+    "validation_reason": "High confidence match (Score 75.0): Country=India (+25); State=Karnataka (+25); District matched (+20); Plausible POI (highway/residential) (+5)",
+    "unresolved_category": null,
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "th Cross, Dharwad, Karnataka, India",
+        "candidates_returned": 5
+      }
+    ],
+    "geocoded_at": "2026-09-06T06:19:35.472524+00:00"
+  },
+  {
+    "centre_id": "tc-056",
+    "centre_name": "Navalagund Taluka Shikshana Samsthe, Navalagund",
+    "original_address": "Navalagund",
+    "district": "Dharwad (Hubballi-Dharwad)",
+    "taluk": null,
+    "latitude": null,
+    "longitude": null,
+    "status": "FAILED",
+    "confidence": "LOW",
+    "provider": null,
+    "geocoding_query": "Navalagund, Dharwad, Karnataka, India",
+    "provider_result": null,
+    "validation_reason": "No matching results across all query passes",
+    "unresolved_category": "FAILED_NO_RESULT",
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Navalagund, Dharwad, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_5_NAME_LOCALITY_DIST",
+        "query": "Navalagund Taluka Shikshana Navalagund, Navalagund, Dharwad, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_6_NAME_DIST",
+        "query": "Navalagund Taluka Shikshana Navalagund, Dharwad, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_7_CLEAN_ADDR_STATE",
+        "query": "Navalagund, Karnataka, India",
+        "candidates_returned": 0
+      }
+    ],
+    "geocoded_at": null
+  },
+  {
+    "centre_id": "tc-057",
+    "centre_name": "Shri Guru Gorakshanath ITI Tarihal Road Gokul Hubli",
+    "original_address": "266/1 Tarihal Road Gokul Hubli-580026",
+    "district": "Dharwad (Hubballi-Dharwad)",
+    "taluk": null,
+    "latitude": 15.350742,
+    "longitude": 75.112109,
+    "status": "SUCCESS",
+    "confidence": "HIGH",
+    "provider": "osm-nominatim",
+    "geocoding_query": "580026, Dharwad, Karnataka, India",
+    "provider_result": "State Bank of India, Gokul Road / Airport Road, Dollars Colony, Padmaraj Nagar, Hubballi, Hubballi Urban Taluku, Dharwad, Karnataka, 580020, India",
+    "validation_reason": "High confidence match (Score 83.0): Country=India (+25); State=Karnataka (+25); District matched (+20); Token overlap ['gokul'] (+8); Plausible POI (amenity/bank) (+5)",
+    "unresolved_category": null,
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Tarihal Road Gokul Hubli, Dharwad, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_4_PIN",
+        "query": "580026, Dharwad, Karnataka, India",
+        "candidates_returned": 5
+      }
+    ],
+    "geocoded_at": "2026-09-06T06:19:35.473016+00:00"
+  },
+  {
+    "centre_id": "tc-058",
+    "centre_name": "Vijayanand Institute of Technology ITI Varur, Hubli",
+    "original_address": "Hubli",
+    "district": "Dharwad (Hubballi-Dharwad)",
+    "taluk": null,
+    "latitude": 15.351838,
+    "longitude": 75.137985,
+    "status": "SUCCESS",
+    "confidence": "HIGH",
+    "provider": "osm-nominatim",
+    "geocoding_query": "Hubli, Karnataka, India",
+    "provider_result": "Hubballi, Hubballi Urban Taluku, Dharwad, Karnataka, 580020, India",
+    "validation_reason": "High confidence match (Score 75.0): Country=India (+25); State=Karnataka (+25); District matched (+20); Plausible POI (place/city) (+5)",
+    "unresolved_category": null,
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Hubli, Dharwad, Karnataka, India",
+        "candidates_returned": 1
+      },
+      {
+        "pass": "PASS_5_NAME_LOCALITY_DIST",
+        "query": "Vijayanand Institute of Technology Varur Hubli, Hubli, Dharwad, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_6_NAME_DIST",
+        "query": "Vijayanand Institute of Technology Varur Hubli, Dharwad, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_7_CLEAN_ADDR_STATE",
+        "query": "Hubli, Karnataka, India",
+        "candidates_returned": 1
+      }
+    ],
+    "geocoded_at": "2026-09-06T06:19:35.473200+00:00"
+  },
+  {
+    "centre_id": "tc-059",
+    "centre_name": "Sai Sangam ITI, Hubli",
+    "original_address": "Sulya Road, Hubli",
+    "district": "Dharwad (Hubballi-Dharwad)",
+    "taluk": null,
+    "latitude": null,
+    "longitude": null,
+    "status": "FAILED",
+    "confidence": "LOW",
+    "provider": null,
+    "geocoding_query": "Sulya Road, Dharwad, Karnataka, India",
+    "provider_result": null,
+    "validation_reason": "No matching results across all query passes",
+    "unresolved_category": "FAILED_NO_RESULT",
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Sulya Road, Dharwad, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_1B_LOCALITIES_DIST",
+        "query": "Sulya Road, Hubli, Dharwad, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_5_NAME_LOCALITY_DIST",
+        "query": "Sai Sangam Hubli, Sulya Road, Dharwad, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_6_NAME_DIST",
+        "query": "Sai Sangam Hubli, Dharwad, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_7_CLEAN_ADDR_STATE",
+        "query": "Sulya Road, Hubli, Karnataka, India",
+        "candidates_returned": 0
+      }
+    ],
+    "geocoded_at": null
+  },
+  {
+    "centre_id": "tc-060",
+    "centre_name": "Sanmith ITI Dharwad",
+    "original_address": "Vivekanandanagar, Gopalagowda Extn.",
+    "district": "Dharwad (Hubballi-Dharwad)",
+    "taluk": null,
+    "latitude": null,
+    "longitude": null,
+    "status": "FAILED",
+    "confidence": "LOW",
+    "provider": null,
+    "geocoding_query": "Vivekanandanagar, Dharwad, Karnataka, India",
+    "provider_result": null,
+    "validation_reason": "No matching results across all query passes",
+    "unresolved_category": "FAILED_NO_RESULT",
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Vivekanandanagar, Dharwad, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_1B_LOCALITIES_DIST",
+        "query": "Vivekanandanagar, Gopalagowda Extn, Dharwad, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_5_NAME_LOCALITY_DIST",
+        "query": "Sanmith Dharwad, Vivekanandanagar, Dharwad, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_6_NAME_DIST",
+        "query": "Sanmith Dharwad, Dharwad, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_7_CLEAN_ADDR_STATE",
+        "query": "Vivekanandanagar, Gopalagowda Extn, Karnataka, India",
+        "candidates_returned": 0
+      }
+    ],
+    "geocoded_at": null
+  },
+  {
+    "centre_id": "tc-061",
+    "centre_name": "Jnanajyothi ITI Dharwad",
+    "original_address": "Jadhav Building, 1st Cross, Marata Colony",
+    "district": "Dharwad (Hubballi-Dharwad)",
+    "taluk": null,
+    "latitude": null,
+    "longitude": null,
+    "status": "FAILED",
+    "confidence": "LOW",
+    "provider": null,
+    "geocoding_query": "Jadhav Building, Dharwad, Karnataka, India",
+    "provider_result": null,
+    "validation_reason": "No matching results across all query passes",
+    "unresolved_category": "FAILED_NO_RESULT",
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Jadhav Building, Dharwad, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_1B_LOCALITIES_DIST",
+        "query": "Jadhav Building, st Cross, Dharwad, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_3_CLEAN_ADDR_DIST",
+        "query": "Jadhav Building, st Cross, Marata Colony, Dharwad, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_5_NAME_LOCALITY_DIST",
+        "query": "Jnanajyothi Dharwad, Jadhav Building, Dharwad, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_6_NAME_DIST",
+        "query": "Jnanajyothi Dharwad, Dharwad, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_7_CLEAN_ADDR_STATE",
+        "query": "Jadhav Building, st Cross, Marata Colony, Karnataka, India",
+        "candidates_returned": 0
+      }
+    ],
+    "geocoded_at": null
+  },
+  {
+    "centre_id": "tc-062",
+    "centre_name": "Most Rev. Dr. V P Dandin ITI Dharwad",
+    "original_address": "Near CSI College of Commerce, Dharwad",
+    "district": "Dharwad (Hubballi-Dharwad)",
+    "taluk": null,
+    "latitude": 15.456741,
+    "longitude": 75.008934,
+    "status": "SUCCESS",
+    "confidence": "HIGH",
+    "provider": "osm-nominatim",
+    "geocoding_query": "CSI College of Commerce, Dharwad, Karnataka, India",
+    "provider_result": "CSI College of Commerce, Pune Bangalore Road, Yalakki Shettar Colony, Gandhinagar, Dharwad, Dharawada taluku, Dharwad, Karnataka, 580001, India",
+    "validation_reason": "High confidence match (Score 90.0): Country=India (+25); State=Karnataka (+25); District matched (+20); Strong token overlap ['college', 'commerce', 'dharwad'] (+15); Plausible POI (amenity/college) (+5)",
+    "unresolved_category": null,
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "CSI College of Commerce, Dharwad, Karnataka, India",
+        "candidates_returned": 1
+      }
+    ],
+    "geocoded_at": "2026-09-06T06:19:35.473845+00:00"
+  },
+  {
+    "centre_id": "tc-063",
+    "centre_name": "Jeeveswara Shikehan Samithi ITI Hubli",
+    "original_address": "Channapeth Ganjipeth, Old Hubli",
+    "district": "Dharwad (Hubballi-Dharwad)",
+    "taluk": null,
+    "latitude": null,
+    "longitude": null,
+    "status": "FAILED",
+    "confidence": "LOW",
+    "provider": null,
+    "geocoding_query": "Channapeth Ganjipeth, Dharwad, Karnataka, India",
+    "provider_result": null,
+    "validation_reason": "No matching results across all query passes",
+    "unresolved_category": "FAILED_NO_RESULT",
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Channapeth Ganjipeth, Dharwad, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_1B_LOCALITIES_DIST",
+        "query": "Channapeth Ganjipeth, Old Hubli, Dharwad, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_5_NAME_LOCALITY_DIST",
+        "query": "Jeeveswara Shikehan Samithi Hubli, Channapeth Ganjipeth, Dharwad, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_6_NAME_DIST",
+        "query": "Jeeveswara Shikehan Samithi Hubli, Dharwad, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_7_CLEAN_ADDR_STATE",
+        "query": "Channapeth Ganjipeth, Old Hubli, Karnataka, India",
+        "candidates_returned": 0
+      }
+    ],
+    "geocoded_at": null
+  },
+  {
+    "centre_id": "tc-064",
+    "centre_name": "N W K R T C Industrial Training Institute, Hubli",
+    "original_address": "Gokul Road, Hubli",
+    "district": "Dharwad (Hubballi-Dharwad)",
+    "taluk": null,
+    "latitude": 15.354982,
+    "longitude": 75.088712,
+    "status": "SUCCESS",
+    "confidence": "HIGH",
+    "provider": "osm-nominatim",
+    "geocoding_query": "Gokul Road, Dharwad, Karnataka, India",
+    "provider_result": "Gokul Road / Airport Road, Nehru Nagar, Padmaraj Nagar, Hubballi, Hubballi Urban Taluku, Dharwad, Karnataka, 580020, India",
+    "validation_reason": "High confidence match (Score 83.0): Country=India (+25); State=Karnataka (+25); District matched (+20); Token overlap ['gokul'] (+8); Plausible POI (highway/secondary) (+5)",
+    "unresolved_category": null,
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Gokul Road, Dharwad, Karnataka, India",
+        "candidates_returned": 5
+      }
+    ],
+    "geocoded_at": "2026-09-06T06:19:35.474373+00:00"
+  },
+  {
+    "centre_id": "tc-065",
+    "centre_name": "Sri Dharmastala Manjunathaeshwara Pvt. ITI Sattur Dharwad",
+    "original_address": "Dhavalagiri, Sattur P.B.Road",
+    "district": "Dharwad (Hubballi-Dharwad)",
+    "taluk": null,
+    "latitude": null,
+    "longitude": null,
+    "status": "FAILED",
+    "confidence": "LOW",
+    "provider": null,
+    "geocoding_query": "Dhavalagiri, Dharwad, Karnataka, India",
+    "provider_result": null,
+    "validation_reason": "No matching results across all query passes",
+    "unresolved_category": "FAILED_NO_RESULT",
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Dhavalagiri, Dharwad, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_1B_LOCALITIES_DIST",
+        "query": "Dhavalagiri, Sattur P.B.Road, Dharwad, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_5_NAME_LOCALITY_DIST",
+        "query": "Sri Dharmastala Manjunathaeshwara Sattur Dharwad, Dhavalagiri, Dharwad, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_6_NAME_DIST",
+        "query": "Sri Dharmastala Manjunathaeshwara Sattur Dharwad, Dharwad, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_7_CLEAN_ADDR_STATE",
+        "query": "Dhavalagiri, Sattur P.B.Road, Karnataka, India",
+        "candidates_returned": 0
+      }
+    ],
+    "geocoded_at": null
+  },
+  {
+    "centre_id": "tc-066",
+    "centre_name": "Shivanand ITI Dharwad",
+    "original_address": "At Dharwad",
+    "district": "Dharwad (Hubballi-Dharwad)",
+    "taluk": null,
+    "latitude": 15.45405,
+    "longitude": 75.006652,
+    "status": "SUCCESS",
+    "confidence": "HIGH",
+    "provider": "osm-nominatim",
+    "geocoding_query": "At Dharwad, Dharwad, Karnataka, India",
+    "provider_result": "Dharwad, Dharawada taluku, Dharwad, Karnataka, 580001, India",
+    "validation_reason": "High confidence match (Score 83.0): Country=India (+25); State=Karnataka (+25); District matched (+20); Token overlap ['dharwad'] (+8); Plausible POI (place/city) (+5)",
+    "unresolved_category": null,
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "At Dharwad, Dharwad, Karnataka, India",
+        "candidates_returned": 1
+      }
+    ],
+    "geocoded_at": "2026-09-06T06:19:35.474718+00:00"
+  },
+  {
+    "centre_id": "tc-067",
+    "centre_name": "Sai Industrial Training Institute, Dharwad",
+    "original_address": "Near Basava Colony Opp. Agriculture Colony University",
+    "district": "Dharwad (Hubballi-Dharwad)",
+    "taluk": null,
+    "latitude": 15.3629,
+    "longitude": 75.121709,
+    "status": "SUCCESS",
+    "confidence": "HIGH",
+    "provider": "osm-nominatim",
+    "geocoding_query": "Sai Dharwad, Dharwad, Karnataka, India",
+    "provider_result": "State Bank of India, Shri Gangaram. M. Navale Road, Sai Nagar, Sirur Park, Hubballi, Hubballi Urban Taluku, Dharwad, Karnataka, 580020, India",
+    "validation_reason": "High confidence match (Score 83.0): Country=India (+25); State=Karnataka (+25); District matched (+20); Token overlap ['dharwad'] (+8); Plausible POI (amenity/atm) (+5)",
+    "unresolved_category": null,
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Basava Colony . Agriculture Colony University, Dharwad, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_5_NAME_LOCALITY_DIST",
+        "query": "Sai Dharwad, Basava Colony . Agriculture Colony University, Dharwad, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_6_NAME_DIST",
+        "query": "Sai Dharwad, Dharwad, Karnataka, India",
+        "candidates_returned": 3
+      }
+    ],
+    "geocoded_at": "2026-09-06T06:19:35.475065+00:00"
+  },
+  {
+    "centre_id": "tc-068",
+    "centre_name": "SNVVS Private ITI, Samping Nagar Dharwad",
+    "original_address": "Adichunchanagiri Mutt Samping Nagar",
+    "district": "Dharwad (Hubballi-Dharwad)",
+    "taluk": null,
+    "latitude": null,
+    "longitude": null,
+    "status": "FAILED",
+    "confidence": "LOW",
+    "provider": null,
+    "geocoding_query": "Adichunchanagiri Mutt Samping Nagar, Dharwad, Karnataka, India",
+    "provider_result": null,
+    "validation_reason": "No matching results across all query passes",
+    "unresolved_category": "FAILED_NO_RESULT",
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Adichunchanagiri Mutt Samping Nagar, Dharwad, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_5_NAME_LOCALITY_DIST",
+        "query": "SNVVS Samping Nagar Dharwad, Adichunchanagiri Mutt Samping Nagar, Dharwad, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_6_NAME_DIST",
+        "query": "SNVVS Samping Nagar Dharwad, Dharwad, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_7_CLEAN_ADDR_STATE",
+        "query": "Adichunchanagiri Mutt Samping Nagar, Karnataka, India",
+        "candidates_returned": 0
+      }
+    ],
+    "geocoded_at": null
+  },
+  {
+    "centre_id": "tc-069",
+    "centre_name": "Vijayanagara Industrial Training Institute",
+    "original_address": "Kamalapura Hospet Tq. Bellary Dt.",
+    "district": "Ballari",
+    "taluk": null,
+    "latitude": null,
+    "longitude": null,
+    "status": "AMBIGUOUS",
+    "confidence": "AMBIGUOUS",
+    "provider": "osm-nominatim",
+    "geocoding_query": "Vijayanagara, Ballari, Karnataka, India",
+    "provider_result": "Vijayanagara Sri Krishnadevaraya University, VSK University Road, Cantonment, Ballari, Bellary taluk, Ballari, Karnataka, 583275, India",
+    "validation_reason": "Multiple distant candidates (>25km) in PASS_6_NAME_DIST",
+    "unresolved_category": "AMBIGUOUS",
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Kamalapura Hospet . Bellary, Ballari, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_5_NAME_LOCALITY_DIST",
+        "query": "Vijayanagara, Kamalapura Hospet . Bellary, Ballari, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_6_NAME_DIST",
+        "query": "Vijayanagara, Ballari, Karnataka, India",
+        "candidates_returned": 4
+      }
+    ],
+    "geocoded_at": null
+  },
+  {
+    "centre_id": "tc-070",
+    "centre_name": "TMAE Societys Sri Thimmaiah Shetty ITI Hagaribommanahalli",
+    "original_address": "Kadalabalu Road Ramanagara Hagaribommanahalli",
+    "district": "Ballari",
+    "taluk": null,
+    "latitude": null,
+    "longitude": null,
+    "status": "FAILED",
+    "confidence": "LOW",
+    "provider": null,
+    "geocoding_query": "Kadalabalu Road Ramanagara Hagaribommanahalli, Ballari, Karnataka, India",
+    "provider_result": null,
+    "validation_reason": "No matching results across all query passes",
+    "unresolved_category": "FAILED_NO_RESULT",
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Kadalabalu Road Ramanagara Hagaribommanahalli, Ballari, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_5_NAME_LOCALITY_DIST",
+        "query": "TMAE Societys Sri Thimmaiah Shetty Hagaribommanahalli, Kadalabalu Road Ramanagara Hagaribommanahalli, Ballari, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_6_NAME_DIST",
+        "query": "TMAE Societys Sri Thimmaiah Shetty Hagaribommanahalli, Ballari, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_7_CLEAN_ADDR_STATE",
+        "query": "Kadalabalu Road Ramanagara Hagaribommanahalli, Karnataka, India",
+        "candidates_returned": 0
+      }
+    ],
+    "geocoded_at": null
+  },
+  {
+    "centre_id": "tc-071",
+    "centre_name": "Sree Jagadguru Kotturswamy ITI, Siruguppa",
+    "original_address": "Bellary Road, Siruguppa",
+    "district": "Ballari",
+    "taluk": null,
+    "latitude": 15.067383,
+    "longitude": 77.035399,
+    "status": "SUCCESS",
+    "confidence": "HIGH",
+    "provider": "osm-nominatim",
+    "geocoding_query": "Bellary Road, Ballari, Karnataka, India",
+    "provider_result": "Bellary Road, Kammarachedu, Bellary taluk, Ballari, Karnataka, India",
+    "validation_reason": "High confidence match (Score 83.0): Country=India (+25); State=Karnataka (+25); District matched (+20); Token overlap ['bellary'] (+8); Plausible POI (highway/primary) (+5)",
+    "unresolved_category": null,
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Bellary Road, Ballari, Karnataka, India",
+        "candidates_returned": 3
+      }
+    ],
+    "geocoded_at": "2026-09-06T06:19:35.475933+00:00"
+  },
+  {
+    "centre_id": "tc-072",
+    "centre_name": "S.P.G.U Education Society ITI",
+    "original_address": "Kuduthini",
+    "district": "Ballari",
+    "taluk": null,
+    "latitude": 15.198551,
+    "longitude": 76.759428,
+    "status": "SUCCESS",
+    "confidence": "HIGH",
+    "provider": "osm-nominatim",
+    "geocoding_query": "Kuduthini, Ballari, Karnataka, India",
+    "provider_result": "Kuduthini PHC, NH67, Kudatini, Bellary taluk, Ballari, Karnataka, 583115, India",
+    "validation_reason": "High confidence match (Score 78.0): Country=India (+25); State=Karnataka (+25); District matched (+20); Token overlap ['kuduthini'] (+8)",
+    "unresolved_category": null,
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Kuduthini, Ballari, Karnataka, India",
+        "candidates_returned": 1
+      }
+    ],
+    "geocoded_at": "2026-09-06T06:19:35.476105+00:00"
+  },
+  {
+    "centre_id": "tc-073",
+    "centre_name": "Yerriswamy Education Trust ITC",
+    "original_address": "Mullangi Sanjeevappa Street, Bellary",
+    "district": "Ballari",
+    "taluk": null,
+    "latitude": null,
+    "longitude": null,
+    "status": "FAILED",
+    "confidence": "LOW",
+    "provider": null,
+    "geocoding_query": "Mullangi Sanjeevappa Street, Ballari, Karnataka, India",
+    "provider_result": null,
+    "validation_reason": "No matching results across all query passes",
+    "unresolved_category": "FAILED_NO_RESULT",
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Mullangi Sanjeevappa Street, Ballari, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_1B_LOCALITIES_DIST",
+        "query": "Mullangi Sanjeevappa Street, Bellary, Ballari, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_5_NAME_LOCALITY_DIST",
+        "query": "Yerriswamy, Mullangi Sanjeevappa Street, Ballari, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_6_NAME_DIST",
+        "query": "Yerriswamy, Ballari, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_7_CLEAN_ADDR_STATE",
+        "query": "Mullangi Sanjeevappa Street, Bellary, Karnataka, India",
+        "candidates_returned": 0
+      }
+    ],
+    "geocoded_at": null
+  },
+  {
+    "centre_id": "tc-074",
+    "centre_name": "Neelamma Basaveshwara Industrial Training Centre Bellary",
+    "original_address": "Mullangi Sanjeevappa Street, Bellary",
+    "district": "Ballari",
+    "taluk": null,
+    "latitude": null,
+    "longitude": null,
+    "status": "FAILED",
+    "confidence": "LOW",
+    "provider": null,
+    "geocoding_query": "Mullangi Sanjeevappa Street, Ballari, Karnataka, India",
+    "provider_result": null,
+    "validation_reason": "No matching results across all query passes",
+    "unresolved_category": "FAILED_NO_RESULT",
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Mullangi Sanjeevappa Street, Ballari, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_1B_LOCALITIES_DIST",
+        "query": "Mullangi Sanjeevappa Street, Bellary, Ballari, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_5_NAME_LOCALITY_DIST",
+        "query": "Neelamma Basaveshwara Bellary, Mullangi Sanjeevappa Street, Ballari, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_6_NAME_DIST",
+        "query": "Neelamma Basaveshwara Bellary, Ballari, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_7_CLEAN_ADDR_STATE",
+        "query": "Mullangi Sanjeevappa Street, Bellary, Karnataka, India",
+        "candidates_returned": 0
+      }
+    ],
+    "geocoded_at": null
+  },
+  {
+    "centre_id": "tc-075",
+    "centre_name": "Sri Gurukottureshwara Rural ITI, Emmiganur",
+    "original_address": "Emmiganur",
+    "district": "Ballari",
+    "taluk": null,
+    "latitude": null,
+    "longitude": null,
+    "status": "FAILED",
+    "confidence": "LOW",
+    "provider": null,
+    "geocoding_query": "Emmiganur, Ballari, Karnataka, India",
+    "provider_result": null,
+    "validation_reason": "No matching results across all query passes",
+    "unresolved_category": "FAILED_NO_RESULT",
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Emmiganur, Ballari, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_5_NAME_LOCALITY_DIST",
+        "query": "Sri Gurukottureshwara Rural Emmiganur, Emmiganur, Ballari, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_6_NAME_DIST",
+        "query": "Sri Gurukottureshwara Rural Emmiganur, Ballari, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_7_CLEAN_ADDR_STATE",
+        "query": "Emmiganur, Karnataka, India",
+        "candidates_returned": 0
+      }
+    ],
+    "geocoded_at": null
+  },
+  {
+    "centre_id": "tc-076",
+    "centre_name": "Srikari I.T.C., Ranipet, Hospet, Bellary",
+    "original_address": "Hospet",
+    "district": "Ballari",
+    "taluk": null,
+    "latitude": 15.273652,
+    "longitude": 76.385619,
+    "status": "SUCCESS",
+    "confidence": "HIGH",
+    "provider": "osm-nominatim",
+    "geocoding_query": "Hospet, Ballari, Karnataka, India",
+    "provider_result": "K.L.S Hospital - Hospet, Bellary - Hubli Road, Amaravati, Hosapete, Hosapete taluk, Ballari, Karnataka, 583201, India",
+    "validation_reason": "High confidence match (Score 78.0): Country=India (+25); State=Karnataka (+25); District matched (+20); Token overlap ['bellary', 'hospet'] (+8)",
+    "unresolved_category": null,
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Hospet, Ballari, Karnataka, India",
+        "candidates_returned": 2
+      }
+    ],
+    "geocoded_at": "2026-09-06T06:19:35.476697+00:00"
+  },
+  {
+    "centre_id": "tc-077",
+    "centre_name": "T M A E S Industrial Training Institute Hospet",
+    "original_address": "Bellary Road Hospet",
+    "district": "Ballari",
+    "taluk": null,
+    "latitude": 15.268583,
+    "longitude": 76.404893,
+    "status": "SUCCESS",
+    "confidence": "HIGH",
+    "provider": "osm-nominatim",
+    "geocoding_query": "Bellary Road Hospet, Karnataka, India",
+    "provider_result": "Bellary Bypass Road, Anantashayanagudi, Hosapete, Hosapete taluk, Vijayanagara, Karnataka, 583200, India",
+    "validation_reason": "High confidence match (Score 83.0): Country=India (+25); State=Karnataka (+25); District matched (+20); Token overlap ['bellary'] (+8); Plausible POI (highway/tertiary) (+5)",
+    "unresolved_category": null,
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Bellary Road Hospet, Ballari, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_5_NAME_LOCALITY_DIST",
+        "query": "T M A E S Hospet, Bellary Road Hospet, Ballari, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_6_NAME_DIST",
+        "query": "T M A E S Hospet, Ballari, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_7_CLEAN_ADDR_STATE",
+        "query": "Bellary Road Hospet, Karnataka, India",
+        "candidates_returned": 4
+      }
+    ],
+    "geocoded_at": "2026-09-06T06:19:35.476947+00:00"
+  },
+  {
+    "centre_id": "tc-078",
+    "centre_name": "Vishweshwaraiya Private ITI Hosapete",
+    "original_address": "Sandur Road, Hosapete",
+    "district": "Ballari",
+    "taluk": null,
+    "latitude": 14.982649,
+    "longitude": 76.518232,
+    "status": "SUCCESS",
+    "confidence": "HIGH",
+    "provider": "osm-nominatim",
+    "geocoding_query": "Sandur Road, Ballari, Karnataka, India",
+    "provider_result": "Bommaghatta Sandur Road, Ankammanahalu, Sanduru taluk, Ballari, Karnataka, 583119, India",
+    "validation_reason": "High confidence match (Score 83.0): Country=India (+25); State=Karnataka (+25); District matched (+20); Token overlap ['sandur'] (+8); Plausible POI (highway/tertiary) (+5)",
+    "unresolved_category": null,
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Sandur Road, Ballari, Karnataka, India",
+        "candidates_returned": 2
+      }
+    ],
+    "geocoded_at": "2026-09-06T06:19:35.477140+00:00"
+  },
+  {
+    "centre_id": "tc-079",
+    "centre_name": "Dr. B.R. Ambedkar Industrial Training Institute Hospet",
+    "original_address": "Anantha Shayana Gudi Hospet",
+    "district": "Ballari",
+    "taluk": null,
+    "latitude": null,
+    "longitude": null,
+    "status": "FAILED",
+    "confidence": "LOW",
+    "provider": null,
+    "geocoding_query": "Anantha Shayana Gudi Hospet, Ballari, Karnataka, India",
+    "provider_result": null,
+    "validation_reason": "No matching results across all query passes",
+    "unresolved_category": "FAILED_NO_RESULT",
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Anantha Shayana Gudi Hospet, Ballari, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_5_NAME_LOCALITY_DIST",
+        "query": "Dr B R Ambedkar Hospet, Anantha Shayana Gudi Hospet, Ballari, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_6_NAME_DIST",
+        "query": "Dr B R Ambedkar Hospet, Ballari, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_7_CLEAN_ADDR_STATE",
+        "query": "Anantha Shayana Gudi Hospet, Karnataka, India",
+        "candidates_returned": 0
+      }
+    ],
+    "geocoded_at": null
+  },
+  {
+    "centre_id": "tc-080",
+    "centre_name": "Jagadguru Kotturswamy ITI, Bellary",
+    "original_address": "Ganesh Gudi Beedi, Bellary",
+    "district": "Ballari",
+    "taluk": null,
+    "latitude": null,
+    "longitude": null,
+    "status": "FAILED",
+    "confidence": "LOW",
+    "provider": null,
+    "geocoding_query": "Ganesh Gudi Beedi, Ballari, Karnataka, India",
+    "provider_result": null,
+    "validation_reason": "No matching results across all query passes",
+    "unresolved_category": "FAILED_NO_RESULT",
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Ganesh Gudi Beedi, Ballari, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_1B_LOCALITIES_DIST",
+        "query": "Ganesh Gudi Beedi, Bellary, Ballari, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_5_NAME_LOCALITY_DIST",
+        "query": "Jagadguru Kotturswamy Bellary, Ganesh Gudi Beedi, Ballari, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_6_NAME_DIST",
+        "query": "Jagadguru Kotturswamy Bellary, Ballari, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_7_CLEAN_ADDR_STATE",
+        "query": "Ganesh Gudi Beedi, Bellary, Karnataka, India",
+        "candidates_returned": 0
+      }
+    ],
+    "geocoded_at": null
+  },
+  {
+    "centre_id": "tc-081",
+    "centre_name": "Sri Hanumanthappa ITI Mariyammanahalli",
+    "original_address": "Mariyammanahalli, Hospet TQ.",
+    "district": "Ballari",
+    "taluk": null,
+    "latitude": 15.161115,
+    "longitude": 76.358454,
+    "status": "SUCCESS",
+    "confidence": "HIGH",
+    "provider": "osm-nominatim",
+    "geocoding_query": "Mariyammanahalli, Hospet, Karnataka, India",
+    "provider_result": "Primary Health Centre, Mariyammanahalli, Hosapete - Harihara Road, Mariyammanahalli, Hosapete taluk, Vijayanagara, Karnataka, 583222, India",
+    "validation_reason": "High confidence match (Score 78.0): Country=India (+25); State=Karnataka (+25); District matched (+20); Token overlap ['mariyammanahalli'] (+8)",
+    "unresolved_category": null,
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Mariyammanahalli, Ballari, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_1B_LOCALITIES_DIST",
+        "query": "Mariyammanahalli, Hospet, Ballari, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_5_NAME_LOCALITY_DIST",
+        "query": "Sri Hanumanthappa Mariyammanahalli, Mariyammanahalli, Ballari, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_6_NAME_DIST",
+        "query": "Sri Hanumanthappa Mariyammanahalli, Ballari, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_7_CLEAN_ADDR_STATE",
+        "query": "Mariyammanahalli, Hospet, Karnataka, India",
+        "candidates_returned": 1
+      }
+    ],
+    "geocoded_at": "2026-09-06T06:19:35.477604+00:00"
+  },
+  {
+    "centre_id": "tc-082",
+    "centre_name": "Sri Bharath Industrial Training Centre",
+    "original_address": "Hosa Daroji Post Tq. Sandur",
+    "district": "Ballari",
+    "taluk": null,
+    "latitude": null,
+    "longitude": null,
+    "status": "FAILED",
+    "confidence": "LOW",
+    "provider": null,
+    "geocoding_query": "Hosa Daroji Post . Sandur, Ballari, Karnataka, India",
+    "provider_result": null,
+    "validation_reason": "No matching results across all query passes",
+    "unresolved_category": "FAILED_NO_RESULT",
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Hosa Daroji Post . Sandur, Ballari, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_5_NAME_LOCALITY_DIST",
+        "query": "Sri Bharath, Hosa Daroji Post . Sandur, Ballari, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_6_NAME_DIST",
+        "query": "Sri Bharath, Ballari, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_7_CLEAN_ADDR_STATE",
+        "query": "Hosa Daroji Post . Sandur, Karnataka, India",
+        "candidates_returned": 0
+      }
+    ],
+    "geocoded_at": null
+  },
+  {
+    "centre_id": "tc-083",
+    "centre_name": "Shri Kumar Swamy ITI Sandur, Bellary",
+    "original_address": "Sandur, Sandur (T)",
+    "district": "Ballari",
+    "taluk": null,
+    "latitude": 15.083275,
+    "longitude": 76.543411,
+    "status": "SUCCESS",
+    "confidence": "HIGH",
+    "provider": "osm-nominatim",
+    "geocoding_query": "Sandur, Ballari, Karnataka, India",
+    "provider_result": "Sanduru, Sanduru taluk, Ballari, Karnataka, 583119, India",
+    "validation_reason": "High confidence match (Score 75.0): Country=India (+25); State=Karnataka (+25); District matched (+20); Plausible POI (place/town) (+5)",
+    "unresolved_category": null,
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Sandur, Ballari, Karnataka, India",
+        "candidates_returned": 1
+      }
+    ],
+    "geocoded_at": "2026-09-06T06:19:35.477913+00:00"
+  },
+  {
+    "centre_id": "tc-084",
+    "centre_name": "Sri Veerabadreshwara ITI, Shirur",
+    "original_address": "Shirur",
+    "district": "Bagalkot",
+    "taluk": null,
+    "latitude": 16.158549,
+    "longitude": 75.669537,
+    "status": "SUCCESS",
+    "confidence": "HIGH",
+    "provider": "osm-nominatim",
+    "geocoding_query": "Shirur, Bagalkot, Karnataka, India",
+    "provider_result": "Shirur Memorial Hospital, SH57, Sulikeri, Bagalakote taluk, Bagalkote, Karnataka, 587103, India",
+    "validation_reason": "High confidence match (Score 78.0): Country=India (+25); State=Karnataka (+25); District matched (+20); Token overlap ['shirur'] (+8)",
+    "unresolved_category": null,
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Shirur, Bagalkot, Karnataka, India",
+        "candidates_returned": 1
+      }
+    ],
+    "geocoded_at": "2026-09-06T06:19:35.478046+00:00"
+  },
+  {
+    "centre_id": "tc-085",
+    "centre_name": "Shrimann Madhwacharya Private Industrial Training Institute, Bagalkot",
+    "original_address": "Badami Road Near Old APMC Bagalkot",
+    "district": "Bagalkot",
+    "taluk": null,
+    "latitude": null,
+    "longitude": null,
+    "status": "FAILED",
+    "confidence": "LOW",
+    "provider": null,
+    "geocoding_query": "Badami Road Old APMC Bagalkot, Bagalkot, Karnataka, India",
+    "provider_result": null,
+    "validation_reason": "No matching results across all query passes",
+    "unresolved_category": "FAILED_NO_RESULT",
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Badami Road Old APMC Bagalkot, Bagalkot, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_5_NAME_LOCALITY_DIST",
+        "query": "Shrimann Madhwacharya Private Bagalkot, Badami Road Old APMC Bagalkot, Bagalkot, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_6_NAME_DIST",
+        "query": "Shrimann Madhwacharya Private Bagalkot, Bagalkot, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_7_CLEAN_ADDR_STATE",
+        "query": "Badami Road Old APMC Bagalkot, Karnataka, India",
+        "candidates_returned": 0
+      }
+    ],
+    "geocoded_at": null
+  },
+  {
+    "centre_id": "tc-086",
+    "centre_name": "Vishwa Bharti ITI Telasang",
+    "original_address": "Tel Sang Athani T.Q",
+    "district": "Belagavi",
+    "taluk": null,
+    "latitude": null,
+    "longitude": null,
+    "status": "FAILED",
+    "confidence": "LOW",
+    "provider": null,
+    "geocoding_query": "Tel Sang Athani T.Q, Belagavi, Karnataka, India",
+    "provider_result": null,
+    "validation_reason": "No matching results across all query passes",
+    "unresolved_category": "FAILED_NO_RESULT",
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Tel Sang Athani T.Q, Belagavi, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_5_NAME_LOCALITY_DIST",
+        "query": "Vishwa Bharti Telasang, Tel Sang Athani T.Q, Belagavi, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_6_NAME_DIST",
+        "query": "Vishwa Bharti Telasang, Belagavi, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_7_CLEAN_ADDR_STATE",
+        "query": "Tel Sang Athani T.Q, Karnataka, India",
+        "candidates_returned": 0
+      }
+    ],
+    "geocoded_at": null
+  },
+  {
+    "centre_id": "tc-087",
+    "centre_name": "Komalanna Doddanannavar Bharatesh Pvt ITI, Belgaum",
+    "original_address": "Basavan Kudachi Extension Belgaum",
+    "district": "Belagavi",
+    "taluk": null,
+    "latitude": null,
+    "longitude": null,
+    "status": "FAILED",
+    "confidence": "LOW",
+    "provider": null,
+    "geocoding_query": "Basavan Kudachi Extension Belgaum, Belagavi, Karnataka, India",
+    "provider_result": null,
+    "validation_reason": "No matching results across all query passes",
+    "unresolved_category": "FAILED_NO_RESULT",
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Basavan Kudachi Extension Belgaum, Belagavi, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_5_NAME_LOCALITY_DIST",
+        "query": "Komalanna Doddanannavar Bharatesh Belgaum, Basavan Kudachi Extension Belgaum, Belagavi, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_6_NAME_DIST",
+        "query": "Komalanna Doddanannavar Bharatesh Belgaum, Belagavi, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_7_CLEAN_ADDR_STATE",
+        "query": "Basavan Kudachi Extension Belgaum, Karnataka, India",
+        "candidates_returned": 0
+      }
+    ],
+    "geocoded_at": null
+  },
+  {
+    "centre_id": "tc-088",
+    "centre_name": "Vidyaniketan Rural I.T.I. Manhalli",
+    "original_address": "Manhalli Tq & Dist Bidar",
+    "district": "Bidar",
+    "taluk": null,
+    "latitude": 17.762798,
+    "longitude": 77.504546,
+    "status": "SUCCESS",
+    "confidence": "HIGH",
+    "provider": "osm-nominatim",
+    "geocoding_query": "Manhalli & Bidar, Bidar, Karnataka, India",
+    "provider_result": "Manhalli Primary Health Centre, SH122, Mannalli, Sindola, Bidar taluku, Bidar, Karnataka, 585403, India",
+    "validation_reason": "High confidence match (Score 78.0): Country=India (+25); State=Karnataka (+25); District matched (+20); Token overlap ['bidar', 'manhalli'] (+8)",
+    "unresolved_category": null,
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Manhalli & Bidar, Bidar, Karnataka, India",
+        "candidates_returned": 1
+      }
+    ],
+    "geocoded_at": "2026-09-06T06:19:35.478624+00:00"
+  },
+  {
+    "centre_id": "tc-089",
+    "centre_name": "Hind I.T.I. Mahadev Complex Udgir Road Shiv Nagar Bidar",
+    "original_address": "Near, Papnash Gate Mahadev Complex Udgir Road Bidar",
+    "district": "Bidar",
+    "taluk": null,
+    "latitude": null,
+    "longitude": null,
+    "status": "FAILED",
+    "confidence": "LOW",
+    "provider": null,
+    "geocoding_query": "Papnash Gate Mahadev Complex Udgir Road Bidar, Bidar, Karnataka, India",
+    "provider_result": null,
+    "validation_reason": "No matching results across all query passes",
+    "unresolved_category": "FAILED_NO_RESULT",
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Papnash Gate Mahadev Complex Udgir Road Bidar, Bidar, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_5_NAME_LOCALITY_DIST",
+        "query": "Hind Mahadev Complex Udgir Road Shiv Nagar Bidar, Papnash Gate Mahadev Complex Udgir Road Bidar, Bidar, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_6_NAME_DIST",
+        "query": "Hind Mahadev Complex Udgir Road Shiv Nagar Bidar, Bidar, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_7_CLEAN_ADDR_STATE",
+        "query": "Papnash Gate Mahadev Complex Udgir Road Bidar, Karnataka, India",
+        "candidates_returned": 0
+      }
+    ],
+    "geocoded_at": null
+  },
+  {
+    "centre_id": "tc-090",
+    "centre_name": "Shri Sanganabasaveshwar Private industrial Training institute Lachyan",
+    "original_address": "Post Lachyan Tq Indi",
+    "district": "Vijayapura",
+    "taluk": null,
+    "latitude": null,
+    "longitude": null,
+    "status": "FAILED",
+    "confidence": "LOW",
+    "provider": null,
+    "geocoding_query": "Post Lachyan Indi, Vijayapura, Karnataka, India",
+    "provider_result": null,
+    "validation_reason": "No matching results across all query passes",
+    "unresolved_category": "FAILED_NO_RESULT",
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Post Lachyan Indi, Vijayapura, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_5_NAME_LOCALITY_DIST",
+        "query": "Shri Sanganabasaveshwar Private Lachyan, Post Lachyan Indi, Vijayapura, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_6_NAME_DIST",
+        "query": "Shri Sanganabasaveshwar Private Lachyan, Vijayapura, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_7_CLEAN_ADDR_STATE",
+        "query": "Post Lachyan Indi, Karnataka, India",
+        "candidates_returned": 0
+      }
+    ],
+    "geocoded_at": null
+  },
+  {
+    "centre_id": "tc-091",
+    "centre_name": "Karnataka ITI, Sindhagi",
+    "original_address": "Sindhagi",
+    "district": "Vijayapura",
+    "taluk": null,
+    "latitude": null,
+    "longitude": null,
+    "status": "FAILED",
+    "confidence": "LOW",
+    "provider": null,
+    "geocoding_query": "Sindhagi, Vijayapura, Karnataka, India",
+    "provider_result": null,
+    "validation_reason": "No matching results across all query passes",
+    "unresolved_category": "FAILED_NO_RESULT",
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Sindhagi, Vijayapura, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_5_NAME_LOCALITY_DIST",
+        "query": "Karnataka Sindhagi, Sindhagi, Vijayapura, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_6_NAME_DIST",
+        "query": "Karnataka Sindhagi, Vijayapura, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_7_CLEAN_ADDR_STATE",
+        "query": "Sindhagi, Karnataka, India",
+        "candidates_returned": 0
+      }
+    ],
+    "geocoded_at": null
+  },
+  {
+    "centre_id": "tc-092",
+    "centre_name": "JSS Private Industrial Training Institute",
+    "original_address": "Main Road, Mariyala",
+    "district": "Chamarajanagar",
+    "taluk": null,
+    "latitude": 11.929324,
+    "longitude": 76.942012,
+    "status": "SUCCESS",
+    "confidence": "HIGH",
+    "provider": "osm-nominatim",
+    "geocoding_query": "Main Road, Chamarajanagar, Karnataka, India",
+    "provider_result": "1st Main Road, Chamarajanagara, Chamarajanagara taluk, Chamarajanagar, Karnataka, 571313, India",
+    "validation_reason": "High confidence match (Score 75.0): Country=India (+25); State=Karnataka (+25); District matched (+20); Plausible POI (highway/residential) (+5)",
+    "unresolved_category": null,
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Main Road, Chamarajanagar, Karnataka, India",
+        "candidates_returned": 4
+      }
+    ],
+    "geocoded_at": "2026-09-06T06:19:35.479267+00:00"
+  },
+  {
+    "centre_id": "tc-093",
+    "centre_name": "Sri Vivekananda Industrial Training Institute",
+    "original_address": "B R Hills Yalandur",
+    "district": "Chamarajanagar",
+    "taluk": null,
+    "latitude": null,
+    "longitude": null,
+    "status": "FAILED",
+    "confidence": "LOW",
+    "provider": null,
+    "geocoding_query": "B R Hills Yalandur, Chamarajanagar, Karnataka, India",
+    "provider_result": null,
+    "validation_reason": "No matching results across all query passes",
+    "unresolved_category": "FAILED_NO_RESULT",
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "B R Hills Yalandur, Chamarajanagar, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_5_NAME_LOCALITY_DIST",
+        "query": "Sri Vivekananda, B R Hills Yalandur, Chamarajanagar, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_6_NAME_DIST",
+        "query": "Sri Vivekananda, Chamarajanagar, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_7_CLEAN_ADDR_STATE",
+        "query": "B R Hills Yalandur, Karnataka, India",
+        "candidates_returned": 0
+      }
+    ],
+    "geocoded_at": null
+  },
+  {
+    "centre_id": "tc-094",
+    "centre_name": "Sir M. Visveswaraiah Industrial Training Institute",
+    "original_address": "C.V.V.Campus",
+    "district": "Chikkaballapura",
+    "taluk": null,
+    "latitude": null,
+    "longitude": null,
+    "status": "FAILED",
+    "confidence": "LOW",
+    "provider": null,
+    "geocoding_query": "C.V.V.Campus, Chikkaballapura, Karnataka, India",
+    "provider_result": null,
+    "validation_reason": "No matching results across all query passes",
+    "unresolved_category": "FAILED_NO_RESULT",
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "C.V.V.Campus, Chikkaballapura, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_5_NAME_LOCALITY_DIST",
+        "query": "Sir M Visveswaraiah, C.V.V.Campus, Chikkaballapura, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_6_NAME_DIST",
+        "query": "Sir M Visveswaraiah, Chikkaballapura, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_7_CLEAN_ADDR_STATE",
+        "query": "C.V.V.Campus, Karnataka, India",
+        "candidates_returned": 0
+      }
+    ],
+    "geocoded_at": null
+  },
+  {
+    "centre_id": "tc-095",
+    "centre_name": "S.R.S Industrial Training Centre Begepalli Town",
+    "original_address": "Kotha Palli Road Bagepalli",
+    "district": "Chikkaballapura",
+    "taluk": null,
+    "latitude": null,
+    "longitude": null,
+    "status": "FAILED",
+    "confidence": "LOW",
+    "provider": null,
+    "geocoding_query": "Kotha Palli Road Bagepalli, Chikkaballapura, Karnataka, India",
+    "provider_result": null,
+    "validation_reason": "No matching results across all query passes",
+    "unresolved_category": "FAILED_NO_RESULT",
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Kotha Palli Road Bagepalli, Chikkaballapura, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_5_NAME_LOCALITY_DIST",
+        "query": "S R S Begepalli Town, Kotha Palli Road Bagepalli, Chikkaballapura, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_6_NAME_DIST",
+        "query": "S R S Begepalli Town, Chikkaballapura, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_7_CLEAN_ADDR_STATE",
+        "query": "Kotha Palli Road Bagepalli, Karnataka, India",
+        "candidates_returned": 0
+      }
+    ],
+    "geocoded_at": null
+  },
+  {
+    "centre_id": "tc-096",
+    "centre_name": "Sri Jagadguru Renukacharya Institute of Technology",
+    "original_address": "Balehonnur, renuka nagar",
+    "district": "Chikkamagaluru",
+    "taluk": null,
+    "latitude": 13.347882,
+    "longitude": 75.46167,
+    "status": "SUCCESS",
+    "confidence": "HIGH",
+    "provider": "osm-nominatim",
+    "geocoding_query": "Balehonnur, Chikkamagaluru, Karnataka, India",
+    "provider_result": "Government Hospital, Balehonnur, SH27, Sigodu, Narasimharajapura taluk, Chikkamagaluru, Karnataka, 577112, India",
+    "validation_reason": "High confidence match (Score 83.0): Country=India (+25); State=Karnataka (+25); District matched (+20); Token overlap ['balehonnur'] (+8); Plausible POI (amenity/hospital) (+5)",
+    "unresolved_category": null,
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Balehonnur, Chikkamagaluru, Karnataka, India",
+        "candidates_returned": 1
+      }
+    ],
+    "geocoded_at": "2026-09-06T06:19:35.479813+00:00"
+  },
+  {
+    "centre_id": "tc-097",
+    "centre_name": "Sri Dharmastala Manjunatheshwara ITI",
+    "original_address": "Via Kalasa Mudigere, SAMSE",
+    "district": "Chikkamagaluru",
+    "taluk": null,
+    "latitude": null,
+    "longitude": null,
+    "status": "FAILED",
+    "confidence": "LOW",
+    "provider": null,
+    "geocoding_query": "Via Kalasa Mudigere, Chikkamagaluru, Karnataka, India",
+    "provider_result": null,
+    "validation_reason": "No matching results across all query passes",
+    "unresolved_category": "FAILED_NO_RESULT",
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Via Kalasa Mudigere, Chikkamagaluru, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_1B_LOCALITIES_DIST",
+        "query": "Via Kalasa Mudigere, SAMSE, Chikkamagaluru, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_5_NAME_LOCALITY_DIST",
+        "query": "Sri Dharmastala Manjunatheshwara, Via Kalasa Mudigere, Chikkamagaluru, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_6_NAME_DIST",
+        "query": "Sri Dharmastala Manjunatheshwara, Chikkamagaluru, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_7_CLEAN_ADDR_STATE",
+        "query": "Via Kalasa Mudigere, SAMSE, Karnataka, India",
+        "candidates_returned": 0
+      }
+    ],
+    "geocoded_at": null
+  },
+  {
+    "centre_id": "tc-098",
+    "centre_name": "Azad Minorities Industrial Training Centre, Challakere",
+    "original_address": "T.R.Nagar, challakere",
+    "district": "Chitradurga",
+    "taluk": null,
+    "latitude": null,
+    "longitude": null,
+    "status": "FAILED",
+    "confidence": "LOW",
+    "provider": null,
+    "geocoding_query": "T.R.Nagar, Chitradurga, Karnataka, India",
+    "provider_result": null,
+    "validation_reason": "No matching results across all query passes",
+    "unresolved_category": "FAILED_NO_RESULT",
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "T.R.Nagar, Chitradurga, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_1B_LOCALITIES_DIST",
+        "query": "T.R.Nagar, challakere, Chitradurga, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_5_NAME_LOCALITY_DIST",
+        "query": "Azad Challakere, T.R.Nagar, Chitradurga, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_6_NAME_DIST",
+        "query": "Azad Challakere, Chitradurga, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_7_CLEAN_ADDR_STATE",
+        "query": "T.R.Nagar, challakere, Karnataka, India",
+        "candidates_returned": 0
+      }
+    ],
+    "geocoded_at": null
+  },
+  {
+    "centre_id": "tc-099",
+    "centre_name": "T M A E S Industrial Training Institute Hiriyur",
+    "original_address": "Hiriyur",
+    "district": "Chitradurga",
+    "taluk": null,
+    "latitude": 13.944324,
+    "longitude": 76.616741,
+    "status": "SUCCESS",
+    "confidence": "HIGH",
+    "provider": "osm-nominatim",
+    "geocoding_query": "Hiriyur, Chitradurga, Karnataka, India",
+    "provider_result": "Hiriyur, Hiriyuru taluk, Chitradurga, Karnataka, 572143, India",
+    "validation_reason": "High confidence match (Score 83.0): Country=India (+25); State=Karnataka (+25); District matched (+20); Token overlap ['hiriyur'] (+8); Plausible POI (/town) (+5)",
+    "unresolved_category": null,
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Hiriyur, Chitradurga, Karnataka, India",
+        "candidates_returned": 1
+      }
+    ],
+    "geocoded_at": "2026-09-06T06:19:35.480221+00:00"
+  },
+  {
+    "centre_id": "tc-100",
+    "centre_name": "Seyyid Madani ITI",
+    "original_address": "Ombathukere, Ullal, Mangalore",
+    "district": "Dakshina Kannada",
+    "taluk": null,
+    "latitude": null,
+    "longitude": null,
+    "status": "FAILED",
+    "confidence": "LOW",
+    "provider": null,
+    "geocoding_query": "Ombathukere, Mangaluru, Karnataka, India",
+    "provider_result": null,
+    "validation_reason": "No matching results across all query passes",
+    "unresolved_category": "FAILED_NO_RESULT",
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Ombathukere, Mangaluru, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_1B_LOCALITIES_DIST",
+        "query": "Ombathukere, Ullal, Mangaluru, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_3_CLEAN_ADDR_DIST",
+        "query": "Ombathukere, Ullal, Mangalore, Mangaluru, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_5_NAME_LOCALITY_DIST",
+        "query": "Seyyid Madani, Ombathukere, Mangaluru, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_6_NAME_DIST",
+        "query": "Seyyid Madani, Mangaluru, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_7_CLEAN_ADDR_STATE",
+        "query": "Ombathukere, Ullal, Mangalore, Karnataka, India",
+        "candidates_returned": 0
+      }
+    ],
+    "geocoded_at": null
+  },
+  {
+    "centre_id": "tc-101",
+    "centre_name": "Sri Dharmasthala Manjunatheshwara ITI",
+    "original_address": "Venur, Belthangady Taluk",
+    "district": "Dakshina Kannada",
+    "taluk": null,
+    "latitude": 12.883123,
+    "longitude": 74.838915,
+    "status": "SUCCESS",
+    "confidence": "HIGH",
+    "provider": "osm-nominatim",
+    "geocoding_query": "Sri Dharmasthala Manjunatheshwara, Mangaluru, Karnataka, India",
+    "provider_result": "Sri Dharmasthala Manjunatheshwara Eye Hospital, Mahatma Gandhi Road, Ladyhill, Mangaluru, Mangaluru taluk, Dakshina Kannada, Karnataka, 575003, India",
+    "validation_reason": "High confidence match (Score 83.0): Country=India (+25); State=Karnataka (+25); District matched (+20); Token overlap ['dharmasthala', 'manjunatheshwara'] (+8); Plausible POI (amenity/hospital) (+5)",
+    "unresolved_category": null,
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Venur, Mangaluru, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_1B_LOCALITIES_DIST",
+        "query": "Venur, Belthangady, Mangaluru, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_5_NAME_LOCALITY_DIST",
+        "query": "Sri Dharmasthala Manjunatheshwara, Venur, Mangaluru, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_6_NAME_DIST",
+        "query": "Sri Dharmasthala Manjunatheshwara, Mangaluru, Karnataka, India",
+        "candidates_returned": 1
+      }
+    ],
+    "geocoded_at": "2026-09-06T06:19:35.480560+00:00"
+  },
+  {
+    "centre_id": "tc-102",
+    "centre_name": "Sri Kolushanthehwara I.T.C",
+    "original_address": "Arasikere Harapanahalli",
+    "district": "Davanagere",
+    "taluk": null,
+    "latitude": 14.668824,
+    "longitude": 76.071356,
+    "status": "SUCCESS",
+    "confidence": "HIGH",
+    "provider": "osm-nominatim",
+    "geocoding_query": "Arasikere Harapanahalli, Karnataka, India",
+    "provider_result": "CHC Arasikere, SH 47, Pavanapura, Arasikeri, Harapanahalli taluku, Vijayanagara, Karnataka, 583125, India",
+    "validation_reason": "High confidence match (Score 78.0): Country=India (+25); State=Karnataka (+25); District matched (+20); Token overlap ['arasikere', 'harapanahalli'] (+8)",
+    "unresolved_category": null,
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Arasikere Harapanahalli, Davanagere, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_5_NAME_LOCALITY_DIST",
+        "query": "Sri Kolushanthehwara, Arasikere Harapanahalli, Davanagere, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_6_NAME_DIST",
+        "query": "Sri Kolushanthehwara, Davanagere, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_7_CLEAN_ADDR_STATE",
+        "query": "Arasikere Harapanahalli, Karnataka, India",
+        "candidates_returned": 1
+      }
+    ],
+    "geocoded_at": "2026-09-06T06:19:35.480738+00:00"
+  },
+  {
+    "centre_id": "tc-103",
+    "centre_name": "Usmaniya Industrial Training Institute",
+    "original_address": "Kerebilichi (POST) CHANNAGIRI TQ DAVANAGERE DIST",
+    "district": "Davanagere",
+    "taluk": null,
+    "latitude": null,
+    "longitude": null,
+    "status": "FAILED",
+    "confidence": "LOW",
+    "provider": null,
+    "geocoding_query": "Kerebilichi POST CHANNAGIRI DAVANAGERE, Davanagere, Karnataka, India",
+    "provider_result": null,
+    "validation_reason": "No matching results across all query passes",
+    "unresolved_category": "FAILED_NO_RESULT",
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Kerebilichi POST CHANNAGIRI DAVANAGERE, Davanagere, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_5_NAME_LOCALITY_DIST",
+        "query": "Usmaniya, Kerebilichi POST CHANNAGIRI DAVANAGERE, Davanagere, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_6_NAME_DIST",
+        "query": "Usmaniya, Davanagere, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_7_CLEAN_ADDR_STATE",
+        "query": "Kerebilichi POST CHANNAGIRI DAVANAGERE, Karnataka, India",
+        "candidates_returned": 0
+      }
+    ],
+    "geocoded_at": null
+  },
+  {
+    "centre_id": "tc-104",
+    "centre_name": "Sanjaya Grameena Vidya Samsthe Industrial Training IInstitute, Holealur",
+    "original_address": "Holealur, Gadag Distt.",
+    "district": "Gadag",
+    "taluk": null,
+    "latitude": 15.824167,
+    "longitude": 75.648115,
+    "status": "SUCCESS",
+    "confidence": "HIGH",
+    "provider": "osm-nominatim",
+    "geocoding_query": "Holealur, Gadag, Karnataka, India",
+    "provider_result": "Holealur PHC, SH83, Hole Aluru, Rona taluku, Gadag, Karnataka, 582203, India",
+    "validation_reason": "High confidence match (Score 78.0): Country=India (+25); State=Karnataka (+25); District matched (+20); Token overlap ['holealur', 'gadag'] (+8)",
+    "unresolved_category": null,
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Holealur, Gadag, Karnataka, India",
+        "candidates_returned": 1
+      }
+    ],
+    "geocoded_at": "2026-09-06T06:19:35.481331+00:00"
+  },
+  {
+    "centre_id": "tc-105",
+    "centre_name": "Sri Jagadguru Tontadarya I T I Dambal",
+    "original_address": "DAMBAL, Tq: Mundargi, Dt;Gadag",
+    "district": "Gadag",
+    "taluk": null,
+    "latitude": 15.296009,
+    "longitude": 75.777204,
+    "status": "SUCCESS",
+    "confidence": "HIGH",
+    "provider": "osm-nominatim",
+    "geocoding_query": "DAMBAL, Gadag, Karnataka, India",
+    "provider_result": "Government Hospital, Dambal, SH45, Ashraya Badavane, Kadampura, Mundargi taluku, Gadag, Karnataka, 582113, India",
+    "validation_reason": "High confidence match (Score 90.0): Country=India (+25); State=Karnataka (+25); District matched (+20); Strong token overlap ['dambal', 'mundargi', 'gadag'] (+15); Plausible POI (amenity/hospital) (+5)",
+    "unresolved_category": null,
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "DAMBAL, Gadag, Karnataka, India",
+        "candidates_returned": 1
+      }
+    ],
+    "geocoded_at": "2026-09-06T06:19:35.481557+00:00"
+  },
+  {
+    "centre_id": "tc-106",
+    "centre_name": "Sri Adichunchanagiri I.T.C Cannarayapattana",
+    "original_address": "Channarayapattana",
+    "district": "Hassan",
+    "taluk": null,
+    "latitude": 12.906877,
+    "longitude": 76.389564,
+    "status": "SUCCESS",
+    "confidence": "HIGH",
+    "provider": "osm-nominatim",
+    "geocoding_query": "Channarayapattana, Hassan, Karnataka, India",
+    "provider_result": "Channarayapattana, Channarayapattana taluk, Hassan, Karnataka, 573116, India",
+    "validation_reason": "High confidence match (Score 83.0): Country=India (+25); State=Karnataka (+25); District matched (+20); Token overlap ['channarayapattana'] (+8); Plausible POI (/town) (+5)",
+    "unresolved_category": null,
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Channarayapattana, Hassan, Karnataka, India",
+        "candidates_returned": 1
+      }
+    ],
+    "geocoded_at": "2026-09-06T06:19:35.481714+00:00"
+  },
+  {
+    "centre_id": "tc-107",
+    "centre_name": "Sri Rameshwara I.T.C Arasikere",
+    "original_address": "Arasikere, B.H Road",
+    "district": "Hassan",
+    "taluk": null,
+    "latitude": 13.315981,
+    "longitude": 76.256849,
+    "status": "SUCCESS",
+    "confidence": "HIGH",
+    "provider": "osm-nominatim",
+    "geocoding_query": "Arasikere, Hassan, Karnataka, India",
+    "provider_result": "Arasikere, Arasikere taluku, Hassan, Karnataka, 573103, India",
+    "validation_reason": "High confidence match (Score 83.0): Country=India (+25); State=Karnataka (+25); District matched (+20); Token overlap ['arasikere'] (+8); Plausible POI (place/town) (+5)",
+    "unresolved_category": null,
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Arasikere, Hassan, Karnataka, India",
+        "candidates_returned": 1
+      }
+    ],
+    "geocoded_at": "2026-09-06T06:19:35.481874+00:00"
+  },
+  {
+    "centre_id": "tc-108",
+    "centre_name": "TMAE Tonkada Veerappa Industrail Training Institute, Haveri",
+    "original_address": "TMAE Tonk Veer I.T.C, Haveri",
+    "district": "Haveri",
+    "taluk": null,
+    "latitude": null,
+    "longitude": null,
+    "status": "FAILED",
+    "confidence": "LOW",
+    "provider": null,
+    "geocoding_query": "TMAE Tonk Veer I.T.C, Haveri, Karnataka, India",
+    "provider_result": null,
+    "validation_reason": "No matching results across all query passes",
+    "unresolved_category": "FAILED_NO_RESULT",
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "TMAE Tonk Veer I.T.C, Haveri, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_1B_LOCALITIES_DIST",
+        "query": "TMAE Tonk Veer I.T.C, Haveri, Haveri, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_5_NAME_LOCALITY_DIST",
+        "query": "TMAE Tonkada Veerappa Industrail Haveri, TMAE Tonk Veer I.T.C, Haveri, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_6_NAME_DIST",
+        "query": "TMAE Tonkada Veerappa Industrail Haveri, Haveri, Karnataka, India",
+        "candidates_returned": 0
+      }
+    ],
+    "geocoded_at": null
+  },
+  {
+    "centre_id": "tc-109",
+    "centre_name": "T M A E S Sri Maharshi Valmiki ITI for Women, Ranebennur",
+    "original_address": "Ranebennur",
+    "district": "Haveri",
+    "taluk": null,
+    "latitude": 14.61658,
+    "longitude": 75.634153,
+    "status": "SUCCESS",
+    "confidence": "HIGH",
+    "provider": "osm-nominatim",
+    "geocoding_query": "Ranebennur, Haveri, Karnataka, India",
+    "provider_result": "Ranebennur, Ranebennuru taluk, Haveri, Karnataka, 581115, India",
+    "validation_reason": "High confidence match (Score 78.0): Country=India (+25); State=Karnataka (+25); District matched (+20); Token overlap ['ranebennur'] (+8)",
+    "unresolved_category": null,
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Ranebennur, Haveri, Karnataka, India",
+        "candidates_returned": 1
+      }
+    ],
+    "geocoded_at": "2026-09-06T06:19:35.482191+00:00"
+  },
+  {
+    "centre_id": "tc-110",
+    "centre_name": "KVG ITC, Bhagamandala",
+    "original_address": "Madikeri",
+    "district": "Kodagu",
+    "taluk": null,
+    "latitude": 12.42149,
+    "longitude": 75.738754,
+    "status": "SUCCESS",
+    "confidence": "HIGH",
+    "provider": "osm-nominatim",
+    "geocoding_query": "Madikeri, Kodagu, Karnataka, India",
+    "provider_result": "Madikeri, Madikeri taluku, Kodagu, Karnataka, 571201, India",
+    "validation_reason": "High confidence match (Score 83.0): Country=India (+25); State=Karnataka (+25); District matched (+20); Token overlap ['madikeri'] (+8); Plausible POI (/town) (+5)",
+    "unresolved_category": null,
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Madikeri, Kodagu, Karnataka, India",
+        "candidates_returned": 1
+      }
+    ],
+    "geocoded_at": "2026-09-06T06:19:35.482332+00:00"
+  },
+  {
+    "centre_id": "tc-111",
+    "centre_name": "Kalpaturu Industrial Training Centre Kushal Nagar",
+    "original_address": "Somwarpet Taluk",
+    "district": "Kodagu",
+    "taluk": null,
+    "latitude": 12.597188,
+    "longitude": 75.846687,
+    "status": "SUCCESS",
+    "confidence": "HIGH",
+    "provider": "osm-nominatim",
+    "geocoding_query": "Somwarpet, Kodagu, Karnataka, India",
+    "provider_result": "Somwarpet, Somawarpet taluk, Kodagu, Karnataka, 571236, India",
+    "validation_reason": "High confidence match (Score 83.0): Country=India (+25); State=Karnataka (+25); District matched (+20); Token overlap ['somwarpet'] (+8); Plausible POI (place/town) (+5)",
+    "unresolved_category": null,
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Somwarpet, Kodagu, Karnataka, India",
+        "candidates_returned": 1
+      }
+    ],
+    "geocoded_at": "2026-09-06T06:19:35.482494+00:00"
+  },
+  {
+    "centre_id": "tc-112",
+    "centre_name": "Noorie Industrial Training Centre Andersopet",
+    "original_address": "Andersopet, K.G.F.-563113",
+    "district": "Kolar",
+    "taluk": null,
+    "latitude": null,
+    "longitude": null,
+    "status": "AMBIGUOUS",
+    "confidence": "AMBIGUOUS",
+    "provider": "osm-nominatim",
+    "geocoding_query": "563113, Kolar, Karnataka, India",
+    "provider_result": "State Bank of India, NH75, Maderahalli, Kolar taluk, Kolar, Karnataka, 563133, India",
+    "validation_reason": "Multiple distant candidates (>25km) in PASS_4_PIN",
+    "unresolved_category": "AMBIGUOUS",
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Andersopet, Kolar, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_1B_LOCALITIES_DIST",
+        "query": "Andersopet, K.G.F, Kolar, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_4_PIN",
+        "query": "563113, Kolar, Karnataka, India",
+        "candidates_returned": 5
+      }
+    ],
+    "geocoded_at": null
+  },
+  {
+    "centre_id": "tc-113",
+    "centre_name": "Kengal Hanumantaiah Industrial Training Centre Bethamangala",
+    "original_address": "Bethamangala",
+    "district": "Kolar",
+    "taluk": null,
+    "latitude": 13.005398,
+    "longitude": 78.330362,
+    "status": "SUCCESS",
+    "confidence": "HIGH",
+    "provider": "osm-nominatim",
+    "geocoding_query": "Bethamangala, Kolar, Karnataka, India",
+    "provider_result": "Bethamangala, Kolar Gold Field taluk, Kolar, Karnataka, 563116, India",
+    "validation_reason": "High confidence match (Score 83.0): Country=India (+25); State=Karnataka (+25); District matched (+20); Token overlap ['bethamangala'] (+8); Plausible POI (/town) (+5)",
+    "unresolved_category": null,
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Bethamangala, Kolar, Karnataka, India",
+        "candidates_returned": 1
+      }
+    ],
+    "geocoded_at": "2026-09-06T06:19:35.482954+00:00"
+  },
+  {
+    "centre_id": "tc-114",
+    "centre_name": "Veera Neelambika Industrial Training Institute",
+    "original_address": "Shastri Nagar, Agalkere Po. Gangavathi Tq. Koppal Dt.",
+    "district": "Koppal",
+    "taluk": null,
+    "latitude": null,
+    "longitude": null,
+    "status": "FAILED",
+    "confidence": "LOW",
+    "provider": null,
+    "geocoding_query": "Shastri Nagar, Koppal, Karnataka, India",
+    "provider_result": null,
+    "validation_reason": "No matching results across all query passes",
+    "unresolved_category": "FAILED_NO_RESULT",
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Shastri Nagar, Koppal, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_1B_LOCALITIES_DIST",
+        "query": "Shastri Nagar, Agalkere . Gangavathi . Koppal, Koppal, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_5_NAME_LOCALITY_DIST",
+        "query": "Veera Neelambika, Shastri Nagar, Koppal, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_6_NAME_DIST",
+        "query": "Veera Neelambika, Koppal, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_7_CLEAN_ADDR_STATE",
+        "query": "Shastri Nagar, Agalkere . Gangavathi . Koppal, Karnataka, India",
+        "candidates_returned": 0
+      }
+    ],
+    "geocoded_at": null
+  },
+  {
+    "centre_id": "tc-115",
+    "centre_name": "Sri Jagadguru Tontadarya I.T.I Mandalagiri",
+    "original_address": "Mandalagiri, Taluk: Yalaburga",
+    "district": "Koppal",
+    "taluk": null,
+    "latitude": null,
+    "longitude": null,
+    "status": "FAILED",
+    "confidence": "LOW",
+    "provider": null,
+    "geocoding_query": "Mandalagiri, Koppal, Karnataka, India",
+    "provider_result": null,
+    "validation_reason": "No matching results across all query passes",
+    "unresolved_category": "FAILED_NO_RESULT",
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Mandalagiri, Koppal, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_1B_LOCALITIES_DIST",
+        "query": "Mandalagiri, Yalaburga, Koppal, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_5_NAME_LOCALITY_DIST",
+        "query": "Sri Jagadguru Tontadarya Mandalagiri, Mandalagiri, Koppal, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_6_NAME_DIST",
+        "query": "Sri Jagadguru Tontadarya Mandalagiri, Koppal, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_7_CLEAN_ADDR_STATE",
+        "query": "Mandalagiri, Yalaburga, Karnataka, India",
+        "candidates_returned": 0
+      }
+    ],
+    "geocoded_at": null
+  },
+  {
+    "centre_id": "tc-116",
+    "centre_name": "Sri Adichunchanagiri Private I.T.I, Melukote",
+    "original_address": "Melukote, Pandavapura, Mandya Dist.-571431",
+    "district": "Mandya",
+    "taluk": null,
+    "latitude": 12.662405,
+    "longitude": 76.649649,
+    "status": "SUCCESS",
+    "confidence": "HIGH",
+    "provider": "osm-nominatim",
+    "geocoding_query": "Melukote, Mandya, Karnataka, India",
+    "provider_result": "Melukote, Pandavapura taluk, Mandya, Karnataka, 571431, India",
+    "validation_reason": "High confidence match (Score 105.0): Country=India (+25); State=Karnataka (+25); District matched (+20); PIN match 571431 (+15); Strong token overlap ['pandavapura', 'mandya', 'melukote'] (+15); Plausible POI (place/town) (+5)",
+    "unresolved_category": null,
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Melukote, Mandya, Karnataka, India",
+        "candidates_returned": 1
+      }
+    ],
+    "geocoded_at": "2026-09-06T06:19:35.483476+00:00"
+  },
+  {
+    "centre_id": "tc-117",
+    "centre_name": "Sri Ranganatha I.T.C B.R Koppalu",
+    "original_address": "Baburayana Koppalu, Srirangapatna Tq",
+    "district": "Mandya",
+    "taluk": null,
+    "latitude": 12.428373,
+    "longitude": 76.702519,
+    "status": "SUCCESS",
+    "confidence": "HIGH",
+    "provider": "osm-nominatim",
+    "geocoding_query": "Baburayana Koppalu, Mandya, Karnataka, India",
+    "provider_result": "Baburayana Koppalu, Srirangapattana taluk, Mandya, Karnataka, 571477, India",
+    "validation_reason": "High confidence match (Score 83.0): Country=India (+25); State=Karnataka (+25); District matched (+20); Token overlap ['baburayana', 'koppalu'] (+8); Plausible POI (place/village) (+5)",
+    "unresolved_category": null,
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Baburayana Koppalu, Mandya, Karnataka, India",
+        "candidates_returned": 1
+      }
+    ],
+    "geocoded_at": "2026-09-06T06:19:35.483658+00:00"
+  },
+  {
+    "centre_id": "tc-118",
+    "centre_name": "Basava Industrial Training Institute Manvi",
+    "original_address": "P.L.D Bank Building Near Kalmat School Manvi.",
+    "district": "Raichur",
+    "taluk": null,
+    "latitude": null,
+    "longitude": null,
+    "status": "FAILED",
+    "confidence": "LOW",
+    "provider": null,
+    "geocoding_query": "P.L.D Bank Building Kalmat School Manvi, Raichur, Karnataka, India",
+    "provider_result": null,
+    "validation_reason": "No matching results across all query passes",
+    "unresolved_category": "FAILED_NO_RESULT",
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "P.L.D Bank Building Kalmat School Manvi, Raichur, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_5_NAME_LOCALITY_DIST",
+        "query": "Basava Manvi, P.L.D Bank Building Kalmat School Manvi, Raichur, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_6_NAME_DIST",
+        "query": "Basava Manvi, Raichur, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_7_CLEAN_ADDR_STATE",
+        "query": "P.L.D Bank Building Kalmat School Manvi, Karnataka, India",
+        "candidates_returned": 0
+      }
+    ],
+    "geocoded_at": null
+  },
+  {
+    "centre_id": "tc-119",
+    "centre_name": "Shakthi Nagar Industrial Training Institute",
+    "original_address": "SHAKTINAGAR",
+    "district": "Raichur",
+    "taluk": null,
+    "latitude": 16.363159,
+    "longitude": 77.358502,
+    "status": "SUCCESS",
+    "confidence": "HIGH",
+    "provider": "osm-nominatim",
+    "geocoding_query": "SHAKTINAGAR, Raichur, Karnataka, India",
+    "provider_result": "Mohammadiya Masjid. Shaktinagar., NH167, Shaktinagara, Yadlapuru, Rayachuru taluku, Raichur, Karnataka, 584201, India",
+    "validation_reason": "High confidence match (Score 78.0): Country=India (+25); State=Karnataka (+25); District matched (+20); Token overlap ['shaktinagar'] (+8)",
+    "unresolved_category": null,
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "SHAKTINAGAR, Raichur, Karnataka, India",
+        "candidates_returned": 1
+      }
+    ],
+    "geocoded_at": "2026-09-06T06:19:37.431655+00:00"
+  },
+  {
+    "centre_id": "tc-120",
+    "centre_name": "Hombegowda Industrail Training Centre, Kengal",
+    "original_address": "Kengal, Channapatna",
+    "district": "Ramanagara",
+    "taluk": null,
+    "latitude": null,
+    "longitude": null,
+    "status": "FAILED",
+    "confidence": "LOW",
+    "provider": null,
+    "geocoding_query": "Kengal, Ramanagara, Karnataka, India",
+    "provider_result": null,
+    "validation_reason": "No matching results across all query passes",
+    "unresolved_category": "FAILED_NO_RESULT",
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Kengal, Ramanagara, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_1B_LOCALITIES_DIST",
+        "query": "Kengal, Channapatna, Ramanagara, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_5_NAME_LOCALITY_DIST",
+        "query": "Hombegowda Industrail Kengal, Kengal, Ramanagara, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_6_NAME_DIST",
+        "query": "Hombegowda Industrail Kengal, Ramanagara, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_7_CLEAN_ADDR_STATE",
+        "query": "Kengal, Channapatna, Karnataka, India",
+        "candidates_returned": 0
+      }
+    ],
+    "geocoded_at": null
+  },
+  {
+    "centre_id": "tc-121",
+    "centre_name": "SLNM Industrial Training Centre Cannapatna",
+    "original_address": "1535, Loyada Beedi Channpatna",
+    "district": "Ramanagara",
+    "taluk": null,
+    "latitude": null,
+    "longitude": null,
+    "status": "FAILED",
+    "confidence": "LOW",
+    "provider": null,
+    "geocoding_query": "Loyada Beedi Channpatna, Ramanagara, Karnataka, India",
+    "provider_result": null,
+    "validation_reason": "No matching results across all query passes",
+    "unresolved_category": "FAILED_NO_RESULT",
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Loyada Beedi Channpatna, Ramanagara, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_5_NAME_LOCALITY_DIST",
+        "query": "SLNM Cannapatna, Loyada Beedi Channpatna, Ramanagara, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_6_NAME_DIST",
+        "query": "SLNM Cannapatna, Ramanagara, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_7_CLEAN_ADDR_STATE",
+        "query": "Loyada Beedi Channpatna, Karnataka, India",
+        "candidates_returned": 0
+      }
+    ],
+    "geocoded_at": null
+  },
+  {
+    "centre_id": "tc-122",
+    "centre_name": "Ananya Rural ITC",
+    "original_address": "Ayanur, Shimoga",
+    "district": "Shivamogga",
+    "taluk": null,
+    "latitude": 14.01406,
+    "longitude": 75.432668,
+    "status": "SUCCESS",
+    "confidence": "HIGH",
+    "provider": "osm-nominatim",
+    "geocoding_query": "Ayanur, Shivamogga, Karnataka, India",
+    "provider_result": "CHC, Ayanur, Sagara Road, Ayanuru, Shivamogga taluk, Shimoga, Karnataka, 577211, India",
+    "validation_reason": "High confidence match (Score 78.0): Country=India (+25); State=Karnataka (+25); District matched (+20); Token overlap ['shimoga', 'ayanur'] (+8)",
+    "unresolved_category": null,
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Ayanur, Shivamogga, Karnataka, India",
+        "candidates_returned": 1
+      }
+    ],
+    "geocoded_at": "2026-09-06T06:19:59.314208+00:00"
+  },
+  {
+    "centre_id": "tc-123",
+    "centre_name": "Sumauka Industrial Training Centre Anandapuram",
+    "original_address": "Anandapuram Sagara(T)",
+    "district": "Shivamogga",
+    "taluk": null,
+    "latitude": null,
+    "longitude": null,
+    "status": "FAILED",
+    "confidence": "LOW",
+    "provider": null,
+    "geocoding_query": "Anandapuram Sagara T, Shivamogga, Karnataka, India",
+    "provider_result": null,
+    "validation_reason": "No matching results across all query passes",
+    "unresolved_category": "FAILED_NO_RESULT",
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Anandapuram Sagara T, Shivamogga, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_5_NAME_LOCALITY_DIST",
+        "query": "Sumauka Anandapuram, Anandapuram Sagara T, Shivamogga, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_6_NAME_DIST",
+        "query": "Sumauka Anandapuram, Shivamogga, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_7_CLEAN_ADDR_STATE",
+        "query": "Anandapuram Sagara T, Karnataka, India",
+        "candidates_returned": 0
+      }
+    ],
+    "geocoded_at": null
+  },
+  {
+    "centre_id": "tc-124",
+    "centre_name": "Sri T.V. Venkataswamy Industrial Training Centre",
+    "original_address": "G.B.N. Road Madhugiri",
+    "district": "Tumakuru",
+    "taluk": null,
+    "latitude": null,
+    "longitude": null,
+    "status": "FAILED",
+    "confidence": "LOW",
+    "provider": null,
+    "geocoding_query": "G.B.N. Road Madhugiri, Tumakuru, Karnataka, India",
+    "provider_result": null,
+    "validation_reason": "No matching results across all query passes",
+    "unresolved_category": "FAILED_NO_RESULT",
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "G.B.N. Road Madhugiri, Tumakuru, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_5_NAME_LOCALITY_DIST",
+        "query": "Sri T V Venkataswamy, G.B.N. Road Madhugiri, Tumakuru, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_6_NAME_DIST",
+        "query": "Sri T V Venkataswamy, Tumakuru, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_7_CLEAN_ADDR_STATE",
+        "query": "G.B.N. Road Madhugiri, Karnataka, India",
+        "candidates_returned": 0
+      }
+    ],
+    "geocoded_at": null
+  },
+  {
+    "centre_id": "tc-125",
+    "centre_name": "CSI Vocational Training Centre",
+    "original_address": "PB No 101 B.H. Road",
+    "district": "Tumakuru",
+    "taluk": null,
+    "latitude": 13.335682,
+    "longitude": 77.121315,
+    "status": "SUCCESS",
+    "confidence": "HIGH",
+    "provider": "osm-nominatim",
+    "geocoding_query": "PB B.H. Road, Tumakuru, Karnataka, India",
+    "provider_result": "Bengaluru Honnavara Road, Kyatasandra, Tumakuru, Tumkur taluk, Tumakuru, Karnataka, 572101, India",
+    "validation_reason": "High confidence match (Score 75.0): Country=India (+25); State=Karnataka (+25); District matched (+20); Plausible POI (highway/primary) (+5)",
+    "unresolved_category": null,
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "PB B.H. Road, Tumakuru, Karnataka, India",
+        "candidates_returned": 2
+      }
+    ],
+    "geocoded_at": "2026-09-06T06:20:14.586798+00:00"
+  },
+  {
+    "centre_id": "tc-126",
+    "centre_name": "Barkur National Industrial Training Centre",
+    "original_address": "Haradi Village, barkur PO, Udupi Tq",
+    "district": "Udupi",
+    "taluk": null,
+    "latitude": 13.428944,
+    "longitude": 74.720807,
+    "status": "SUCCESS",
+    "confidence": "HIGH",
+    "provider": "osm-nominatim",
+    "geocoding_query": "Haradi Village, Udupi, Karnataka, India",
+    "provider_result": "Haradi, Brahmavara taluku, Udupi, Karnataka, 576213, India",
+    "validation_reason": "High confidence match (Score 83.0): Country=India (+25); State=Karnataka (+25); District matched (+20); Token overlap ['udupi', 'haradi'] (+8); Plausible POI (place/village) (+5)",
+    "unresolved_category": null,
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Haradi Village, Udupi, Karnataka, India",
+        "candidates_returned": 1
+      }
+    ],
+    "geocoded_at": "2026-09-06T06:20:16.203212+00:00"
+  },
+  {
+    "centre_id": "tc-127",
+    "centre_name": "Rev. Fr. Robert Z. M. D'Souza Memorial Pvt. ITI, Nada",
+    "original_address": "Nada, Padukone, Kundapura Tq.",
+    "district": "Udupi",
+    "taluk": null,
+    "latitude": 13.74011,
+    "longitude": 74.670064,
+    "status": "SUCCESS",
+    "confidence": "HIGH",
+    "provider": "osm-nominatim",
+    "geocoding_query": "Nada, Udupi, Karnataka, India",
+    "provider_result": "Government Higher Primary School, Kadike, Nada, NH66, Hosadu, ನಾಗೂರು, Bainduru taluku, Udupi, Karnataka, 576224, India",
+    "validation_reason": "High confidence match (Score 83.0): Country=India (+25); State=Karnataka (+25); District matched (+20); Token overlap ['nada'] (+8); Plausible POI (amenity/school) (+5)",
+    "unresolved_category": null,
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Nada, Udupi, Karnataka, India",
+        "candidates_returned": 4
+      }
+    ],
+    "geocoded_at": "2026-09-06T06:20:18.469316+00:00"
+  },
+  {
+    "centre_id": "tc-128",
+    "centre_name": "Bharath Liberal Educational Trust ITI Dandeli",
+    "original_address": "GANDHINAGAR DANDELI",
+    "district": "Uttara Kannada",
+    "taluk": null,
+    "latitude": null,
+    "longitude": null,
+    "status": "FAILED",
+    "confidence": "LOW",
+    "provider": null,
+    "geocoding_query": "GANDHINAGAR DANDELI, Uttara Kannada, Karnataka, India",
+    "provider_result": null,
+    "validation_reason": "No matching results across all query passes",
+    "unresolved_category": "FAILED_NO_RESULT",
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "GANDHINAGAR DANDELI, Uttara Kannada, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_5_NAME_LOCALITY_DIST",
+        "query": "Bharath Liberal Dandeli, GANDHINAGAR DANDELI, Uttara Kannada, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_6_NAME_DIST",
+        "query": "Bharath Liberal Dandeli, Uttara Kannada, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_7_CLEAN_ADDR_STATE",
+        "query": "GANDHINAGAR DANDELI, Karnataka, India",
+        "candidates_returned": 0
+      }
+    ],
+    "geocoded_at": null
+  },
+  {
+    "centre_id": "tc-129",
+    "centre_name": "Mazzarello Private Industrial Training Institute kasarkod",
+    "original_address": "Upperkasarkod, Kelaginoor, Honavar",
+    "district": "Uttara Kannada",
+    "taluk": null,
+    "latitude": null,
+    "longitude": null,
+    "status": "FAILED",
+    "confidence": "LOW",
+    "provider": null,
+    "geocoding_query": "Upperkasarkod, Uttara Kannada, Karnataka, India",
+    "provider_result": null,
+    "validation_reason": "No matching results across all query passes",
+    "unresolved_category": "FAILED_NO_RESULT",
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "Upperkasarkod, Uttara Kannada, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_1B_LOCALITIES_DIST",
+        "query": "Upperkasarkod, Kelaginoor, Uttara Kannada, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_3_CLEAN_ADDR_DIST",
+        "query": "Upperkasarkod, Kelaginoor, Honavar, Uttara Kannada, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_5_NAME_LOCALITY_DIST",
+        "query": "Mazzarello Private kasarkod, Upperkasarkod, Uttara Kannada, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_6_NAME_DIST",
+        "query": "Mazzarello Private kasarkod, Uttara Kannada, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_7_CLEAN_ADDR_STATE",
+        "query": "Upperkasarkod, Kelaginoor, Honavar, Karnataka, India",
+        "candidates_returned": 0
+      }
+    ],
+    "geocoded_at": null
+  },
+  {
+    "centre_id": "tc-130",
+    "centre_name": "Shree basavajyoti ITI kodekal",
+    "original_address": "post- kodekal Tq - Surupur Dist Yadigiri",
+    "district": "Yadgir",
+    "taluk": null,
+    "latitude": null,
+    "longitude": null,
+    "status": "FAILED",
+    "confidence": "LOW",
+    "provider": null,
+    "geocoding_query": "post- kodekal - Surupur Yadigiri, Yadgir, Karnataka, India",
+    "provider_result": null,
+    "validation_reason": "No matching results across all query passes",
+    "unresolved_category": "FAILED_NO_RESULT",
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "post- kodekal - Surupur Yadigiri, Yadgir, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_5_NAME_LOCALITY_DIST",
+        "query": "Shree basavajyoti kodekal, post- kodekal - Surupur Yadigiri, Yadgir, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_6_NAME_DIST",
+        "query": "Shree basavajyoti kodekal, Yadgir, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_7_CLEAN_ADDR_STATE",
+        "query": "post- kodekal - Surupur Yadigiri, Karnataka, India",
+        "candidates_returned": 0
+      }
+    ],
+    "geocoded_at": null
+  },
+  {
+    "centre_id": "tc-131",
+    "centre_name": "Charabasaveshwara Industrial Training Centre",
+    "original_address": "opposite to karnataka electrical board, shahapur",
+    "district": "Yadgir",
+    "taluk": null,
+    "latitude": null,
+    "longitude": null,
+    "status": "FAILED",
+    "confidence": "LOW",
+    "provider": null,
+    "geocoding_query": "to karnataka electrical board, Yadgir, Karnataka, India",
+    "provider_result": null,
+    "validation_reason": "No matching results across all query passes",
+    "unresolved_category": "FAILED_NO_RESULT",
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "to karnataka electrical board, Yadgir, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_1B_LOCALITIES_DIST",
+        "query": "to karnataka electrical board, shahapur, Yadgir, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_5_NAME_LOCALITY_DIST",
+        "query": "Charabasaveshwara, to karnataka electrical board, Yadgir, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_6_NAME_DIST",
+        "query": "Charabasaveshwara, Yadgir, Karnataka, India",
+        "candidates_returned": 0
+      },
+      {
+        "pass": "PASS_7_CLEAN_ADDR_STATE",
+        "query": "to karnataka electrical board, shahapur, Karnataka, India",
+        "candidates_returned": 0
+      }
+    ],
+    "geocoded_at": null
+  },
+  {
+    "centre_id": "tc-132",
+    "centre_name": "Govt Industrial Training Institute, Davanagere (MIS GU29000048)",
+    "original_address": "REQUIRES OFFICIAL SOURCE VERIFICATION",
+    "district": "Davanagere",
+    "taluk": null,
+    "latitude": null,
+    "longitude": null,
+    "status": "FAILED",
+    "confidence": "NONE",
+    "provider": null,
+    "geocoding_query": null,
+    "provider_result": null,
+    "validation_reason": "Placeholder / unverified address ('REQUIRES OFFICIAL SOURCE VERIFICATION')",
+    "unresolved_category": "PLACEHOLDER",
+    "attempted_passes": [],
+    "geocoded_at": null
+  },
+  {
+    "centre_id": "tc-133",
+    "centre_name": "Govt ITI, Koratagere (MIS GR29001513)",
+    "original_address": "REQUIRES OFFICIAL SOURCE VERIFICATION",
+    "district": "Tumakuru",
+    "taluk": "Koratagere",
+    "latitude": null,
+    "longitude": null,
+    "status": "FAILED",
+    "confidence": "NONE",
+    "provider": null,
+    "geocoding_query": null,
+    "provider_result": null,
+    "validation_reason": "Placeholder / unverified address ('REQUIRES OFFICIAL SOURCE VERIFICATION')",
+    "unresolved_category": "PLACEHOLDER",
+    "attempted_passes": [],
+    "geocoded_at": null
+  },
+  {
+    "centre_id": "tc-134",
+    "centre_name": "Govt. ITI, BEML Nagar, KGF (MIS GU29000015)",
+    "original_address": "BEML Nagar, Kolar Gold Fields - 563115",
+    "district": "Kolar",
+    "taluk": null,
+    "latitude": 12.996576,
+    "longitude": 78.238585,
+    "status": "SUCCESS",
+    "confidence": "HIGH",
+    "provider": "osm-nominatim",
+    "geocoding_query": "BEML Nagar, Kolar, Karnataka, India",
+    "provider_result": "BEML Nagar, Kattihalli, Bangarapet taluk, Kolar, Karnataka, 563115, India",
+    "validation_reason": "High confidence match (Score 98.0): Country=India (+25); State=Karnataka (+25); District matched (+20); PIN match 563115 (+15); Token overlap ['kolar', 'beml'] (+8); Plausible POI (place/locality) (+5)",
+    "unresolved_category": null,
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "BEML Nagar, Kolar, Karnataka, India",
+        "candidates_returned": 2
+      }
+    ],
+    "geocoded_at": "2026-09-06T06:21:19.686761+00:00"
+  },
+  {
+    "centre_id": "tc-135",
+    "centre_name": "Govt Industrial Training Institute, Anekal Nagara (MIS GU29001424)",
+    "original_address": "REQUIRES OFFICIAL SOURCE VERIFICATION",
+    "district": "Bengaluru Urban",
+    "taluk": "Anekal",
+    "latitude": null,
+    "longitude": null,
+    "status": "FAILED",
+    "confidence": "NONE",
+    "provider": null,
+    "geocoding_query": null,
+    "provider_result": null,
+    "validation_reason": "Placeholder / unverified address ('REQUIRES OFFICIAL SOURCE VERIFICATION')",
+    "unresolved_category": "PLACEHOLDER",
+    "attempted_passes": [],
+    "geocoded_at": null
+  },
+  {
+    "centre_id": "tc-136",
+    "centre_name": "Govt. ITI, Beguru (MIS GR29000925)",
+    "original_address": "REQUIRES OFFICIAL SOURCE VERIFICATION",
+    "district": "Mysuru",
+    "taluk": "Nanjangud",
+    "latitude": null,
+    "longitude": null,
+    "status": "FAILED",
+    "confidence": "NONE",
+    "provider": null,
+    "geocoding_query": null,
+    "provider_result": null,
+    "validation_reason": "Placeholder / unverified address ('REQUIRES OFFICIAL SOURCE VERIFICATION')",
+    "unresolved_category": "PLACEHOLDER",
+    "attempted_passes": [],
+    "geocoded_at": null
+  },
+  {
+    "centre_id": "tc-137",
+    "centre_name": "Government Industrial Training Institute, Maddur (MIS GR29000400)",
+    "original_address": "REQUIRES OFFICIAL SOURCE VERIFICATION",
+    "district": "Mandya",
+    "taluk": "Maddur",
+    "latitude": null,
+    "longitude": null,
+    "status": "FAILED",
+    "confidence": "NONE",
+    "provider": null,
+    "geocoding_query": null,
+    "provider_result": null,
+    "validation_reason": "Placeholder / unverified address ('REQUIRES OFFICIAL SOURCE VERIFICATION')",
+    "unresolved_category": "PLACEHOLDER",
+    "attempted_passes": [],
+    "geocoded_at": null
+  },
+  {
+    "centre_id": "tc-138",
+    "centre_name": "Govt ITI, Chamarajanagar (MIS GU29001514)",
+    "original_address": "REQUIRES OFFICIAL SOURCE VERIFICATION",
+    "district": "Chamarajanagar",
+    "taluk": null,
+    "latitude": null,
+    "longitude": null,
+    "status": "FAILED",
+    "confidence": "NONE",
+    "provider": null,
+    "geocoding_query": null,
+    "provider_result": null,
+    "validation_reason": "Placeholder / unverified address ('REQUIRES OFFICIAL SOURCE VERIFICATION')",
+    "unresolved_category": "PLACEHOLDER",
+    "attempted_passes": [],
+    "geocoded_at": null
+  },
+  {
+    "centre_id": "tc-139",
+    "centre_name": "Government Industrial Training Institute, N R Mohalla, Mysore-07 (MIS GU29000053)",
+    "original_address": "N R Mohalla, Mysuru - 570007",
+    "district": "Mysuru",
+    "taluk": null,
+    "latitude": 12.326871,
+    "longitude": 76.665268,
+    "status": "SUCCESS",
+    "confidence": "HIGH",
+    "provider": "osm-nominatim",
+    "geocoding_query": "N R Mohalla, Mysuru, Karnataka, India",
+    "provider_result": "N.R. Mohalla, Narasimharaja Mohalla, Mysuru, Mysuru taluk, Mysuru District, Karnataka, 570001, India",
+    "validation_reason": "High confidence match (Score 78.0): Country=India (+25); State=Karnataka (+25); District matched (+20); Token overlap ['mysuru', 'mohalla'] (+8)",
+    "unresolved_category": null,
+    "attempted_passes": [
+      {
+        "pass": "PASS_1_LOCALITY_DIST",
+        "query": "N R Mohalla, Mysuru, Karnataka, India",
+        "candidates_returned": 1
+      }
+    ],
+    "geocoded_at": "2026-09-06T06:21:22.258209+00:00"
+  },
+  {
+    "centre_id": "tc-140",
+    "centre_name": "Govt Industrial Training Institute, Malavalli (MIS GU29000158)",
+    "original_address": "REQUIRES OFFICIAL SOURCE VERIFICATION",
+    "district": "Mandya",
+    "taluk": "Malavalli",
+    "latitude": null,
+    "longitude": null,
+    "status": "FAILED",
+    "confidence": "NONE",
+    "provider": null,
+    "geocoding_query": null,
+    "provider_result": null,
+    "validation_reason": "Placeholder / unverified address ('REQUIRES OFFICIAL SOURCE VERIFICATION')",
+    "unresolved_category": "PLACEHOLDER",
+    "attempted_passes": [],
+    "geocoded_at": null
+  }
+]

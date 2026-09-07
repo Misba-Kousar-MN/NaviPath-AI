@@ -1,0 +1,70 @@
+1. [tc-001] Government Tool Room and Training Centre, Rajajinagar (Bengaluru Urban) | Cat: PLACEHOLDER | Reason: Placeholder / unverified address ('REQUIRES OFFICIAL SOURCE VERIFICATION') | Addr: REQUIRES OFFICIAL SOURCE VERIFICATION
+2. [tc-002] Government Industrial Training Institute, Gundlupete (Chamarajanagar) | Cat: PLACEHOLDER | Reason: Placeholder / unverified address ('REQUIRES OFFICIAL SOURCE VERIFICATION') | Addr: REQUIRES OFFICIAL SOURCE VERIFICATION
+3. [tc-003] ITI Directorate of Employment & Training (DET) — Mysuru Division Office (Mysuru) | Cat: PLACEHOLDER | Reason: Placeholder / unverified address ('REQUIRES OFFICIAL SOURCE VERIFICATION') | Addr: REQUIRES OFFICIAL SOURCE VERIFICATION
+4. [tc-006] Raman Industrial Training Centre Kamakshi Palya (Bengaluru Urban) | Cat: FAILED_NO_RESULT | Reason: No matching results across all query passes | Addr: 134 Kamalighi Palaya
+5. [tc-009] Globe I.T.C., Obalappa Garden, Bangalore (Bengaluru Urban) | Cat: FAILED_NO_RESULT | Reason: No matching results across all query passes | Addr: Obalappa Garden, Bangalore
+6. [tc-011] Bhuvan Industrial Training Centre Venkatala (Bengaluru Urban) | Cat: FAILED_NO_RESULT | Reason: No matching results across all query passes | Addr: Venkatala Yalahnka
+7. [tc-021] Pragathi Industrial Training Centre (Bengaluru Rural) | Cat: FAILED_NO_RESULT | Reason: No matching results across all query passes | Addr: Fort Street Vijaypura
+8. [tc-023] Sri Banashankari ITC (Bengaluru Rural) | Cat: FAILED_NO_RESULT | Reason: No matching results across all query passes | Addr: # 37, Parvartha Pura Road, Devanhalli, Bangalore
+9. [tc-026] Sri Nanjunda Shivayageshwara ITI (Mysuru) | Cat: FAILED_NO_RESULT | Reason: No matching results across all query passes | Addr: Gavadagere Hunsur Tq.
+10. [tc-027] Jnanabyaveshwara Industrail Training Centre (Mysuru) | Cat: FAILED_NO_RESULT | Reason: No matching results across all query passes | Addr: Saligrama K.R Nagar
+11. [tc-029] Jagruthi ITC (Mysuru) | Cat: FAILED_NO_RESULT | Reason: No matching results across all query passes | Addr: 7th Block, B.M. Road, Periyapatna
+12. [tc-030] Smt Puttathayamma Mariyappa ITC, K.R Nagar (Mysuru) | Cat: FAILED_VALIDATION | Reason: Insufficient match quality (Score 33.0 < 55) | Addr: Sri Rama Block K.R Nagar
+13. [tc-032] Sri Sathya Sai ITC Hunsur (Mysuru) | Cat: AMBIGUOUS | Reason: Multiple distant candidates (>25km) in PASS_1_LOCALITY_DIST | Addr: Hunsur
+14. [tc-033] Sri Pravardhana ITI, K.R Nagar (Mysuru) | Cat: AMBIGUOUS | Reason: Multiple distant candidates (>25km) in PASS_1_LOCALITY_DIST | Addr: Mysore Road, K R Nagar
+15. [tc-041] Hyderabad Karnataka Education Society's Industrial Training Institute, Kamalapur (Kalaburagi) | Cat: FAILED_NO_RESULT | Reason: No matching results across all query passes | Addr: Near DIET, Humanabad Road, Post: Kamalapura
+16. [tc-042] Kayaka Industrail Training Centre (Kalaburagi) | Cat: FAILED_NO_RESULT | Reason: No matching results across all query passes | Addr: S.R.G Complex Razavi Road Alanda
+17. [tc-043] Kudala Sangama Educational Societys Industrial Training Institute, Shahabad (Kalaburagi) | Cat: FAILED_NO_RESULT | Reason: No matching results across all query passes | Addr: Near Star Function Hall, Hongunta Road, Shahabad, Tq: Chittapur
+18. [tc-044] Kagina Private Industrial Training Institute Adityanagar (Kalaburagi) | Cat: FAILED_NO_RESULT | Reason: No matching results across all query passes | Addr: Malkhed Road Adityanagar
+19. [tc-046] Sri Noorandeshwar ITC Jewargi (Kalaburagi) | Cat: FAILED_NO_RESULT | Reason: No matching results across all query passes | Addr: At Post: Naribol Road Jewargi
+20. [tc-047] Adarsh Educational Trust PROF.P.S.CHOUDARY I..T.I Kalaburagi (Kalaburagi) | Cat: FAILED_NO_RESULT | Reason: No matching results across all query passes | Addr: Swamy Vivekanand Nagar Near Santosh Colony Aland Road Kalaburagi
+21. [tc-051] Gurukal ITI (Kalaburagi) | Cat: FAILED_NO_RESULT | Reason: No matching results across all query passes | Addr: 82, Sy No-31 Part of Village Nizampur Near Kamal Narag
+22. [tc-053] Hyderabad Karnataka Education Society's Industrial Training Institute, Kalaburagi (Kalaburagi) | Cat: FAILED_NO_RESULT | Reason: No matching results across all query passes | Addr: PDA Engineering College Premises, Kalaburagi
+23. [tc-056] Navalagund Taluka Shikshana Samsthe, Navalagund (Dharwad (Hubballi-Dharwad)) | Cat: FAILED_NO_RESULT | Reason: No matching results across all query passes | Addr: Navalagund
+24. [tc-059] Sai Sangam ITI, Hubli (Dharwad (Hubballi-Dharwad)) | Cat: FAILED_NO_RESULT | Reason: No matching results across all query passes | Addr: Sulya Road, Hubli
+25. [tc-060] Sanmith ITI Dharwad (Dharwad (Hubballi-Dharwad)) | Cat: FAILED_NO_RESULT | Reason: No matching results across all query passes | Addr: Vivekanandanagar, Gopalagowda Extn.
+26. [tc-061] Jnanajyothi ITI Dharwad (Dharwad (Hubballi-Dharwad)) | Cat: FAILED_NO_RESULT | Reason: No matching results across all query passes | Addr: Jadhav Building, 1st Cross, Marata Colony
+27. [tc-063] Jeeveswara Shikehan Samithi ITI Hubli (Dharwad (Hubballi-Dharwad)) | Cat: FAILED_NO_RESULT | Reason: No matching results across all query passes | Addr: Channapeth Ganjipeth, Old Hubli
+28. [tc-065] Sri Dharmastala Manjunathaeshwara Pvt. ITI Sattur Dharwad (Dharwad (Hubballi-Dharwad)) | Cat: FAILED_NO_RESULT | Reason: No matching results across all query passes | Addr: Dhavalagiri, Sattur P.B.Road
+29. [tc-068] SNVVS Private ITI, Samping Nagar Dharwad (Dharwad (Hubballi-Dharwad)) | Cat: FAILED_NO_RESULT | Reason: No matching results across all query passes | Addr: Adichunchanagiri Mutt Samping Nagar
+30. [tc-069] Vijayanagara Industrial Training Institute (Ballari) | Cat: AMBIGUOUS | Reason: Multiple distant candidates (>25km) in PASS_6_NAME_DIST | Addr: Kamalapura Hospet Tq. Bellary Dt.
+31. [tc-070] TMAE Societys Sri Thimmaiah Shetty ITI Hagaribommanahalli (Ballari) | Cat: FAILED_NO_RESULT | Reason: No matching results across all query passes | Addr: Kadalabalu Road Ramanagara Hagaribommanahalli
+32. [tc-073] Yerriswamy Education Trust ITC (Ballari) | Cat: FAILED_NO_RESULT | Reason: No matching results across all query passes | Addr: Mullangi Sanjeevappa Street, Bellary
+33. [tc-074] Neelamma Basaveshwara Industrial Training Centre Bellary (Ballari) | Cat: FAILED_NO_RESULT | Reason: No matching results across all query passes | Addr: Mullangi Sanjeevappa Street, Bellary
+34. [tc-075] Sri Gurukottureshwara Rural ITI, Emmiganur (Ballari) | Cat: FAILED_NO_RESULT | Reason: No matching results across all query passes | Addr: Emmiganur
+35. [tc-079] Dr. B.R. Ambedkar Industrial Training Institute Hospet (Ballari) | Cat: FAILED_NO_RESULT | Reason: No matching results across all query passes | Addr: Anantha Shayana Gudi Hospet
+36. [tc-080] Jagadguru Kotturswamy ITI, Bellary (Ballari) | Cat: FAILED_NO_RESULT | Reason: No matching results across all query passes | Addr: Ganesh Gudi Beedi, Bellary
+37. [tc-082] Sri Bharath Industrial Training Centre (Ballari) | Cat: FAILED_NO_RESULT | Reason: No matching results across all query passes | Addr: Hosa Daroji Post Tq. Sandur
+38. [tc-085] Shrimann Madhwacharya Private Industrial Training Institute, Bagalkot (Bagalkot) | Cat: FAILED_NO_RESULT | Reason: No matching results across all query passes | Addr: Badami Road Near Old APMC Bagalkot
+39. [tc-086] Vishwa Bharti ITI Telasang (Belagavi) | Cat: FAILED_NO_RESULT | Reason: No matching results across all query passes | Addr: Tel Sang Athani T.Q
+40. [tc-087] Komalanna Doddanannavar Bharatesh Pvt ITI, Belgaum (Belagavi) | Cat: FAILED_NO_RESULT | Reason: No matching results across all query passes | Addr: Basavan Kudachi Extension Belgaum
+41. [tc-089] Hind I.T.I. Mahadev Complex Udgir Road Shiv Nagar Bidar (Bidar) | Cat: FAILED_NO_RESULT | Reason: No matching results across all query passes | Addr: Near, Papnash Gate Mahadev Complex Udgir Road Bidar
+42. [tc-090] Shri Sanganabasaveshwar Private industrial Training institute Lachyan (Vijayapura) | Cat: FAILED_NO_RESULT | Reason: No matching results across all query passes | Addr: Post Lachyan Tq Indi
+43. [tc-091] Karnataka ITI, Sindhagi (Vijayapura) | Cat: FAILED_NO_RESULT | Reason: No matching results across all query passes | Addr: Sindhagi
+44. [tc-093] Sri Vivekananda Industrial Training Institute (Chamarajanagar) | Cat: FAILED_NO_RESULT | Reason: No matching results across all query passes | Addr: B R Hills Yalandur
+45. [tc-094] Sir M. Visveswaraiah Industrial Training Institute (Chikkaballapura) | Cat: FAILED_NO_RESULT | Reason: No matching results across all query passes | Addr: C.V.V.Campus
+46. [tc-095] S.R.S Industrial Training Centre Begepalli Town (Chikkaballapura) | Cat: FAILED_NO_RESULT | Reason: No matching results across all query passes | Addr: Kotha Palli Road Bagepalli
+47. [tc-097] Sri Dharmastala Manjunatheshwara ITI (Chikkamagaluru) | Cat: FAILED_NO_RESULT | Reason: No matching results across all query passes | Addr: Via Kalasa Mudigere, SAMSE
+48. [tc-098] Azad Minorities Industrial Training Centre, Challakere (Chitradurga) | Cat: FAILED_NO_RESULT | Reason: No matching results across all query passes | Addr: T.R.Nagar, challakere
+49. [tc-100] Seyyid Madani ITI (Dakshina Kannada) | Cat: FAILED_NO_RESULT | Reason: No matching results across all query passes | Addr: Ombathukere, Ullal, Mangalore
+50. [tc-103] Usmaniya Industrial Training Institute (Davanagere) | Cat: FAILED_NO_RESULT | Reason: No matching results across all query passes | Addr: Kerebilichi (POST) CHANNAGIRI TQ DAVANAGERE DIST
+51. [tc-108] TMAE Tonkada Veerappa Industrail Training Institute, Haveri (Haveri) | Cat: FAILED_NO_RESULT | Reason: No matching results across all query passes | Addr: TMAE Tonk Veer I.T.C, Haveri
+52. [tc-112] Noorie Industrial Training Centre Andersopet (Kolar) | Cat: AMBIGUOUS | Reason: Multiple distant candidates (>25km) in PASS_4_PIN | Addr: Andersopet, K.G.F.-563113
+53. [tc-114] Veera Neelambika Industrial Training Institute (Koppal) | Cat: FAILED_NO_RESULT | Reason: No matching results across all query passes | Addr: Shastri Nagar, Agalkere Po. Gangavathi Tq. Koppal Dt.
+54. [tc-115] Sri Jagadguru Tontadarya I.T.I Mandalagiri (Koppal) | Cat: FAILED_NO_RESULT | Reason: No matching results across all query passes | Addr: Mandalagiri, Taluk: Yalaburga
+55. [tc-118] Basava Industrial Training Institute Manvi (Raichur) | Cat: FAILED_NO_RESULT | Reason: No matching results across all query passes | Addr: P.L.D Bank Building Near Kalmat School Manvi.
+56. [tc-120] Hombegowda Industrail Training Centre, Kengal (Ramanagara) | Cat: FAILED_NO_RESULT | Reason: No matching results across all query passes | Addr: Kengal, Channapatna
+57. [tc-121] SLNM Industrial Training Centre Cannapatna (Ramanagara) | Cat: FAILED_NO_RESULT | Reason: No matching results across all query passes | Addr: 1535, Loyada Beedi Channpatna
+58. [tc-123] Sumauka Industrial Training Centre Anandapuram (Shivamogga) | Cat: FAILED_NO_RESULT | Reason: No matching results across all query passes | Addr: Anandapuram Sagara(T)
+59. [tc-124] Sri T.V. Venkataswamy Industrial Training Centre (Tumakuru) | Cat: FAILED_NO_RESULT | Reason: No matching results across all query passes | Addr: G.B.N. Road Madhugiri
+60. [tc-128] Bharath Liberal Educational Trust ITI Dandeli (Uttara Kannada) | Cat: FAILED_NO_RESULT | Reason: No matching results across all query passes | Addr: GANDHINAGAR DANDELI
+61. [tc-129] Mazzarello Private Industrial Training Institute kasarkod (Uttara Kannada) | Cat: FAILED_NO_RESULT | Reason: No matching results across all query passes | Addr: Upperkasarkod, Kelaginoor, Honavar
+62. [tc-130] Shree basavajyoti ITI kodekal (Yadgir) | Cat: FAILED_NO_RESULT | Reason: No matching results across all query passes | Addr: post- kodekal Tq - Surupur Dist Yadigiri
+63. [tc-131] Charabasaveshwara Industrial Training Centre (Yadgir) | Cat: FAILED_NO_RESULT | Reason: No matching results across all query passes | Addr: opposite to karnataka electrical board, shahapur
+64. [tc-132] Govt Industrial Training Institute, Davanagere (MIS GU29000048) (Davanagere) | Cat: PLACEHOLDER | Reason: Placeholder / unverified address ('REQUIRES OFFICIAL SOURCE VERIFICATION') | Addr: REQUIRES OFFICIAL SOURCE VERIFICATION
+65. [tc-133] Govt ITI, Koratagere (MIS GR29001513) (Tumakuru) | Cat: PLACEHOLDER | Reason: Placeholder / unverified address ('REQUIRES OFFICIAL SOURCE VERIFICATION') | Addr: REQUIRES OFFICIAL SOURCE VERIFICATION
+66. [tc-135] Govt Industrial Training Institute, Anekal Nagara (MIS GU29001424) (Bengaluru Urban) | Cat: PLACEHOLDER | Reason: Placeholder / unverified address ('REQUIRES OFFICIAL SOURCE VERIFICATION') | Addr: REQUIRES OFFICIAL SOURCE VERIFICATION
+67. [tc-136] Govt. ITI, Beguru (MIS GR29000925) (Mysuru) | Cat: PLACEHOLDER | Reason: Placeholder / unverified address ('REQUIRES OFFICIAL SOURCE VERIFICATION') | Addr: REQUIRES OFFICIAL SOURCE VERIFICATION
+68. [tc-137] Government Industrial Training Institute, Maddur (MIS GR29000400) (Mandya) | Cat: PLACEHOLDER | Reason: Placeholder / unverified address ('REQUIRES OFFICIAL SOURCE VERIFICATION') | Addr: REQUIRES OFFICIAL SOURCE VERIFICATION
+69. [tc-138] Govt ITI, Chamarajanagar (MIS GU29001514) (Chamarajanagar) | Cat: PLACEHOLDER | Reason: Placeholder / unverified address ('REQUIRES OFFICIAL SOURCE VERIFICATION') | Addr: REQUIRES OFFICIAL SOURCE VERIFICATION
+70. [tc-140] Govt Industrial Training Institute, Malavalli (MIS GU29000158) (Mandya) | Cat: PLACEHOLDER | Reason: Placeholder / unverified address ('REQUIRES OFFICIAL SOURCE VERIFICATION') | Addr: REQUIRES OFFICIAL SOURCE VERIFICATION

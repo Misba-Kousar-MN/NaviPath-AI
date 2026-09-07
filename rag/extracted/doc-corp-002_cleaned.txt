@@ -1,0 +1,34 @@
+# e-Shram Portal Guidelines and Frequently Asked Questions
+
+Official Source: Ministry of Labour & Employment, Government of India
+Authority: Ministry of Labour & Employment (MoLE)
+Portal URL: https://eshram.gov.in/faqs
+Source ID: src-002
+
+## 1. What is e-Shram Portal?
+The Ministry of Labour & Employment has developed the e-Shram portal for creating a centralized National Database of Unorganised Workers (NDUW). The database is seeded with Aadhaar and aims to deliver social security benefits and welfare schemes implemented by the Central and State Governments to informal workers.
+
+## 2. Definition of Unorganised Worker
+An unorganised worker is any worker who is a home-based worker, self-employed worker, or a wage worker working in the unorganised sector. An unorganised sector enterprise includes any establishment or business owned by individuals or self-employed workers engaged in the production or sale of goods or services, where the enterprise employs fewer than 10 workers.
+
+## 3. Eligibility Criteria for Registration
+To register on e-Shram, an applicant must satisfy the following conditions:
+- Age: The worker must be between 16 and 59 years of age (16 years or above on the date of registration).
+- Occupation: Must be engaged in an unorganised sector occupation (e.g. agricultural labour, construction work, domestic work, street vending, transport driving, delivery gig work, tailoring, carpentry, craftsmanship).
+- Social Security Exclusion: The worker must NOT be a member of the Employees' Provident Fund Organisation (EPFO) or Employees' State Insurance Corporation (ESIC).
+- Tax Exclusion: The worker should NOT be an income tax payee.
+- Income Criteria: There is no minimum or maximum income criterion for registering on e-Shram as an unorganised worker, provided the individual is not an income tax payee.
+
+## 4. Required Documents and Registration Process
+Registration on e-Shram is free of charge:
+- Mandatory Documents:
+1. Aadhaar Number (UIDAI).
+2. Mobile Number linked with Aadhaar (for OTP authentication).
+3. Active Savings Bank Account details (Account Number, Bank Name, IFSC code).
+- Workers who do not have an Aadhaar-linked mobile number can visit the nearest Common Service Centre (CSC) or State Seva Kendra for assisted registration using biometric (fingerprint or iris) authentication.
+
+## 5. Universal Account Number (UAN) and Benefits
+Upon successful registration on the e-Shram portal:
+- Workers are issued an e-Shram Card featuring a unique 12-digit Universal Account Number (UAN) that is valid across all States and Union Territories of India.
+- Clarification on Financial Benefits: Currently, registration on the e-Shram portal serves as a unified registration and identity mechanism for unorganised workers. Registration itself does not disburse direct recurring cash grants or automatic cash allowances unless linked to specific disaster relief or targeted State welfare programs.
+- The UAN card enables portable delivery of social security benefits, accidental insurance coverage notifications, and skill development opportunities under Central and State Government schemes.

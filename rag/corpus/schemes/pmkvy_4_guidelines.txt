@@ -1,0 +1,26 @@
+# Pradhan Mantri Kaushal Vikas Yojana (PMKVY) 4.0 Overview
+
+Official Source: Ministry of Skill Development and Entrepreneurship (MSDE), Government of India / Press Information Bureau
+Authority: Ministry of Skill Development & Entrepreneurship / National Skill Development Corporation (NSDC)
+Source URL: https://www.pib.gov.in/PressReleasePage.aspx?PRID=1895304
+Source ID: src-013
+
+## 1. Scheme Launch and Objectives
+Pradhan Mantri Kaushal Vikas Yojana (PMKVY) 4.0 was announced under the Skill India Mission to build an agile, future-ready workforce aligned with emerging economic and technological requirements. The scheme prioritizes on-demand training, localized skilling, and industry partnerships across states including Karnataka.
+
+## 2. Focus on Industry 4.0 and New-Age Roles
+A core pivot in PMKVY 4.0 is the incorporation of future-oriented skill training tailored to Industry 4.0 demands:
+- Emerging Domains: Specialized courses in Artificial Intelligence (AI), Robotics, Internet of Things (IoT), Mechatronics, 3D Printing, Drone Technology, and Green Energy / Electric Vehicles.
+- Upskilling Traditional Sectors: Modernizing existing manufacturing, logistics, apparel, and construction vocations through digital and automated tool handling.
+
+## 3. Scheme Components
+The scheme operates through three primary implementation tracks:
+- Short Term Training (STT): Targeted at school/college dropouts and unemployed youth to impart modular vocational skills aligned to NSQF standards.
+- Recognition of Prior Learning (RPL): Formally assessing and certifying existing competencies and informal experience of unorganised workers without requiring full-time classroom schooling.
+- Special Projects: Custom skilling initiatives designed for marginalized communities, remote districts, and specialized industrial clusters.
+- Skill Hubs: Establishing training nodes within existing educational infrastructure (ITIs, Navodaya Vidyalayas, Polytechnics, and Colleges).
+
+## 4. Policy Revisions and Delinking of Placement Rewards
+- Training Costs: Training and assessment costs are fully sponsored by the Central Government, offering fee-free participation for eligible candidates.
+- Assessment and Digital Credentials: Certification is issued upon independent third-party assessment and recorded as digital verifiable credentials via the Skill India Digital platform.
+- Operational Reform: PMKVY 4.0 delinks financial payout milestones to training partners from mandatory placement outcomes, prioritizing holistic candidate competence, foundational digital literacy, and lifelong learning adaptability.

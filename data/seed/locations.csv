@@ -1,0 +1,7 @@
+id,district,taluk,centroid_lat,centroid_lng,source_id
+loc-001,Bengaluru Urban,,12.9716,77.5946,src-014
+loc-002,Mysuru,,12.2958,76.6394,src-014
+loc-003,Kalaburagi,,17.3297,76.8343,src-014
+loc-004,Dharwad (Hubballi-Dharwad),,15.4589,75.0078,src-014
+loc-005,Ballari,,15.1394,76.9214,src-014
+loc-006,Chamarajanagar,,11.9236,76.9456,src-014

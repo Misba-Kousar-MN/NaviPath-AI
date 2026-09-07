@@ -1,0 +1,26 @@
+# Craftsmen Training Scheme (CTS) — Fitter Trade Syllabus
+
+Official Source: Directorate General of Training (DGT), Ministry of Skill Development and Entrepreneurship (MSDE)
+Authority: NCVT / DGT
+Course ID: crs-005
+Skill ID: skl-007
+Source ID: src-026
+
+## 1. Trade Profile and Qualification Structure
+The Fitter trade is a core mechanical engineering trade under CTS that develops foundational precision manufacturing, bench work, fitting, machine assembly, and maintenance competencies.
+- NSQF Level: Level 4
+- Duration: 2 Years (2400 hours total practical, theory, engineering drawing, and workshop calculations).
+- Entry Qualification: Passed 10th class examination with Science and Mathematics.
+- Certification: National Trade Certificate (NTC) awarded by NCVT upon successful All India Trade Test (AITT) assessment.
+
+## 2. Practical Fitting and Assembly Competencies
+A certified Fitter executes precision engineering tasks:
+- Bench Work and Hand Tools: Precision marking, filing, sawing, chiseling, scraping, reaming, and tapping using precision hand tools within tight tolerances (up to ±0.02 mm).
+- Precision Measurement: Proficient reading and handling of vernier calipers, outside/inside micrometers, vernier height gauges, dial test indicators, sine bars, and slip gauges.
+- Machine Operations: Setting up and operating standard workshop machinery including sensitive drilling machines, power hacksaws, shaping machines, and pedestal grinders.
+- Fasteners and Assembly: Fitting keys, splines, dowel pins, bearings, couplings, gears, pulleys, and belts onto shafts; checking alignment and concentricity.
+- Pipes and Hydraulics: Basic pipe bending, threading, flanging, valve fitting; assembly and testing of pneumatic and hydraulic control circuits.
+- Preventive Maintenance: Routine lubrication, bearing replacement, alignment checks, seal replacement, and troubleshooting industrial machinery.
+
+## 3. Industrial Application and Employment
+Fitters are in high demand across public sector and private industrial units: aerospace manufacturing, defense production units (HAL, BEL), Indian Railways, machine tool plants, heavy engineering fabrication yards, and automotive assembly plants in Karnataka industrial corridors.

@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-brand-surface text-brand-text-dark antialiased font-sans selection:bg-brand-soft-mint selection:text-brand-dark-teal min-h-screen;
+    font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
+  }
+}
+
+/* Custom organic gradients and micro-interactions */
+.bg-organic-hero {
+  background: radial-gradient(circle at 10% 20%, rgba(207, 229, 213, 0.5) 0%, transparent 40%),
+              radial-gradient(circle at 90% 80%, rgba(166, 210, 200, 0.4) 0%, transparent 40%),
+              radial-gradient(circle at 50% 50%, rgba(184, 214, 178, 0.25) 0%, transparent 60%),
+              #F7FAF8;
+}
+
+.bg-card-subtle {
+  background: linear-gradient(135deg, #FFFFFF 0%, #FAFCFB 100%);
+}
+
+.transition-smooth {
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}

@@ -1,0 +1,399 @@
+{
+  "contract_version": "1.0",
+  "profile": {
+    "session_id": "session-bengaluru-delivery-001",
+    "occupation": "Delivery Rider",
+    "district": "Bengaluru Urban",
+    "education": "10th pass",
+    "language": "kn",
+    "target_skill": "Electrician",
+    "age": 26,
+    "social_security_status": "none",
+    "pincode": "560022",
+    "gender": "male",
+    "career_goal_text": "I want to become an electrician and get certified"
+  },
+  "matched_occupation": {
+    "id": "occ-001",
+    "name_en": "Delivery / Courier Rider",
+    "name_kn": "ಡೆಲಿವರಿ / ಕೊರಿಯರ್ ರೈಡರ್",
+    "sector": "Logistics & Gig Economy",
+    "description": "Two-wheeler parcel/food delivery executive in urban centres."
+  },
+  "current_skills": [
+    {
+      "id": "skl-001",
+      "name_en": "Two-Wheeler Driving & Navigation",
+      "name_kn": "ದ್ವಿಚಕ್ರ ವಾಹನ ಚಾಲನೆ ಮತ್ತು ನ್ಯಾವಿಗೇಷನ್",
+      "category": "Operational"
+    },
+    {
+      "id": "skl-002",
+      "name_en": "Customer Interaction & Cash Handling",
+      "name_kn": "ಗ್ರಾಹಕರ ಸಂಪರ್ಕ ಮತ್ತು ನಗದು ನಿರ್ವಹಣೆ",
+      "category": "Service"
+    },
+    {
+      "id": "skl-003",
+      "name_en": "Smartphone Application Literacy",
+      "name_kn": "ಸ್ಮಾರ್ಟ್‌ಫೋನ್ ಅಪ್ಲಿಕೇಶನ್ ಬಳಕೆ",
+      "category": "Digital"
+    }
+  ],
+  "recommendations": [
+    {
+      "target_skill": {
+        "id": "skl-004",
+        "name_en": "Electrician (Domestic / Basic)",
+        "name_kn": "ಎಲೆಕ್ಟ್ರಿಷಿಯನ್ (ಮನೆ ಬಳಕೆಯ / ಮೂಲ)",
+        "category": "Technical Trades"
+      },
+      "bridge_skills": [
+        {
+          "id": "skl-005",
+          "name_en": "Basic Electrical Safety & Tool Handling",
+          "name_kn": "ಮೂಲ ವಿದ್ಯುತ್ ಸುರಕ್ಷತೆ ಮತ್ತು ಉಪಕರಣಗಳ ಬಳಕೆ",
+          "category": "Foundational Technical"
+        }
+      ],
+      "rationale": "High urban demand for domestic electrical repairs; your mobile navigation and customer handling transfer well into service visits; foundational safety training enables swift entry.",
+      "confidence": "expert-curated",
+      "estimated_duration_weeks": 12,
+      "potential_income_uplift": "40% - 60% higher earnings through certified independent repairs."
+    }
+  ],
+  "skill_gaps": [
+    {
+      "skill": {
+        "id": "skl-004",
+        "name_en": "Electrician (Domestic / Basic)",
+        "name_kn": "ಎಲೆಕ್ಟ್ರಿಷಿಯನ್ (ಮನೆ ಬಳಕೆಯ / ಮೂಲ)",
+        "category": "Technical Trades"
+      },
+      "has_it": false,
+      "how_to_close": "Complete NSQF Level 3 Domestic Electrician Course (crs-001)"
+    },
+    {
+      "skill": {
+        "id": "skl-005",
+        "name_en": "Basic Electrical Safety & Tool Handling",
+        "name_kn": "ಮೂಲ ವಿದ್ಯುತ್ ಸುರಕ್ಷತೆ ಮತ್ತು ಉಪಕರಣಗಳ ಬಳಕೆ",
+        "category": "Foundational Technical"
+      },
+      "has_it": false,
+      "how_to_close": "Included as mandatory Module 1 in Electrician Training"
+    }
+  ],
+  "courses": [
+    {
+      "id": "crs-001",
+      "title": "Domestic Solutions Electrician (NSQF Level 3)",
+      "skill_id": "skl-004",
+      "provider": "Karnataka Skill Development Corporation (KSDC) / CMKKY",
+      "duration_hours": 350,
+      "duration_weeks": 12,
+      "cost_inr": 0,
+      "mode": "offline",
+      "is_government_recognized": true,
+      "certification": "National Council for Vocational Training (NCVT) / NSDC",
+      "curation_status": "verified"
+    },
+    {
+      "id": "crs-002",
+      "title": "Basic Electrical Safety & Installation Practices",
+      "skill_id": "skl-005",
+      "provider": "NSTI Bengaluru",
+      "duration_hours": 80,
+      "duration_weeks": 3,
+      "cost_inr": 500,
+      "mode": "offline",
+      "is_government_recognized": true,
+      "certification": "Directorate General of Training (DGT)",
+      "curation_status": "verified"
+    }
+  ],
+  "nearby_centres": [
+    {
+      "centre": {
+        "id": "tc-001",
+        "name": "National Skill Training Institute (NSTI) Bengaluru",
+        "district": "Bengaluru Urban",
+        "taluk": "Bengaluru North",
+        "address": "Outer Ring Road, Yeshwanthpur, Bengaluru, Karnataka 560022",
+        "latitude": 13.0285,
+        "longitude": 77.5452,
+        "recognition_status": "govt-recognized",
+        "contact_phone": "+91 80 2337 1311",
+        "contact_email": "nsti-bengaluru@dgt.gov.in",
+        "source_id": "src-023"
+      },
+      "course": {
+        "id": "crs-001",
+        "title": "Domestic Solutions Electrician (NSQF Level 3)",
+        "fee_inr": 0
+      },
+      "distance_km": 4.2,
+      "distance_type": "exact",
+      "last_verified": "2026-09-05"
+    },
+    {
+      "centre": {
+        "id": "tc-002",
+        "name": "Government Industrial Training Institute (ITI) Bengaluru Peenya",
+        "district": "Bengaluru Urban",
+        "taluk": "Bengaluru North",
+        "address": "Peenya 1st Stage, Near SRS Road, Bengaluru, Karnataka 560058",
+        "latitude": 13.0312,
+        "longitude": 77.5188,
+        "recognition_status": "govt-recognized",
+        "contact_phone": "+91 80 2839 4520",
+        "contact_email": "itipeenya@karnataka.gov.in",
+        "source_id": "src-024"
+      },
+      "course": {
+        "id": "crs-001",
+        "title": "Domestic Solutions Electrician (NSQF Level 3)",
+        "fee_inr": 0
+      },
+      "distance_km": 6.8,
+      "distance_type": "exact",
+      "last_verified": "2026-09-05"
+    }
+  ],
+  "schemes": [
+    {
+      "id": "sch-001",
+      "name_en": "Chief Minister's Kaushalya Karnataka Yojane (CMKKY)",
+      "name_kn": "ಮುಖ್ಯಮಂತ್ರಿಗಳ ಕೌಶಲ್ಯ ಕರ್ನಾಟಕ ಯೋಜನೆ",
+      "issuing_authority": "Karnataka Skill Development Corporation (KSDC)",
+      "benefit_summary": "100% free government skill training, industry-recognized NCVT certificate, and minimum 70% job placement assistance.",
+      "target_group": "Youth and informal workers in Karnataka seeking vocational skills",
+      "official_portal_url": "https://kaushalkar.karnataka.gov.in",
+      "status": "active"
+    },
+    {
+      "id": "sch-002",
+      "name_en": "e-Shram Portal Registration & Social Security",
+      "name_kn": "ಇ-ಶ್ರಮ್ ಪೋರ್ಟಲ್ ನೋಂದಣಿ ಮತ್ತು ಸಾಮಾಜಿಕ ಭದ್ರತೆ",
+      "issuing_authority": "Ministry of Labour & Employment, Govt of India",
+      "benefit_summary": "Universal unorganised worker UAN card, accident insurance cover under PMSBY, direct integration with social security schemes.",
+      "target_group": "Unorganised and gig workers aged 16-59 not covered under ESIC/EPFO",
+      "official_portal_url": "https://eshram.gov.in",
+      "status": "active"
+    }
+  ],
+  "eligibility": [
+    {
+      "scheme_id": "sch-001",
+      "scheme_name": "Chief Minister's Kaushalya Karnataka Yojane (CMKKY)",
+      "verdict": "eligible",
+      "reasons": [
+        {
+          "condition": "Resident of Karnataka",
+          "field_path": "profile.district",
+          "operator": "in",
+          "expected_value": "Karnataka District",
+          "worker_value": "Bengaluru Urban",
+          "result": "pass"
+        },
+        {
+          "condition": "Age between 18 and 35 years",
+          "field_path": "profile.age",
+          "operator": "between",
+          "expected_value": "18 - 35",
+          "worker_value": 26,
+          "result": "pass"
+        },
+        {
+          "condition": "Minimum educational qualification 10th pass for technical course",
+          "field_path": "profile.education",
+          "operator": "gte_level",
+          "expected_value": "10th",
+          "worker_value": "10th pass",
+          "result": "pass"
+        }
+      ],
+      "required_documents": [
+        {
+          "document_id": "doc-001",
+          "name": "Aadhaar Card",
+          "name_kn": "ಆಧಾರ್ ಕಾರ್ಡ್",
+          "mandatory": true,
+          "notes": "Must be linked to your mobile phone number for OTP verification."
+        },
+        {
+          "document_id": "doc-002",
+          "name": "10th Standard Marks Card / Passing Certificate",
+          "name_kn": "೧೦ನೇ ತರಗತಿ ಅಂಕಪಟ್ಟಿ",
+          "mandatory": true,
+          "notes": "Required as proof of minimum educational qualification."
+        },
+        {
+          "document_id": "doc-003",
+          "name": "Karnataka Ration Card / Domicile Certificate",
+          "name_kn": "ರೇಷನ್ ಕಾರ್ಡ್ / ವಾಸ್ತವ್ಯ ಪ್ರಮಾಣಪತ್ರ",
+          "mandatory": false,
+          "notes": "Used to verify local resident quota and priority categories."
+        }
+      ],
+      "evidence_citations": [
+        {
+          "source_id": "src-004",
+          "authority": "Karnataka Skill Development Corporation",
+          "excerpt": "CMKKY provides short-term vocational skilling for Karnataka youth with 70% placement commitment. Candidates must register on kaushalkar portal.",
+          "page_or_section": "CMKKY Guidelines, Section 3.2"
+        }
+      ]
+    },
+    {
+      "scheme_id": "sch-002",
+      "scheme_name": "e-Shram Portal Registration & Social Security",
+      "verdict": "eligible",
+      "reasons": [
+        {
+          "condition": "Age between 16 and 59 years",
+          "field_path": "profile.age",
+          "operator": "between",
+          "expected_value": "16 - 59",
+          "worker_value": 26,
+          "result": "pass"
+        },
+        {
+          "condition": "Not an active member of ESIC or EPFO",
+          "field_path": "profile.social_security_status",
+          "operator": "not_in",
+          "expected_value": "['esic', 'epfo']",
+          "worker_value": "none",
+          "result": "pass"
+        }
+      ],
+      "required_documents": [
+        {
+          "document_id": "doc-001",
+          "name": "Aadhaar Card",
+          "name_kn": "ಆಧಾರ್ ಕಾರ್ಡ್",
+          "mandatory": true,
+          "notes": "Aadhaar number linked to mobile for instant eKYC."
+        },
+        {
+          "document_id": "doc-004",
+          "name": "Active Bank Account Passbook",
+          "name_kn": "ಬ್ಯಾಂಕ್ ಖಾತೆ ಪಾಸ್‌ಬುಕ್",
+          "mandatory": true,
+          "notes": "Required for DBT benefit transfers."
+        }
+      ],
+      "evidence_citations": [
+        {
+          "source_id": "src-002",
+          "authority": "Ministry of Labour & Employment",
+          "excerpt": "A person aged 16-59 engaged in unorganised work who is not an EPFO/ESIC member qualifies for eShram.",
+          "page_or_section": "e-Shram FAQ & Criteria"
+        }
+      ]
+    }
+  ],
+  "documents": [
+    {
+      "document_id": "doc-001",
+      "name": "Aadhaar Card (Mobile Linked)",
+      "name_kn": "ಆಧಾರ್ ಕಾರ್ಡ್",
+      "mandatory": true,
+      "notes": "Needed for both e-Shram registration and CMKKY biometric attendance."
+    },
+    {
+      "document_id": "doc-002",
+      "name": "10th Standard Marks Card",
+      "name_kn": "೧೦ನೇ ತರಗತಿ ಅಂಕಪಟ್ಟಿ",
+      "mandatory": true,
+      "notes": "Verification document for admission to ITI/NSTI."
+    },
+    {
+      "document_id": "doc-004",
+      "name": "Bank Passbook with IFSC",
+      "name_kn": "ಬ್ಯಾಂಕ್ ಖಾತೆ ವಿವರ",
+      "mandatory": true,
+      "notes": "Required for direct benefit transfers."
+    }
+  ],
+  "next_steps": [
+    {
+      "step_number": 1,
+      "action": "Register on e-Shram portal to receive your 12-digit Universal Account Number (UAN).",
+      "category": "registration",
+      "estimated_time": "15 minutes",
+      "entity_reference": {
+        "type": "portal",
+        "url": "https://eshram.gov.in"
+      },
+      "language_localized_text": {
+        "kn": "ನಿಮ್ಮ 12-ಅಂಕಿಯ UAN ಕಾರ್ಡ್ ಪಡೆಯಲು ಮೊದಲು ಇ-ಶ್ರಮ್ ಪೋರ್ಟಲ್‌ನಲ್ಲಿ (eshram.gov.in) ನೋಂದಣಿ ಮಾಡಿಕೊಳ್ಳಿ.",
+        "hi": "अपना 12 अंकों का UAN कार्ड प्राप्त करने के लिए सबसे पहले ई-श्रम पोर्टल पर पंजीकरण करें।",
+        "en": "Register on the official e-Shram portal (eshram.gov.in) to receive your 12-digit UAN card."
+      }
+    },
+    {
+      "step_number": 2,
+      "action": "Gather your Aadhaar Card, 10th marks card, and 2 passport photos for course enrollment.",
+      "category": "document_prep",
+      "estimated_time": "1 day",
+      "entity_reference": {
+        "type": "course",
+        "id": "crs-001"
+      },
+      "language_localized_text": {
+        "kn": "ತರಬೇತಿ ಪ್ರವೇಶಕ್ಕಾಗಿ ನಿಮ್ಮ ಆಧಾರ್ ಕಾರ್ಡ್, 10ನೇ ತರಗತಿ ಅಂಕಪಟ್ಟಿ ಮತ್ತು ಭಾವಚಿತ್ರಗಳನ್ನು ಸಿದ್ಧಪಡಿಸಿಕೊಳ್ಳಿ.",
+        "hi": "कोर्स में दाखिले के लिए अपना आधार कार्ड, 10वीं की मार्कशीट और पासपोर्ट फोटो तैयार रखें।",
+        "en": "Keep your Aadhaar card, 10th marks sheet, and 2 passport photos ready for admission."
+      }
+    },
+    {
+      "step_number": 3,
+      "action": "Visit NSTI Bengaluru (Outer Ring Road, Yeshwanthpur) or apply online on kaushalkar.karnataka.gov.in for the free batch.",
+      "category": "course_enrollment",
+      "estimated_time": "Immediate / Next batch enrollment",
+      "entity_reference": {
+        "type": "centre",
+        "id": "tc-001",
+        "url": "https://kaushalkar.karnataka.gov.in"
+      },
+      "language_localized_text": {
+        "kn": "ಯಶವಂತಪುರದ ಎನ್‌ಎಸ್‌ಟಿಐ ಸಂಸ್ಥೆಗೆ ಭೇಟಿ ನೀಡಿ ಅಥವಾ ಕೌಶಲ್ಯ ಕರ್ನಾಟಕ ಪೋರ್ಟಲ್‌ನಲ್ಲಿ ಉಚಿತ ತರಬೇತಿ ಬ್ಯಾಚ್‌ಗೆ ಅರ್ಜಿ ಸಲ್ಲಿಸಿ.",
+        "hi": "यशवंतपुर स्थित NSTI संस्थान जाएँ या कौशल कर्नाटक पोर्टल पर निःशुल्क बैच के लिए आवेदन करें।",
+        "en": "Visit NSTI Bengaluru (Yeshwanthpur) or apply online at kaushalkar.karnataka.gov.in for the next batch."
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "source_id": "src-001",
+      "authority": "Ministry of Skill Development and Entrepreneurship (MSDE)",
+      "official_url": "https://pmvishwakarma.gov.in",
+      "excerpt": "Skill training framework and artisan certification guidelines.",
+      "verification_status": "verified",
+      "page_or_section": "Operational Guidelines 2023"
+    },
+    {
+      "source_id": "src-004",
+      "authority": "Karnataka Skill Development Corporation (KSDC)",
+      "official_url": "https://kaushalkar.karnataka.gov.in",
+      "excerpt": "CMKKY provides free short-term vocational skilling for Karnataka candidates across designated trade sectors.",
+      "verification_status": "verified",
+      "page_or_section": "Scheme Guidelines"
+    },
+    {
+      "source_id": "src-023",
+      "authority": "Directorate General of Training (DGT)",
+      "official_url": "https://dgt.gov.in",
+      "excerpt": "National Skill Training Institute (NSTI) Bengaluru operates CTS/CITS programs in electrical, machining, and technical trades.",
+      "verification_status": "verified",
+      "page_or_section": "Central Institutes Directory"
+    }
+  ],
+  "confidence": {
+    "overall": "high",
+    "notes": "Pathway and course mappings are verified against official DGT and KSDC guidelines. Training centre coordinates verified in Bengaluru Urban."
+  },
+  "evidence_count": 3,
+  "warnings": []
+}

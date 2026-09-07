@@ -1,0 +1,13 @@
+id,title,skill_id,level,duration_value,duration_unit,mode,languages_supported,certifying_body,is_government_recognized,fee_type,fee_amount_inr,source_id,last_verified
+crs-001,Self Employed Tailor (QP AMH/Q1947 v2.0),skl-002,intermediate,,,offline,en,"Apparel, Made-ups & Home Furnishing Sector Skill Council",true,REQUIRES OFFICIAL SOURCE VERIFICATION,,src-007,2026-09-05
+crs-002,Electrician (QP ELE/Q5804 v1.0),skl-003,intermediate,,,offline,en,Electronics Sector Skills Council of India,true,REQUIRES OFFICIAL SOURCE VERIFICATION,,src-008,2026-09-05
+crs-003,General Housekeeper — Household and Small Establishment (QP DWC/Q0102 v3.0),skl-001,beginner,,,offline,en,Domestic Workers Sector Skill Council,true,REQUIRES OFFICIAL SOURCE VERIFICATION,,src-009,2026-09-05
+crs-004,Armed Security Guard (NCVET Code 2022/OAFM/MEPSC/05426),skl-004,intermediate,450,hours,offline,en;hi,Management & Entrepreneurship and Professional Skills Council,true,REQUIRES OFFICIAL SOURCE VERIFICATION,,src-010,2026-09-05
+crs-005,Fitter (NCVT CTS Trade),skl-007,intermediate,,,offline,en,DGT / NCVT,true,REQUIRES OFFICIAL SOURCE VERIFICATION,,src-026,2026-09-05
+crs-006,Machinist (NCVT CTS Trade),skl-008,intermediate,,,offline,en,DGT / NCVT,true,REQUIRES OFFICIAL SOURCE VERIFICATION,,src-026,2026-09-05
+crs-007,Turner (NCVT CTS Trade),skl-009,intermediate,,,offline,en,DGT / NCVT,true,REQUIRES OFFICIAL SOURCE VERIFICATION,,src-026,2026-09-05
+crs-008,Mechanic Motor Vehicle (NCVT CTS Trade),skl-010,intermediate,,,offline,en,DGT / NCVT,true,REQUIRES OFFICIAL SOURCE VERIFICATION,,src-026,2026-09-05
+crs-009,Welder (NCVT CTS Trade),skl-011,intermediate,,,offline,en,DGT / NCVT,true,REQUIRES OFFICIAL SOURCE VERIFICATION,,src-026,2026-09-05
+crs-010,Electronics Mechanic (NCVT CTS Trade),skl-012,intermediate,,,offline,en,DGT / NCVT,true,REQUIRES OFFICIAL SOURCE VERIFICATION,,src-026,2026-09-05
+crs-011,"Tool and Die Maker - Press Tools, Jigs & Fixtures (NCVT CTS Trade)",skl-013,advanced,,,offline,en,DGT / NCVT,true,REQUIRES OFFICIAL SOURCE VERIFICATION,,src-026,2026-09-05
+crs-012,CNC Machining Technician (NCVT CTS Trade),skl-014,advanced,,,offline,en,DGT / NCVT,true,REQUIRES OFFICIAL SOURCE VERIFICATION,,src-026,2026-09-05

@@ -1,0 +1,27 @@
+# Qualification Pack — Self Employed Tailor (AMH/Q1947, v2.0)
+
+Official Source: Apparel, Made-ups & Home Furnishing Sector Skill Council (AMHSSC) / National Qualifications Register (NQR)
+Authority: NCVET / MSDE / NSDC
+Course ID: crs-001
+Skill ID: skl-002
+Source ID: src-007
+
+## 1. Qualification Brief and Job Role Overview
+A Self Employed Tailor operates independently to design, cut, stitch, finish, and repair bespoke garments based on customer specifications and body measurements.
+- QP Code: AMH/Q1947, Version 2.0
+- NCO Code: NCO-2015/7531.0100 (Tailors and Dressmakers)
+- NSQF Level: Level 4
+- Minimum Entry Age: 18 Years
+- Minimum Educational Qualification: 8th Class pass with 6 months of relevant apparel sector experience, OR 10th Class pass with no prior experience required.
+- Training Duration: Typically 300 to 350 hours covering classroom theory, garment lab practicals, entrepreneurship, and soft skills.
+
+## 2. Key National Occupational Standards (NOS) & Competencies
+The qualification mandates mastery over five core competencies:
+1. Client Consultation and Measurement (AMH/N1947): Taking accurate body measurements, documenting customer preferences, suggesting fabric types, estimating yardage, calculating cost quotes, and scheduling delivery dates.
+2. Pattern Drafting and Fabric Cutting (AMH/N1948): Drafting paper patterns for basic and contemporary garments (blouses, kurtas, shirts, trousers, dresses), placing patterns efficiently on fabric to minimize wastage, and cutting panels with industrial cutting shears.
+3. Sewing and Assembly Operations (AMH/N1949): Operating manual, motorized, and single-needle lockstitch industrial sewing machines; assembling collars, sleeves, cuffs, pockets, plackets, waistbands, and zippers.
+4. Garment Finishing and Quality Inspection (AMH/N1950): Trimming loose threads, pressing and ironing garments, attaching fasteners (hooks, buttons, snaps), checking seam allowances, and conducting final fit inspections.
+5. Workshop Safety and Machine Maintenance: Routine cleaning, needle replacement, oiling, bobbin tension adjustment, and adherence to electrical and ergonomic workplace safety standards.
+
+## 3. Entrepreneurial Outcomes and Industry Pathways
+Graduates possess the technical and business skills necessary to establish proprietary tailoring micro-enterprises, join boutique design studios, or work as sample tailors in export garment manufacturing factories in Karnataka apparel clusters (e.g. Peenya, Bommanahalli, Doddaballapura).

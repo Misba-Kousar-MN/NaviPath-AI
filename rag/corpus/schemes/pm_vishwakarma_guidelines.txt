@@ -1,0 +1,81 @@
+# PM Vishwakarma Scheme Guidelines
+
+Official Source: Ministry of Micro, Small and Medium Enterprises (MSME), Government of India
+Authority: Ministry of MSME, MoSD&E, and Department of Financial Services
+Portal URL: https://pmvishwakarma.gov.in/
+Source ID: src-001
+
+## 1. Scheme Overview and Objectives
+PM Vishwakarma is a Central Sector Scheme launched to provide end-to-end support to artisans and craftspeople who work with their hands and tools. The scheme aims to:
+- Enable the recognition of artisans and craftspeople as Vishwakarmas, making them eligible to avail all the benefits under the Scheme.
+- Help them upgrade their skills and provide them with relevant and suitable training opportunities.
+- Support them with better and modern tools to enhance their capability, productivity, and quality of products.
+- Provide them with access to collateral-free credit and reduce the cost of credit by providing interest subvention.
+- Provide them with incentives for digital transactions to encourage digital empowerment.
+- Provide them with a platform for brand promotion and market linkages.
+
+## 2. Eligible Traditional Trades (18 Trades)
+The scheme covers artisans and craftspeople engaged in 18 traditional family-based trades:
+1. Carpenter (Suthar)
+2. Boat Maker
+3. Armourer
+4. Blacksmith (Lohar)
+5. Hammer and Tool Kit Maker
+6. Locksmith
+7. Sculptor (Moortikar, stone carver), Stone breaker
+8. Goldsmith (Sonar)
+9. Potter (Kumhaar)
+10. Cobbler (Charmakar) / Shoesmith / Footwear artisan
+11. Masons (Raajmistri)
+12. Basket / Mat / Broom Maker / Coir Weaver
+13. Doll & Toy Maker (Traditional)
+14. Barber (Naai)
+15. Garland maker (Malakaar)
+16. Washerman (Dhobi)
+17. Tailor (Darzi)
+18. Fishing Net Maker
+
+## 3. Eligibility Criteria
+- An artisan or craftsperson working with hands and tools and engaged in one of the 18 family-based traditional trades mentioned above in the unorganised sector on self-employment basis.
+- The minimum age of the beneficiary should be 18 years on the date of registration.
+- The beneficiary should be actively engaged in the concerned trade on the date of registration and should not have availed credit-based schemes of the Central Government or State Government for self-employment or business development (e.g. PMEGP, PM SVANidhi, Mudra) in the past 5 years.
+- The registration and benefits under the Scheme shall be restricted to one member of the family. For the purpose of the Scheme, a 'family' is defined as consisting of the husband, wife, and unmarried children.
+- A person in government service and their family members shall not be eligible under the Scheme.
+
+## 4. Scheme Benefits and Interventions
+The scheme provides five major types of benefits to registered Vishwakarmas:
+
+### Recognition
+- Recognition through PM Vishwakarma Certificate and ID Card acknowledging their traditional skills.
+
+### Skill Upgradation
+- Basic Training of 5 to 7 days (40 hours) with a daily training stipend of Rs 500 per day.
+- Advanced Training of 15 days (120 hours) or more for interested candidates, with training stipend of Rs 500 per day.
+
+### Toolkit Incentive
+- A toolkit incentive grant of up to Rs 15,000 provided in the form of e-vouchers / digital voucher upon commencement of Basic Training.
+
+### Credit Support (Enterprise Development Loans)
+- Collateral-free Enterprise Development Loans:
+  - First Tranche: Up to Rs 1,00,000 (repayable over 18 months).
+  - Second Tranche: Up to Rs 2,00,000 (repayable over 30 months) for beneficiaries who have availed the first tranche, maintained a standard repayment record, adopted digital transactions, or completed advanced skill training.
+- Concessional Interest Rate: A concessional interest rate of 5% is charged from the beneficiary, with an interest subvention cap of 8% paid by the Government of India.
+- Credit Guarantee fees are fully borne by the Government of India.
+
+### Incentive for Digital Transactions
+- An incentive of Re 1 per digital transaction for a maximum of up to 100 transactions per month is credited to the beneficiary's bank account.
+
+### Marketing Support
+- Marketing assistance in the form of quality certification, branding, onboarding on e-commerce platforms such as GeM, advertising, and trade fairs.
+
+## 5. Verification Process and Documentation
+Registration is conducted through Common Service Centres (CSCs) via biometric authentication on the PM Vishwakarma Portal.
+Required verification documents:
+- Aadhaar Card (mandatory identity proof).
+- Mobile number linked to Aadhaar.
+- Active Bank Account details (Bank Account number, IFSC code).
+- Ration Card / Family Declaration.
+Verification is conducted through a three-stage process:
+1. Stage 1: Gram Panchayat / Urban Local Body (ULB) verification.
+2. Stage 2: District Implementation Committee (DIC) screening.
+3. Stage 3: National Steering Committee approval.

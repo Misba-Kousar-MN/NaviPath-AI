@@ -1,0 +1,11 @@
+id,occupation_id,skill_id,relevance,curation_status,source_id
+os-001,occ-001,skl-001,core,verified,src-009
+os-002,occ-002,skl-002,core,verified,src-007
+os-003,occ-003,skl-003,core,verified,src-008
+os-004,occ-004,skl-004,core,verified,src-010
+os-005,occ-009,skl-007,core,verified,src-026
+os-006,occ-010,skl-011,core,verified,src-026
+os-007,occ-011,skl-008,core,verified,src-026
+os-008,occ-011,skl-009,core,verified,src-026
+os-009,occ-012,skl-010,core,verified,src-026
+os-010,occ-013,skl-012,core,verified,src-026

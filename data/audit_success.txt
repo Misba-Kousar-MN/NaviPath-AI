@@ -1,0 +1,70 @@
+1. [tc-004] National Skill Training Institute (NSTI) Bengaluru (Bengaluru Urban) -> (13.032496, 77.540702) via PASS_1_LOCALITY_DIST
+2. [tc-005] National Skill Training Institute for Women (NSTI-W) Bengaluru (Bengaluru Urban) -> (12.942941, 77.597391) via PASS_1_LOCALITY_DIST
+3. [tc-007] St Joseph Industrial Training Centre (Bengaluru Urban) -> (12.970336, 77.595084) via PASS_6_NAME_DIST
+4. [tc-008] Muslim Orphanage Industrial Training Centre (Bengaluru Urban) -> (12.97448, 77.614087) via PASS_1_LOCALITY_DIST
+5. [tc-010] Sri Ayyappan I.T.C (Bengaluru Urban) -> (12.974353, 77.638576) via PASS_1_LOCALITY_DIST
+6. [tc-012] M V M Industrial Training Centre (Bengaluru Urban) -> (12.99447, 77.593655) via PASS_6_NAME_DIST
+7. [tc-013] M.C.E.B.T.I. Industrial Training Centre (Bengaluru Urban) -> (12.976794, 77.590082) via PASS_6_NAME_DIST
+8. [tc-014] The Association of Physically Handicapped Trg. Cen. (Bengaluru Urban) -> (13.008744, 77.622151) via PASS_1_LOCALITY_DIST
+9. [tc-015] NTTF Industrial Training Centre (Bengaluru Urban) -> (12.856798, 77.663238) via PASS_1_LOCALITY_DIST
+10. [tc-016] Ghousia Industrial Training Institute (Bengaluru Urban) -> (12.943002, 77.594438) via PASS_6_NAME_DIST
+11. [tc-017] Maulana Azad National Urdu University-ITC (Bengaluru Urban) -> (12.923778, 77.495786) via PASS_4_PIN
+12. [tc-018] The Technical Training Centre for the Deaf (Bengaluru Urban) -> (12.998861, 77.610273) via PASS_1_LOCALITY_DIST
+13. [tc-019] St. Patrick's ITC (Bengaluru Urban) -> (12.973473, 77.607319) via PASS_1_LOCALITY_DIST
+14. [tc-020] Ashok Private ITI (Bengaluru Urban) -> (13.039888, 77.51836) via PASS_1_LOCALITY_DIST
+15. [tc-022] J C S Industrial Training Institute Nelamangala (Bengaluru Rural) -> (13.095302, 77.396359) via PASS_1_LOCALITY_DIST
+16. [tc-024] J S S Industrial Training Institute Nanjangud (Mysuru) -> (12.180052, 76.741856) via PASS_4_PIN
+17. [tc-025] Sri Nanjundeshwara Industrail Training Centre, Kadakola (Mysuru) -> (12.192722, 76.664523) via PASS_1_LOCALITY_DIST
+18. [tc-028] B M M Pvt ITI, Bannur (Mysuru) -> (12.322419, 76.629682) via PASS_1_LOCALITY_DIST
+19. [tc-031] Glo Tec ITC (Mysuru) -> (12.335646, 76.5945) via PASS_1_LOCALITY_DIST
+20. [tc-034] The National Institute of Industrial Education I.T.C (Mysuru) -> (12.360233, 76.633949) via PASS_1_LOCALITY_DIST
+21. [tc-035] MESCO Industrial Training Institute (Mysuru) -> (12.303239, 76.645627) via PASS_6_NAME_DIST
+22. [tc-036] St. Philomena's Industrial Training Centre (Mysuru) -> (12.294095, 76.627588) via PASS_1_LOCALITY_DIST
+23. [tc-037] M E S Industrial Training Centre (Mysuru) -> (12.31414, 76.644151) via PASS_4_PIN
+24. [tc-038] Sri Guru Channamallikarjuna Private ITI (Mysuru) -> (12.307218, 76.664289) via PASS_1_LOCALITY_DIST
+25. [tc-039] Sri Mahanteshwara Vidhya Varthaka Sangha Industrial Training Centre (Kalaburagi) -> (17.200576, 76.360578) via PASS_1_LOCALITY_DIST
+26. [tc-040] H.K.E.S Industrail Training Institute Nimbarga (Kalaburagi) -> (17.386079, 76.585342) via PASS_1_LOCALITY_DIST
+27. [tc-045] Jnana Jyothi Industrial Training Centre, Sedam (Kalaburagi) -> (17.177268, 77.282355) via PASS_1_LOCALITY_DIST
+28. [tc-048] Shree Basaveshwar Industrial Training Centre (Kalaburagi) -> (17.182993, 76.791694) via PASS_1_LOCALITY_DIST
+29. [tc-049] Sharana Basaveshwara Industrial Training Centre Chittapur Tq (Kalaburagi) -> (17.100576, 77.047589) via PASS_1_LOCALITY_DIST
+30. [tc-050] Sri Gurudatta Industrial Training Centre (Kalaburagi) -> (17.340746, 76.589503) via PASS_1_LOCALITY_DIST
+31. [tc-052] National Industrial Training Institute, Kalaburagi (Kalaburagi) -> (17.278791, 76.870511) via PASS_6_NAME_DIST
+32. [tc-054] Ashrapree Industrail Training Institute Krishnapur, Hubli (Dharwad (Hubballi-Dharwad)) -> (15.335146, 75.128392) via PASS_4_PIN
+33. [tc-055] SSK Hitavardhaka Sangh Y.T Miskin PVT. ITI. Hubli (Dharwad (Hubballi-Dharwad)) -> (15.392901, 75.078684) via PASS_1_LOCALITY_DIST
+34. [tc-057] Shri Guru Gorakshanath ITI Tarihal Road Gokul Hubli (Dharwad (Hubballi-Dharwad)) -> (15.350742, 75.112109) via PASS_4_PIN
+35. [tc-058] Vijayanand Institute of Technology ITI Varur, Hubli (Dharwad (Hubballi-Dharwad)) -> (15.351838, 75.137985) via PASS_7_CLEAN_ADDR_STATE
+36. [tc-062] Most Rev. Dr. V P Dandin ITI Dharwad (Dharwad (Hubballi-Dharwad)) -> (15.456741, 75.008934) via PASS_1_LOCALITY_DIST
+37. [tc-064] N W K R T C Industrial Training Institute, Hubli (Dharwad (Hubballi-Dharwad)) -> (15.354982, 75.088712) via PASS_1_LOCALITY_DIST
+38. [tc-066] Shivanand ITI Dharwad (Dharwad (Hubballi-Dharwad)) -> (15.45405, 75.006652) via PASS_1_LOCALITY_DIST
+39. [tc-067] Sai Industrial Training Institute, Dharwad (Dharwad (Hubballi-Dharwad)) -> (15.3629, 75.121709) via PASS_6_NAME_DIST
+40. [tc-071] Sree Jagadguru Kotturswamy ITI, Siruguppa (Ballari) -> (15.067383, 77.035399) via PASS_1_LOCALITY_DIST
+41. [tc-072] S.P.G.U Education Society ITI (Ballari) -> (15.198551, 76.759428) via PASS_1_LOCALITY_DIST
+42. [tc-076] Srikari I.T.C., Ranipet, Hospet, Bellary (Ballari) -> (15.273652, 76.385619) via PASS_1_LOCALITY_DIST
+43. [tc-077] T M A E S Industrial Training Institute Hospet (Ballari) -> (15.268583, 76.404893) via PASS_7_CLEAN_ADDR_STATE
+44. [tc-078] Vishweshwaraiya Private ITI Hosapete (Ballari) -> (14.982649, 76.518232) via PASS_1_LOCALITY_DIST
+45. [tc-081] Sri Hanumanthappa ITI Mariyammanahalli (Ballari) -> (15.161115, 76.358454) via PASS_7_CLEAN_ADDR_STATE
+46. [tc-083] Shri Kumar Swamy ITI Sandur, Bellary (Ballari) -> (15.083275, 76.543411) via PASS_1_LOCALITY_DIST
+47. [tc-084] Sri Veerabadreshwara ITI, Shirur (Bagalkot) -> (16.158549, 75.669537) via PASS_1_LOCALITY_DIST
+48. [tc-088] Vidyaniketan Rural I.T.I. Manhalli (Bidar) -> (17.762798, 77.504546) via PASS_1_LOCALITY_DIST
+49. [tc-092] JSS Private Industrial Training Institute (Chamarajanagar) -> (11.929324, 76.942012) via PASS_1_LOCALITY_DIST
+50. [tc-096] Sri Jagadguru Renukacharya Institute of Technology (Chikkamagaluru) -> (13.347882, 75.46167) via PASS_1_LOCALITY_DIST
+51. [tc-099] T M A E S Industrial Training Institute Hiriyur (Chitradurga) -> (13.944324, 76.616741) via PASS_1_LOCALITY_DIST
+52. [tc-101] Sri Dharmasthala Manjunatheshwara ITI (Dakshina Kannada) -> (12.883123, 74.838915) via PASS_6_NAME_DIST
+53. [tc-102] Sri Kolushanthehwara I.T.C (Davanagere) -> (14.668824, 76.071356) via PASS_7_CLEAN_ADDR_STATE
+54. [tc-104] Sanjaya Grameena Vidya Samsthe Industrial Training IInstitute, Holealur (Gadag) -> (15.824167, 75.648115) via PASS_1_LOCALITY_DIST
+55. [tc-105] Sri Jagadguru Tontadarya I T I Dambal (Gadag) -> (15.296009, 75.777204) via PASS_1_LOCALITY_DIST
+56. [tc-106] Sri Adichunchanagiri I.T.C Cannarayapattana (Hassan) -> (12.906877, 76.389564) via PASS_1_LOCALITY_DIST
+57. [tc-107] Sri Rameshwara I.T.C Arasikere (Hassan) -> (13.315981, 76.256849) via PASS_1_LOCALITY_DIST
+58. [tc-109] T M A E S Sri Maharshi Valmiki ITI for Women, Ranebennur (Haveri) -> (14.61658, 75.634153) via PASS_1_LOCALITY_DIST
+59. [tc-110] KVG ITC, Bhagamandala (Kodagu) -> (12.42149, 75.738754) via PASS_1_LOCALITY_DIST
+60. [tc-111] Kalpaturu Industrial Training Centre Kushal Nagar (Kodagu) -> (12.597188, 75.846687) via PASS_1_LOCALITY_DIST
+61. [tc-113] Kengal Hanumantaiah Industrial Training Centre Bethamangala (Kolar) -> (13.005398, 78.330362) via PASS_1_LOCALITY_DIST
+62. [tc-116] Sri Adichunchanagiri Private I.T.I, Melukote (Mandya) -> (12.662405, 76.649649) via PASS_1_LOCALITY_DIST
+63. [tc-117] Sri Ranganatha I.T.C B.R Koppalu (Mandya) -> (12.428373, 76.702519) via PASS_1_LOCALITY_DIST
+64. [tc-119] Shakthi Nagar Industrial Training Institute (Raichur) -> (16.363159, 77.358502) via PASS_1_LOCALITY_DIST
+65. [tc-122] Ananya Rural ITC (Shivamogga) -> (14.01406, 75.432668) via PASS_1_LOCALITY_DIST
+66. [tc-125] CSI Vocational Training Centre (Tumakuru) -> (13.335682, 77.121315) via PASS_1_LOCALITY_DIST
+67. [tc-126] Barkur National Industrial Training Centre (Udupi) -> (13.428944, 74.720807) via PASS_1_LOCALITY_DIST
+68. [tc-127] Rev. Fr. Robert Z. M. D'Souza Memorial Pvt. ITI, Nada (Udupi) -> (13.74011, 74.670064) via PASS_1_LOCALITY_DIST
+69. [tc-134] Govt. ITI, BEML Nagar, KGF (MIS GU29000015) (Kolar) -> (12.996576, 78.238585) via PASS_1_LOCALITY_DIST
+70. [tc-139] Government Industrial Training Institute, N R Mohalla, Mysore-07 (MIS GU29000053) (Mysuru) -> (12.326871, 76.665268) via PASS_1_LOCALITY_DIST

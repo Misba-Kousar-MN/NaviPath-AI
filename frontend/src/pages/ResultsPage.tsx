@@ -10,6 +10,7 @@ import { SchemeCard } from '../components/recommendations/SchemeCard';
 import { GroundedExplanation } from '../components/recommendations/GroundedExplanation';
 import { EvidenceDrawer } from '../components/recommendations/EvidenceDrawer';
 import { SkillBridgeCard } from '../components/recommendations/SkillBridgeCard';
+import { SkillUpliftJourney } from '../components/recommendations/SkillUpliftJourney';
 import { PathwayComparison } from '../components/recommendations/PathwayComparison';
 import { Button } from '../components/ui/Button';
 

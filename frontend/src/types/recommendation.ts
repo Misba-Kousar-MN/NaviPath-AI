@@ -258,13 +258,32 @@ export interface WageBenchmarkOut {
   confidence: string;
   disclaimer: string;
   notes?: string | null;
+  data_status?: string | null;
+  source_label?: string | null;
+  verified?: boolean;
+}
+
+export interface WageOccupationSummary {
+  occupation: string;
+  monthly_wage_inr?: number | null;
+  status?: string;
 }
 
 export interface WageLiftOut {
   current_benchmark?: WageBenchmarkOut | null;
   target_benchmark?: WageBenchmarkOut | null;
+  // Legacy field names (still present on some endpoints)
   absolute_lift_inr?: number | null;
   percentage_lift?: number | null;
+  // Innovation 3 extended field names (canonical)
+  absolute_difference_inr?: number | null;
+  percentage_difference?: number | null;
+  available?: boolean;
+  current?: WageOccupationSummary | null;
+  target?: WageOccupationSummary | null;
+  unit?: string;
+  data_status?: string | null;
+  source_label?: string | null;
   status: 'available' | 'partial' | 'not_available' | string;
   disclaimer: string;
 }
@@ -278,6 +297,33 @@ export interface PathwayScoreOut {
   training_component: number;
   centre_component: number;
   explanation: string;
+}
+
+export interface SchemeOut {
+  id: string;
+  name_en: string;
+  name_hi?: string | null;
+  name_kn?: string | null;
+  issuing_authority: string;
+  scheme_type?: string | null;
+  benefit_summary?: string | null;
+  official_url?: string | null;
+  status?: string | null;
+}
+
+export interface RuleResult {
+  rule_id: string;
+  description: string;
+  passed: boolean;
+  detail?: string | null;
+}
+
+export interface SchemeEligibilityResult {
+  scheme_id: string;
+  scheme_name: string;
+  verdict: EligibilityVerdict | string;
+  reasons: RuleResult[];
+  disclaimer?: string | null;
 }
 
 export interface SkillBridgePathway {
@@ -294,10 +340,15 @@ export interface SkillBridgePathway {
   bridge_skills: SkillOut[];
   courses: CourseOut[];
   nearby_centres: NearbyTrainingCentreOut[];
+  // Innovation 3 — Scheme, Eligibility, Certification
+  scheme?: SchemeOut | null;
+  eligibility?: SchemeEligibilityResult | null;
+  certification_status?: string | null;
   wage_lift: WageLiftOut;
   pathway_score: PathwayScoreOut;
   rationale: string;
   market_demand_note?: string | null;
+  next_action?: string | null;
 }
 
 export interface SkillBridgeResult {
@@ -328,4 +379,5 @@ export interface SkillBridgeCompareRequest {
   latitude?: number | null;
   longitude?: number | null;
 }
+
 

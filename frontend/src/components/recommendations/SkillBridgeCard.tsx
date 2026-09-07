@@ -11,6 +11,11 @@ import {
   Info,
   Layers,
   Sparkles,
+  Shield,
+  ArrowRight,
+  GraduationCap,
+  XCircle,
+  ExternalLink,
 } from 'lucide-react';
 import { SkillBridgePathway } from '../../types/recommendation';
 import { Badge } from '../ui/Badge';
@@ -46,7 +51,13 @@ export const SkillBridgeCard: React.FC<SkillBridgeCardProps> = ({
     confidence_note,
     rationale,
     market_demand_note,
+    scheme,
+    eligibility,
+    certification_status,
+    next_action,
   } = pathway;
+
+  const isEligible = eligibility?.verdict === 'eligible';
 
   const scoreVariant =
     pathway_score.label === 'Strong'
@@ -311,6 +322,74 @@ export const SkillBridgeCard: React.FC<SkillBridgeCardProps> = ({
         <div className="bg-amber-50/70 rounded-xl p-2.5 border border-amber-200/60 text-[11px] text-amber-900 leading-snug flex items-start gap-2 mb-4">
           <AlertCircle className="w-3.5 h-3.5 text-amber-600 flex-shrink-0 mt-0.5" />
           <span>{confidence_note}</span>
+        </div>
+      )}
+
+      {/* Innovation 3: Scheme & Eligibility */}
+      {scheme && (
+        <div className="mb-4 rounded-2xl border border-brand-border/70 bg-brand-surface/40 p-4">
+          <div className="flex items-center gap-1.5 text-xs font-bold text-brand-dark-teal mb-2">
+            <Shield className="w-3.5 h-3.5" />
+            Government Scheme — {scheme.name_en}
+          </div>
+          {scheme.benefit_summary && (
+            <p className="text-[11px] text-brand-text-muted leading-relaxed mb-2">{scheme.benefit_summary}</p>
+          )}
+          {scheme.official_url && scheme.official_url !== 'REQUIRES OFFICIAL SOURCE VERIFICATION' && (
+            <a
+              href={scheme.official_url}
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center gap-1 text-[10px] text-brand-dark-teal hover:underline"
+            >
+              Official website <ExternalLink className="w-3 h-3" />
+            </a>
+          )}
+          {eligibility && (
+            <div className={`mt-2 rounded-xl p-2.5 text-[11px] flex items-start gap-2 ${
+              isEligible
+                ? 'bg-green-50 border border-green-200 text-green-800'
+                : eligibility.verdict === 'not_eligible'
+                ? 'bg-red-50 border border-red-200 text-red-700'
+                : 'bg-amber-50 border border-amber-200 text-amber-800'
+            }`}>
+              {isEligible
+                ? <CheckCircle2 className="w-3.5 h-3.5 shrink-0 mt-0.5 text-green-600" />
+                : eligibility.verdict === 'not_eligible'
+                ? <XCircle className="w-3.5 h-3.5 shrink-0 mt-0.5 text-red-500" />
+                : <AlertCircle className="w-3.5 h-3.5 shrink-0 mt-0.5 text-amber-500" />
+              }
+              <span>
+                <strong>Eligibility:</strong>{' '}
+                {isEligible ? 'You appear eligible for this scheme.' : eligibility.verdict === 'not_eligible' ? 'You may not be eligible — please verify.' : 'Eligibility uncertain — please verify at the official website.'}
+              </span>
+            </div>
+          )}
+        </div>
+      )}
+
+      {/* Innovation 3: Certification Status */}
+      {certification_status && (
+        <div className={`mb-4 flex items-start gap-2 rounded-xl p-3 text-[11px] ${
+          certification_status.toLowerCase().includes('government recognized')
+            ? 'bg-green-50 border border-green-200 text-green-800'
+            : 'bg-brand-surface border border-brand-border/60 text-brand-text-muted'
+        }`}>
+          <GraduationCap className="w-3.5 h-3.5 shrink-0 mt-0.5" />
+          <span><strong>Certification:</strong> {certification_status}</span>
+        </div>
+      )}
+
+      {/* Innovation 3: Next Action Banner */}
+      {next_action && (
+        <div className="mb-4 flex items-start gap-3 rounded-2xl bg-gradient-to-r from-[#CFE5D5] to-[#A6D2C8] p-4">
+          <div className="w-7 h-7 rounded-xl bg-white/80 flex items-center justify-center shrink-0">
+            <ArrowRight className="w-4 h-4 text-[#4d8e85]" />
+          </div>
+          <div>
+            <div className="text-[10px] font-bold text-[#1a3438] uppercase tracking-wide mb-0.5">⚡ Your Next Action</div>
+            <p className="text-[12px] text-[#2a5050] font-medium leading-relaxed">{next_action}</p>
+          </div>
         </div>
       )}
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { TrendingUp, HelpCircle, ExternalLink, ShieldCheck, AlertCircle } from 'lucide-react';
+import { TrendingUp, HelpCircle, ExternalLink, ShieldCheck, AlertCircle, Info } from 'lucide-react';
 import { WageLiftOut } from '../../types/recommendation';
 import { Badge } from '../ui/Badge';
 
@@ -14,7 +14,12 @@ export const WageLiftCard: React.FC<WageLiftCardProps> = ({
   currentOccupationName,
   targetOccupationName,
 }) => {
-  const { current_benchmark, target_benchmark, absolute_lift_inr, percentage_lift, status, disclaimer } = wageLift;
+  const { current_benchmark, target_benchmark, status, disclaimer } = wageLift;
+
+  // Resolve canonical field names from Innovation 3 extended schema (with legacy fallback)
+  const absolute_lift = wageLift.absolute_difference_inr ?? wageLift.absolute_lift_inr ?? null;
+  const percentage_lift = wageLift.percentage_difference ?? wageLift.percentage_lift ?? null;
+  const isMock = (wageLift.data_status ?? target_benchmark?.data_status) === 'mock';
 
   return (
     <div className="bg-white rounded-2xl border border-brand-border p-4 sm:p-5 shadow-soft hover:shadow-medium transition-all">
@@ -43,12 +48,12 @@ export const WageLiftCard: React.FC<WageLiftCardProps> = ({
       </div>
 
       {/* Lift Metrics Display */}
-      {status === 'available' && absolute_lift_inr !== null && absolute_lift_inr !== undefined && (
+      {status === 'available' && absolute_lift !== null && absolute_lift !== undefined && (
         <div className="bg-gradient-to-br from-emerald-50/70 to-teal-50/50 rounded-xl p-3 sm:p-4 border border-emerald-200/60 mb-4">
           <div className="text-xs text-emerald-800 font-medium mb-1">Estimated Monthly Uplift</div>
           <div className="flex items-baseline gap-2 flex-wrap">
             <span className="text-2xl sm:text-3xl font-extrabold text-emerald-900">
-              {absolute_lift_inr >= 0 ? `+₹${absolute_lift_inr.toLocaleString('en-IN')}` : `-₹${Math.abs(absolute_lift_inr).toLocaleString('en-IN')}`}
+              {absolute_lift >= 0 ? `+₹${absolute_lift.toLocaleString('en-IN')}` : `-₹${Math.abs(absolute_lift).toLocaleString('en-IN')}`}
             </span>
             <span className="text-xs font-semibold text-emerald-700">/ month</span>
             {percentage_lift !== null && percentage_lift !== undefined && (
@@ -60,22 +65,35 @@ export const WageLiftCard: React.FC<WageLiftCardProps> = ({
         </div>
       )}
 
+      {/* Mock/Illustrative Data Notice */}
+      {isMock && (
+        <div className="flex items-start gap-1.5 rounded-lg bg-amber-50 border border-amber-200 px-3 py-2 text-[10px] text-amber-800 mb-3">
+          <Info className="w-3.5 h-3.5 shrink-0 mt-0.5 text-amber-500" />
+          <span>
+            <strong>Illustrative hackathon data</strong> — not a guaranteed income figure. Source:{' '}
+            {wageLift.source_label ?? target_benchmark?.source_title ?? 'Hackathon illustrative data'}.
+          </span>
+        </div>
+      )}
+
       {/* Comparison Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-4 text-xs">
         {/* Current Occupation Benchmark */}
         <div className="p-3 bg-brand-surface/60 rounded-xl border border-brand-border/60">
           <span className="text-[11px] text-brand-text-muted font-medium block mb-1">
-            Current: {currentOccupationName || current_benchmark?.occupation_name || 'Baseline'}
+            Current: {currentOccupationName || wageLift.current?.occupation || current_benchmark?.occupation_name || 'Baseline'}
           </span>
-          {current_benchmark?.monthly_median_inr ? (
+          {(current_benchmark?.monthly_median_inr || wageLift.current?.monthly_wage_inr) ? (
             <div>
               <div className="text-base font-bold text-brand-text-dark">
-                ₹{current_benchmark.monthly_median_inr.toLocaleString('en-IN')}{' '}
+                ₹{(wageLift.current?.monthly_wage_inr ?? current_benchmark?.monthly_median_inr ?? 0).toLocaleString('en-IN')}{' '}
                 <span className="text-[10px] text-brand-text-muted font-normal">/mo (median)</span>
               </div>
-              <div className="text-[10px] text-brand-text-muted mt-1">
-                Type: <span className="capitalize">{current_benchmark.wage_type} ({current_benchmark.employment_type})</span>
-              </div>
+              {current_benchmark?.wage_type && (
+                <div className="text-[10px] text-brand-text-muted mt-1">
+                  Type: <span className="capitalize">{current_benchmark.wage_type} ({current_benchmark.employment_type})</span>
+                </div>
+              )}
             </div>
           ) : (
             <div className="text-[11px] text-brand-text-muted italic flex items-center gap-1 mt-1">
@@ -88,17 +106,19 @@ export const WageLiftCard: React.FC<WageLiftCardProps> = ({
         {/* Target Occupation Benchmark */}
         <div className="p-3 bg-emerald-50/40 rounded-xl border border-emerald-200/50">
           <span className="text-[11px] text-emerald-800 font-medium block mb-1">
-            Target: {targetOccupationName || target_benchmark?.occupation_name || 'Target Trade'}
+            Target: {targetOccupationName || wageLift.target?.occupation || target_benchmark?.occupation_name || 'Target Trade'}
           </span>
-          {target_benchmark?.monthly_median_inr ? (
+          {(target_benchmark?.monthly_median_inr || wageLift.target?.monthly_wage_inr) ? (
             <div>
               <div className="text-base font-bold text-emerald-900">
-                ₹{target_benchmark.monthly_median_inr.toLocaleString('en-IN')}{' '}
+                ₹{(wageLift.target?.monthly_wage_inr ?? target_benchmark?.monthly_median_inr ?? 0).toLocaleString('en-IN')}{' '}
                 <span className="text-[10px] text-emerald-700 font-normal">/mo (median)</span>
               </div>
-              <div className="text-[10px] text-emerald-700/80 mt-1">
-                Range: ₹{target_benchmark.monthly_min_inr?.toLocaleString('en-IN') || '—'} – ₹{target_benchmark.monthly_max_inr?.toLocaleString('en-IN') || '—'}
-              </div>
+              {target_benchmark && (
+                <div className="text-[10px] text-emerald-700/80 mt-1">
+                  Range: ₹{target_benchmark.monthly_min_inr?.toLocaleString('en-IN') || '—'} – ₹{target_benchmark.monthly_max_inr?.toLocaleString('en-IN') || '—'}
+                </div>
+              )}
             </div>
           ) : (
             <div className="text-[11px] text-brand-text-muted italic flex items-center gap-1 mt-1">
@@ -140,4 +160,4 @@ export const WageLiftCard: React.FC<WageLiftCardProps> = ({
       </div>
     </div>
   );
-};
+

@@ -2731,6 +2731,8 @@ test("10. In real mode with unreachable backend / network failure, throws clear,
 		longitude: null,
 		session_id: "test-sess-err"
 	};
+	const originalConsoleError = console.error;
+	console.error = () => {};
 	try {
 		await recommendationsApi.getRecommendations(profile);
 		assert.fail("Expected ApiError to be thrown");
@@ -2740,6 +2742,7 @@ test("10. In real mode with unreachable backend / network failure, throws clear,
 		assert.match(err.message, /Backend service unavailable/i);
 		assert.match(err.message, /59999/);
 	} finally {
+		console.error = originalConsoleError;
 		process.env.VITE_API_MODE = "mock";
 		process.env.VITE_API_BASE_URL = "http://localhost:8001";
 	}
